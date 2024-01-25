@@ -1,0 +1,106 @@
+body {
+    background-color: #1E232C;
+    color: whitesmoke;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+}
+
+/* #fb257779 */
+
+#word-container {
+    text-align: center;
+    margin-bottom: 130px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border: 3px solid #3498db;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF; /* Choose a color that fits your design */
+    text-align: center;
+    margin-top: 150px;
+    text-transform: uppercase; /* Optional: Uppercase text */
+    letter-spacing: 2px; /* Optional: Adjust letter spacing */
+    line-height: 1.4; /* Optional: Adjust line height for better readability */
+  }
+
+h2 {
+    font-size: 100px;
+    margin: 0;
+}
+
+h1, h2:hover {
+    cursor: default;
+}
+
+#search-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Original styles for input */
+input {
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 200px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    width: 500px;
+    background-color: #1E232C !important; /* Updated background color */
+    color: #FFFFFF !important; /* Updated text color */
+    outline: none;
+    box-shadow: 0 0 10px #3498dbc9;
+}
+
+/* Additional styles for input focus */
+input:focus {
+    box-shadow: 0 0 10px #3498db;
+}
+
+/* Additional styles for input placeholder */
+input::placeholder {
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 20px;
+    padding: 20px 50px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    background-color: #3498dbc9;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px; /* Rounder corners to match the input */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+button:hover {
+    background-color: #3498db; /* Darken the color on hover */
+}
+
+input[type="text"] {
+    color: #FFFFFF; /* Set the text color for user input */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#resetButton {
+    display: none;
+}

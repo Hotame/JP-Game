@@ -1,2 +1,2 @@
 # JP-Game
- Simple Japanese Guessing Game Where The User Would Guess The 読み方 Based On The 漢字 Or The 単語 That Is Provided To Them
+ Simple Japanese game where you get the 漢字 or the 単語, and you are supposed to guess the 読み方.
