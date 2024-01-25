@@ -46,9 +46,8 @@ document
     jishoLink.href = `https://jisho.org/search/${currentWord.kanji}`;
     jishoLink.textContent = currentWord.kanji;
   }
-  
-async function checkReading() {
 
+async function checkReading() {
     const currentWord = shuffledWords[currentIndex];
     const userInput = document.getElementById('userInput');
     const userInputValue = userInput.value.trim();
