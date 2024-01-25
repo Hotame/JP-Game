@@ -32,14 +32,20 @@ async function shuffleArray(array) {
 async function displayWord() {
   document.getElementById("level").innerHTML = currentIndex + 1;
 
-    if (currentIndex === 0) {
-      shuffledWords = data.words;
-      shuffleArray(shuffledWords);
-    }
+  if (currentIndex === 0) {
+    shuffledWords = data.words;
+    shuffleArray(shuffledWords);
+  }
 
-    const currentWord = shuffledWords[currentIndex];
-    document.getElementById('japanese-word').textContent = currentWord.kanji;
+  const currentWord = shuffledWords[currentIndex];
+  
+  const japaneseWordElement = document.getElementById('japanese-word');
+  const jishoLink = japaneseWordElement.querySelector('a');
+
+  jishoLink.href = `https://jisho.org/search/${currentWord.kanji}`;
+  jishoLink.textContent = currentWord.kanji;
 }
+
 
 async function checkReading() {
 
