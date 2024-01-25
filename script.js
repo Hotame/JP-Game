@@ -47,7 +47,7 @@ async function checkReading() {
     const userInput = document.getElementById('userInput');
     const userInputValue = userInput.value.trim();
     
-    if (userInputValue === currentWord.reading) {
+    if (userInputValue === currentWord.reading || userInputValue === currentWord.romaji) {
       if (currentIndex < shuffledWords.length - 1) {
         userInput.style.boxShadow = '';
         userInput.style.borderColor = '';
