@@ -22,31 +22,31 @@ document
     }
   });
 
-async function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+  async function shuffleArray(array) {
+    const shuffledArray = array.slice(); // create a copy of the array
+    for (let i = shuffledArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+    }
+    return shuffledArray;
   }
-}
-
-async function displayWord() {
-  document.getElementById("level").innerHTML = currentIndex + 1;
-
-  if (currentIndex === 0) {
-    shuffledWords = data.words;
-    shuffleArray(shuffledWords);
-  }
-
-  const currentWord = shuffledWords[currentIndex];
   
-  const japaneseWordElement = document.getElementById('japanese-word');
-  const jishoLink = japaneseWordElement.querySelector('a');
-
-  jishoLink.href = `https://jisho.org/search/${currentWord.kanji}`;
-  jishoLink.textContent = currentWord.kanji;
-}
-
-
+  async function displayWord() {
+    document.getElementById("level").innerHTML = currentIndex + 1;
+  
+    if (currentIndex === 0) {
+      shuffledWords = await shuffleArray(data.words); // wait for shuffling to complete
+    }
+  
+    const currentWord = shuffledWords[currentIndex];
+    
+    const japaneseWordElement = document.getElementById('japanese-word');
+    const jishoLink = japaneseWordElement.querySelector('a');
+  
+    jishoLink.href = `https://jisho.org/search/${currentWord.kanji}`;
+    jishoLink.textContent = currentWord.kanji;
+  }
+  
 async function checkReading() {
 
     const currentWord = shuffledWords[currentIndex];
