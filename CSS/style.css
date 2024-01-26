@@ -157,9 +157,46 @@ input[type="text"] {
 
 #resetButton {
     display: none;
+    margin: auto;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Updated Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Updated Table Cell Styles */
+th, td {
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #1e232c2e;
+    color: #ecf0f1;
+    position: relative; /* Add relative positioning */
+}
+
+th {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+/* Add hover effect */
+tbody tr:hover {
+    background-color: #3498db0d;
+}
+
+/* Add transition for smoother hover effect */
+tbody tr {
+    transition: background-color 0.3s;
 }

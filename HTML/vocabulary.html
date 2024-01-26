@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,35 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="shortcut icon" href="../images/japanese-gate.png" type="image/x-icon">
 </head>
+
 <body>
     <div>
         <div id="header">
             <nav>
-                <h2>スコアボード</h2>
+                <h2>語彙</h2>
                 <ul>
                     <li><a href="index.html">ホーム</a></li>
-                    <li><a href="scoreboard.html">スコアボード</a></li>
+                    <li><a href="vocabulary.html">語彙</a></li>
                     <li><a href="contact.html">連絡</a></li>
                 </ul>
             </nav>
         </div>
+        <br>
+        <div style="display: flex;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Kanji</th>
+                        <th>Reading</th>
+                        <th>Romaji</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
     </div>
+    <script src="../JS/script.js"></script>
 </body>
+
 </html>
