@@ -153,6 +153,11 @@ function hint() {
   const currentWord = shuffledWords[currentIndex];
 
   hintInput = document.getElementById("second-input");
+
+  if (!hintInput) {
+    console.error('Error: Element with id "second-input" not found.');
+    return;
+  }
   if (hintIndex < currentWord.reading.length) {
     hintInput.value += currentWord.reading[hintIndex];
     hintIndex++;
@@ -176,6 +181,8 @@ function skip() {
 async function reset() {
   currentIndex = 0;
   userLevel = 1;
+  document.getElementById("first-input").style.boxShadow = "0 0 10px #3498dbc9";
+  document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";  
   updateLevelHeader();
   updateProgressBar();
   await displayWord();

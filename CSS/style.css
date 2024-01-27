@@ -1,223 +1,232 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Noto Sans JP", sans-serif;
-    box-sizing: border-box;
-  }
-  
-  body {
-    color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+  background-color: #1e232c;
+  text-align: center;
+}
+
+body::after {
+  content: "";
+  display: block;
+  height: 10vh;
+  background-color: #1e232c;
+  border-radius: 10px;
+}
+
+#header {
+  padding: 20px 10%;
+}
+
+.nav-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+
+#h2 {
+  font-size: 30px;
+  letter-spacing: 8px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  color: #3498db;
+}
+
+#japanese-word {
+  font-size: 70px;
+  margin-top: -90px;
+}
+
+#japanese-word a:visited {
     background-color: #1e232c;
-    text-align: center;
   }
-  
-  body::after {
-    content: "";
-    display: block;
-    height: 10vh;
-    background-color: #1e232c;
-    border-radius: 10px;
-  }
-  
-  #header {
-    padding: 20px 10%;
-  }
-  
-  .nav-element {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px 20px;
-  }
-  
+
+.nav-element ul {
+  list-style: none;
+  display: flex;
+}
+
+.li {
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.nav-element a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+.nav-element a span {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-element a:visited {
+  background-color: #1e232c;
+}
+
+.nav-element a:not(:has(span))::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #3498db;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.nav-element a:hover::after {
+  width: 100%;
+}
+
+.textboxrow {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.userInput {
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  width: 48%;
+  background-color: #1e232c;
+  color: #ffffff !important;
+  outline: none;
+  box-shadow: 0 0 10px #3498dbc9;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: -10px;
+}
+
+#button {
+  margin-top: -50px;
+  padding: 20px 50px;
+  font-size: 20px;
+  background-color: #3498dbc9;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#button:hover {
+  background-color: #3498db;
+}
+
+#article {
+  max-width: 1250px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #20252f;
+  transition: background-color 0.3s boxshadow 0.3s;
+}
+
+table {
+  width: 90%;
+  border-collapse: separate;
+  border-spacing: 15px;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #20252f;
+}
+
+th {
+  font-weight: bold;
+  background-color: #3498db;
+  color: white;
+}
+
+td {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #3498db0d;
+}
+
+tbody tr {
+  transition: background-color 0.3s;
+}
+
+article a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+article a:hover {
+  color: #3498db;
+}
+
+article a:visited {
+  background-color: #20252f;
+}
+
+.header-grid {
+  padding-top: 0px;
+}
+
+#first-input {
+  width: 75%;
+}
+
+#second-input {
+  margin-left: 30px;
+  width: 25%;
+  box-shadow: 0 0 10px #3498dbc9;
+}
+
+@media screen and (max-width: 1200px) {
   #h2 {
-    font-size: 30px;
-    letter-spacing: 8px;
-    margin-bottom: 10px;
-    margin-left: 100px;
-    color: #3498db;
+    margin-left: 0;
   }
-  
-  #japanese-word {
-    font-size: 70px;
-    margin-top: -60px;
+
+  .nav-element {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  #japanese-word:visited {
-    background-color: transparent;
-  }
-  
-  .nav-element ul {
-    list-style: none;
-    display: flex;
-  }
-  
+
   .li {
-    margin: 0 20px;
-    font-weight: bold;
+    margin: 10px 0;
   }
-  
-  .nav-element a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    position: relative;
-  }
-  
-  .nav-element a span {
-    display: inline-block;
-    padding: 5px 10px; /* Adjust padding as needed */
-    background-color: #3498db; /* Background color for the span */
-    color: #ffffff;
-    border-radius: 5px; /* Rounded corners for a modern look */
-    transition: background-color 0.3s;
-  }
-  
-  .nav-element a:visited {
-    background-color: #1e232c;
-  }
-  
-  /* Only apply ::after styles if there is no <span> */
-  .nav-element a:not(:has(span))::after {
-    content: "";
-    width: 0;
-    height: 3px;
-    background: #3498db;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-  }
-  
-  .nav-element a:hover::after {
-    width: 100%;
-  }
-  
-  .textboxrow {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .userInput {
-    padding: 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-    width: 48%;
-    background-color: #1e232c;
-    color: #ffffff !important;
-    outline: none;
-    box-shadow: 0 0 10px #3498dbc9;
-    box-sizing: border-box;
-    font-family: "Noto Sans JP", sans-serif;
-  }
-  
+
   #button {
-    margin-top: -30px;
-    padding: 20px 50px;
-    font-size: 20px;
-    background-color: #3498dbc9;
-    font-weight: bold;
-    color: #ffffff;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    margin-top: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
   }
-  
-  #button:hover {
-    background-color: #3498db;
+}
+
+#progressBar {
+    position: relative;
+    top: -20px; /* Adjust the value as needed to move it closer */
   }
-  
-  #article {
-    max-width: 1250px;
-    margin: 0 auto;
-    border-radius: 10px;
-    background-color: #20252f;
-    transition: background-color 0.3s boxshadow 0.3s;
+
+  #section-after-article {
+    background-color: #1e232c;
   }
-  
-  table {
-    width: 90%;
-    border-collapse: separate;
-    border-spacing: 15px;
-    margin: 0 auto;
-  }
-  
-  th,
-  td {
-    padding: 15px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #20252f;
-  }
-  
-  th {
-    font-weight: bold;
-    background-color: #3498db;
-    color: white;
-  }
-  
-  td {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-weight: bold;
-  }
-  
-  tbody tr:hover {
-    background-color: #3498db0d;
-  }
-  
-  tbody tr {
-    transition: background-color 0.3s;
-  }
-  
-  article a {
-    color: whitesmoke;
-    text-decoration: none;
-  }
-  
-  article a:hover {
-    color: #3498db;
-  }
-  
-  article a:visited {
-    background-color: #20252f;
-  }
-  
-  .header-grid {
-    padding-top: 0px;
-  }
-  
-  #first-input {
-    width: 75%;
-  }
-  #second-input {
-    margin-left: 30px;
-    width: 25%;
-    box-shadow: 0 0 10px #3498dbc9;
-  }
-  
-  @media screen and (max-width: 1200px) {
-    #h2 {
-      margin-left: 0;
-    }
-  
-    .nav-element {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .li {
-      margin: 10px 0;
-    }
-  
-    #button {
-      margin-top: 10px;
-      padding: 15px 30px;
-      font-size: 16px;
-    }
-  }
-  
