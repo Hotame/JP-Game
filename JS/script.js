@@ -182,7 +182,9 @@ async function reset() {
   currentIndex = 0;
   userLevel = 1;
   document.getElementById("first-input").style.boxShadow = "0 0 10px #3498dbc9";
-  document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";  
+  document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";
+  document.getElementById("first-input").value = "";
+  document.getElementById("second-input").value = "";
   updateLevelHeader();
   updateProgressBar();
   await displayWord();
