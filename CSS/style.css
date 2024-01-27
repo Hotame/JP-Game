@@ -224,7 +224,7 @@ article a:visited {
 
 #progressBar {
     position: relative;
-    top: -20px; /* Adjust the value as needed to move it closer */
+    top: -20px;
   }
 
   #section-after-article {

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   try {
     const loadingScreen = document.getElementById("loading-screen");
 
-    loadingScreen.style.display = "flex"; // Show loading screen first
+    loadingScreen.style.display = "flex";
 
     response = await fetch("../word.json");
     if (!response.ok) {
@@ -21,9 +21,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     data = await response.json();
     shuffledWords = await shuffleArray(data.words);
 
-    loadingScreen.style.display = "none"; // Hide loading screen
-
-    // Display the body content after initialization
+    loadingScreen.style.display = "none";
     document.body.style.display = "block";
 
     displayWord();
