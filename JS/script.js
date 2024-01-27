@@ -6,12 +6,16 @@ let hintInput;
 let currentIndex = 0;
 let shuffledWords = [];
 let userLevel = 1;
+let userProgress = 0;
 
 document.addEventListener("DOMContentLoaded", async function () {
   try {
     const loadingScreen = document.getElementById("loading-screen");
 
     loadingScreen.style.display = "flex";
+
+    // Load user data from localStorage
+    loadUserData();
 
     response = await fetch("../word.json");
     if (!response.ok) {
@@ -104,16 +108,30 @@ async function submit() {
       userInput.style.boxShadow = "0 0 10px #03C988";
       hintInput.style.boxShadow = "0 0 10px #03C988";
       userInput.style.borderColor = "";
+
+      // Remove completed word from the array
+      shuffledWords.splice(currentIndex, 1);
+
       currentIndex++;
       userLevel++;
+      userProgress = currentIndex / shuffledWords.length * 100;
       hintInput.value = "";
       displayWord();
+
+      // Save user data to localStorage
+      saveUserData();
     } else {
       currentIndex++;
       document.getElementById("japanese-word").textContent = "完了";
       updateProgressBar();
       document.getElementById("first-input").style.boxShadow = "0 0 10px #3498dbc9";
       document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";
+
+      // Remove completed word from the array
+      shuffledWords.splice(currentIndex - 1, 1);
+
+      // Save user data to localStorage
+      saveUserData();
     }
   } else {
     userInput.style.boxShadow = "0 0 10px #fb2577";
@@ -133,8 +151,7 @@ function updateLevelHeader() {
 function updateProgressBar() {
   const progressBarElement = document.getElementById("progressBar");
   if (progressBarElement) {
-    const progressValue = currentIndex / (shuffledWords.length) * 100;
-    progressBarElement.value = progressValue;
+    progressBarElement.value = userProgress;
   }
 }
 
@@ -163,6 +180,9 @@ function skip() {
     document.getElementById("second-input").value = "";
     document.getElementById("first-input").value = "";
     displayWord(false);
+
+    // Save user data to localStorage
+    saveUserData();
   } else {
     console.log("End of the word list reached.");
   }
@@ -171,6 +191,7 @@ function skip() {
 async function reset() {
   currentIndex = 0;
   userLevel = 1;
+  userProgress = 0;
   document.getElementById("first-input").style.boxShadow = "0 0 10px #3498dbc9";
   document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";
   document.getElementById("first-input").value = "";
@@ -178,4 +199,21 @@ async function reset() {
   updateLevelHeader();
   updateProgressBar();
   await displayWord();
+
+  // Save user data to localStorage
+  saveUserData();
+}
+
+function saveUserData() {
+  localStorage.setItem('userLevel', userLevel);
+  localStorage.setItem('userProgress', userProgress);
+}
+
+function loadUserData() {
+  const savedUserLevel = localStorage.getItem('userLevel');
+  const savedUserProgress = localStorage.getItem('userProgress');
+  if (savedUserLevel && savedUserProgress) {
+    userLevel = parseInt(savedUserLevel, 10);
+    userProgress = parseFloat(savedUserProgress);
+  }
 }
