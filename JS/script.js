@@ -38,6 +38,8 @@ async function shuffleArray(array) {
 }
 
 async function displayWord(updateProgress = true) {
+  hintIndex = 0;
+  
   if (!data || !data.words || data.words.length === 0) {
     console.error("Error: Data is not loaded or is empty.");
     return;
@@ -94,6 +96,7 @@ async function submit() {
       currentIndex++;
 
       userLevel++;
+      hintInput.value = "";
       displayWord();
     } else {
       document.getElementById("japanese-word").textContent = "完了";
@@ -104,7 +107,6 @@ async function submit() {
     userInput.style.borderColor = "#fb2577";
   }
   userInput.value = "";
-  hintInput.value = "";
 }
 
 function updateLevelHeader() {
@@ -131,6 +133,7 @@ function hint() {
     console.error('Error: Element with id "second-input" not found.');
     return;
   }
+
   if (hintIndex < currentWord.reading.length) {
     hintInput.value += currentWord.reading[hintIndex];
     hintIndex++;
