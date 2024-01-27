@@ -1,13 +1,11 @@
 let data;
 let response;
-
-function addKeyListener() {
-  document.getElementById("userInput").addEventListener("keyup", function (event) {
-    if (event.key === "Enter") {
-      checkReading();
-    }
-  });
-}
+let hintIndex;
+let userInput;
+let hintInput;
+let currentIndex = 0;
+let shuffledWords = [];
+let userLevel = 1; // New variable to store the user's level
 
 window.onload = async function () {
   response = await fetch("../word.json");
@@ -17,17 +15,25 @@ window.onload = async function () {
   }
 
   data = await response.json();
+  shuffledWords = await shuffleArray(data.words); // Initialize shuffledWords
   displayWord();
 
   // Check if the current page is "index.html" before adding the keyup event listener
   if (window.location.pathname.includes("index.html")) {
     addKeyListener();
   }
-  displayVocabulary();
+  if (window.location.pathname.includes("vocabulary.html")) {
+    displayVocabulary();
+  }
 };
 
-let currentIndex = 0;
-let shuffledWords = [];
+function addKeyListener() {
+  document.getElementById("first-input").addEventListener("keyup", function (event) {
+    if (event.key === "Enter") {
+      submit();
+    }
+  });
+}
 
 async function shuffleArray(array) {
   const shuffledArray = array.slice();
@@ -38,16 +44,11 @@ async function shuffleArray(array) {
   return shuffledArray;
 }
 
-async function displayWord() {
+// Add a new parameter to displayWord to control progress bar and user level update
+async function displayWord(updateProgress = true) {
   if (!data || !data.words || data.words.length === 0) {
     console.error("Error: Data is not loaded or is empty.");
     return;
-  }
-
-  document.getElementById("level").innerHTML = currentIndex + 1;
-
-  if (currentIndex === 0) {
-    shuffledWords = await shuffleArray(data.words);
   }
 
   const currentWord = shuffledWords[currentIndex];
@@ -58,25 +59,32 @@ async function displayWord() {
     return;
   }
 
-  // Clear existing content before adding a new one
+  // Clear existing content before adding new one
   japaneseWordElement.innerHTML = "";
 
   const jishoLink = document.createElement("a");
   jishoLink.href = `https://jisho.org/search/${currentWord.kanji}`;
   jishoLink.textContent = currentWord.kanji;
+  jishoLink.target = "_blank";
 
   // Append the 'a' element as a child to 'japaneseWordElement'
   japaneseWordElement.appendChild(jishoLink);
+
+  if (updateProgress) {
+    updateLevelHeader();
+    updateProgressBar();
+  }
 }
 
-async function checkReading() {
+async function submit() {
   if (!data || !data.words || data.words.length === 0) {
     console.error("Error: Data is not loaded or is empty.");
     return;
   }
 
   const currentWord = shuffledWords[currentIndex];
-  const userInput = document.getElementById("userInput");
+  userInput = document.getElementById("first-input");
+  hintInput = document.getElementById("second-input");
 
   if (!userInput) {
     console.error('Error: Element with id "userInput" not found.');
@@ -90,28 +98,39 @@ async function checkReading() {
     userInputValue === currentWord.romaji
   ) {
     if (currentIndex < shuffledWords.length - 1) {
-      userInput.style.boxShadow = "";
+      userInput.style.boxShadow = "0 0 10px #03C988";
+      hintInput.style.boxShadow = "0 0 10px #03C988";
       userInput.style.borderColor = "";
       currentIndex++;
 
-      // Save the current level
-      localStorage.setItem("currentLevel", currentIndex.toString());
+      // Increase user level and update progress bar
+      userLevel++;
+      displayWord();
     } else {
       document.getElementById("japanese-word").textContent = "完了";
-      document.getElementById("search-container").innerHTML = `<br><br>
-              <button id="resetButton" onclick="resetGame()">リセット</button>
-          `;
-      document.getElementById("resetButton").style.display = "block";
-      userInput.style.display = "none";
-      return;
     }
   } else {
     userInput.style.boxShadow = "0 0 10px #fb2577";
+    hintInput.style.boxShadow = "0 0 10px #fb2577";
     userInput.style.borderColor = "#fb2577";
   }
   userInput.value = "";
+  hintInput.value = "";
+}
 
-  displayWord();
+function updateLevelHeader() {
+  const levelHeaderElement = document.getElementById("level-header");
+  if (levelHeaderElement) {
+    levelHeaderElement.textContent = `レベル ${userLevel}`;
+  }
+}
+
+function updateProgressBar() {
+  const progressBarElement = document.getElementById("progressBar");
+  if (progressBarElement) {
+    const progressValue = (currentIndex / shuffledWords.length) * 100;
+    progressBarElement.value = progressValue;
+  }
 }
 
 async function displayVocabulary() {
@@ -127,28 +146,42 @@ async function displayVocabulary() {
     const row = document.createElement("tr");
     row.innerHTML = `
           <td>${word.kanji}</td>
-          <td>${word.reading}</td> 
+          <td>${word.reading}</td>
+          <td>${word.meaning[0] + ",  " + word.meaning[1]}</td>
           <td>${word.romaji}</td>`;
 
     vocabTable.appendChild(row);
   }
 }
 
-async function resetGame() {
-  currentIndex = 0;
-  await displayWord();
+function hint() {
+  const currentWord = shuffledWords[currentIndex];
 
-  // Clear the saved level
-  localStorage.removeItem("currentLevel");
-
-  const resetButton = document.getElementById("resetButton");
-  if (resetButton) {
-    resetButton.style.display = "none";
+  hintInput = document.getElementById("second-input");
+  if (hintIndex < currentWord.reading.length) {
+    hintInput.value += currentWord.reading[hintIndex];
+    hintIndex++;
+  } else {
+    hintInput.value = "";
+    hintIndex = 0;
   }
+}
 
-  document.getElementById("search-container").innerHTML = `
-    <input type="text" id="userInput" placeholder="">
-    <button onclick="checkReading()">提出</button>
-    <button id="resetButton" style="display:none; text-align: center;" onclick="resetGame()">リセット</button>
-  `;
+function skip() {
+  if (currentIndex < shuffledWords.length - 1) {
+    currentIndex++;
+    document.getElementById("second-input").value = "";
+    document.getElementById("first-input").value = "";
+    displayWord(false); // Pass false to not update progress bar and user level
+  } else {
+    console.log("End of the word list reached.");
+  }
+}
+
+async function reset() {
+  currentIndex = 0;
+  userLevel = 1;
+  updateLevelHeader(); // Add this line to update the level header
+  updateProgressBar(); // Add this line to reset the progress bar
+  await displayWord();
 }

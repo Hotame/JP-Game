@@ -1,197 +1,161 @@
+/* Resetting styles for all elements */
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     box-sizing: border-box;
 }
 
+/* Body styling */
 body {
-    background: #1E232C;
     color: #ffffff;
+    background-color: #1E232C;
     text-align: center;
 }
 
+body::after {
+    content: "";
+    display: block;
+    height: 10vh;
+    background-color: #1E232C;
+    border-radius: 10px;
+}
+
+/* Header styling */
 #header {
     padding: 20px 10%;
 }
 
-/* Style the main heading */
-nav h2 {
-    font-size: 25px; 
-    text-transform: uppercase; 
-    letter-spacing: 8px; 
-}
-
-h2 span {
-    color: #15A6AD;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-nav {
+/* Navigation styling */
+.nav-element {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 10px 20px;
 }
 
-nav ul li {
-    display: inline-block;
-    list-style-type: none;
-    margin: 10px 20px;
+#h2 {
+    font-size: 30px; 
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+#japanese-word {
+    font-size: 70px;
+    margin-top: -60px;
+}
+
+#japanese-word:visited {
+    background-color: transparent; /* Set the background color to transparent for visited links */
+}
+
+.nav-element ul {
+    list-style: none;
+    display: flex;
+}
+
+/* Individual list item styling */
+.li {
+    margin: 0 20px;
     font-weight: bold;
 }
 
-nav ul li a {
+.nav-element a {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
 }
 
-nav ul li a::after { 
+.nav-element a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #15A6AD;
+    background: #3498db;
     position: absolute;
     left: 0;
     bottom: -6px;
     transition: 0.5s;
 }
 
-nav ul li a:hover::after {
+.nav-element a:hover::after {
     width: 100%;
 }
 
-#word-container {
-    text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-top: 25px;
-    border: 3px solid #3498db;
-    border-radius: 25px;
+/* Quiz Section */
+.textboxrow {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-h1 {
-    font-weight: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #FFFFFF; /* Choose a color that fits your design */
-    text-align: center;
-    text-transform: uppercase; /* Optional: Uppercase text */
-    letter-spacing: 2px; /* Optional: Adjust letter spacing */
-    line-height: 1.4; /* Optional: Adjust line height for better readability */
-  }
-
-h2 {
-    font-size: 100px;
-    margin: 0;
-}
-
-h1, h2:hover {
-    cursor: default;
-}
-
-#search-container {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-/* Original styles for input */
-input {
+.userInput {
     padding: 20px;
     font-size: 16px;
     border: none;
-    border-radius: 25px;
-    margin-top: 50px;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    width: 500px;
-    background-color: #1E232C !important; /* Updated background color */
-    color: #FFFFFF !important; /* Updated text color */
+    border-radius: 10px;
+    width: 48%;
+    background-color: #1E232C;
+    color: #FFFFFF !important;
     outline: none;
     box-shadow: 0 0 10px #3498dbc9;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
-/* Additional styles for input focus */
-input:focus {
-    box-shadow: 0 0 10px #3498db;
-}
-
-/* Additional styles for input placeholder */
-input::placeholder {
-    color: #FFFFFF;
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-}
-
-button {
-    margin-left: 20px;
+/* Button styling */
+#button {
+    margin-top: -30px;
     padding: 20px 50px;
-    margin-bottom: 200px;
     font-size: 20px;
     background-color: #3498dbc9;
     font-weight: bold;
     color: #FFFFFF;
     border: none;
-    border-radius: 25px; /* Rounder corners to match the input */
+    border-radius: 15px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition effect */
+    transition: background-color 0.3s;
 }
 
-button:hover {
-    background-color: #3498db; /* Darken the color on hover */
+#button:hover {
+    background-color: #3498db;
 }
 
-input[type="text"] {
-    color: #FFFFFF; /* Set the text color for user input */
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#resetButton {
-    display: none;
-    margin: auto;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Updated Table Styles */
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+#article {
+    max-width: 1250px;
+    margin: 0 auto;
     border-radius: 10px;
+    background-color: #20252f;
+    transition: background-color 0.3s boxshadow 0.3s;
 }
 
-/* Updated Table Cell Styles */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
 th, td {
     padding: 15px;
-    font-weight: bold;
+    border-radius: 5px;
     text-align: center;
-    background-color: #1e232c2e;
-    color: #ecf0f1;
-    position: relative; /* Add relative positioning */
+    background-color: #20252f;
 }
 
 th {
+    font-weight: bold;
     background-color: #3498db;
-    color: #ffffff;
+    color: white;
 }
 
-/* Add hover effect */
+td {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
 tbody tr:hover {
     background-color: #3498db0d;
 }
@@ -199,4 +163,25 @@ tbody tr:hover {
 /* Add transition for smoother hover effect */
 tbody tr {
     transition: background-color 0.3s;
+}
+
+article a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #3498db;
+}
+
+article a:visited {
+    background-color: #20252f;
+}
+
+.header-grid {
+    padding-top: 0px;  /* Adjust the padding here */
+}
+
+#level-container {
+    background-color: red;
 }

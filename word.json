@@ -1,156 +1,3277 @@
 {
   "words": [
-    { "kanji": "嫉妬", "reading": "しっと", "romaji": "shitto" },
-    { "kanji": "念願", "reading": "ねんがん", "romaji": "negan" },
-    { "kanji": "気が滅入る", "reading": "きがめいる", "romaji": "ki ga meiru" },
-    { "kanji": "中心", "reading": "ちゅうしん", "romaji": "chuushin" },
-    {"kanji": "気が滅入る", "reading": "きがめいる", "romaji": "ki ga meiru"},
-    {"kanji": "中心", "reading": "ちゅうしん", "romaji": "chuushin"},
-    {"kanji": "物忘れ", "reading": "ものわすれ", "romaji": "monowasure"},
-    {"kanji": "妨げる", "reading": "さまたげる", "romaji": "samatageru"},
-    {"kanji": "背負う", "reading": "せおう", "romaji": "seou"},
-    {"kanji": "叱り付ける", "reading": "しかりつける", "romaji": "shikaritsukeru"},
-    {"kanji": "墓石", "reading": "ぼせき", "romaji": "boseki"},
-    {"kanji": "親子", "reading": "おやこ", "romaji": "oyako"},
-    {"kanji": "検死", "reading": "けんし", "romaji": "kenshi"},
-    {"kanji": "尋ねる", "reading": "たずねる", "romaji": "tazuneru"},
-    {"kanji": "過去", "reading": "かこ", "romaji": "kako"},
-    {"kanji": "話し込む", "reading": "はなしこむ", "romaji": "hanashikomu"},
-    {"kanji": "脚立", "reading": "きゃたつ", "romaji": "kyatatsu"},
-    {"kanji": "告げる", "reading": "つげる", "romaji": "tsugeru"},
-    {"kanji": "巡る", "reading": "めぐる", "romaji": "meguru"},
-    {"kanji": "犠牲者", "reading": "ぎせいしゃ", "romaji": "giseisha"},
-    {"kanji": "お守り", "reading": "おまもり", "romaji": "omamori"},
-    {"kanji": "手元", "reading": "てもと", "romaji": "temoto"},
-    {"kanji": "悔やむ", "reading": "くやむ", "romaji": "kuyamu"},
-    {"kanji": "主人", "reading": "しゅじん", "romaji": "shujin"},
-    {"kanji": "評判", "reading": "ひょうばん", "romaji": "hyouban"},
-    {"kanji": "小声", "reading": "こごえ", "romaji": "kogoe"},
-    {"kanji": "姿勢", "reading": "しせい", "romaji": "shisei"},
-    {"kanji": "合間", "reading": "あいま", "romaji": "aima"},
-    {"kanji": "勘弁", "reading": "かんべん", "romaji": "kanben"},
-    {"kanji": "目処が付く", "reading": "めどがつく", "romaji": "medo ga tsuku"},
-    {"kanji": "狼狽える", "reading": "うろたえる", "romaji": "urotaeru"},
-    {"kanji": "範囲", "reading": "はんい", "romaji": "hani"},
-    {"kanji": "頂戴", "reading": "ちょうだい", "romaji": "choudai"},
-    {"kanji": "絶壁", "reading": "ぜっぺき", "romaji": "zeppeki"},
-    {"kanji": "有力", "reading": "ゆうりょく", "romaji": "yuuryoku"},
-    {"kanji": "芝居", "reading": "しばい", "romaji": "shibai"},
-    {"kanji": "拝む", "reading": "おがむ", "romaji": "ogamu"},
-    {"kanji": "失敬", "reading": "しっけい", "romaji": "shikkei"},
-    {"kanji": "梯子", "reading": "はしご", "romaji": "hashigo"},
-    {"kanji": "木箱", "reading": "きばこ", "romaji": "kibako"},
-    {"kanji": "見回る", "reading": "みまわる", "romaji": "mimawaru"},
-    {"kanji": "深々", "reading": "ふかぶか", "romaji": "fukabuka"},
-    {"kanji": "昨晩", "reading": "さくばん", "romaji": "sakuban"},
-    {"kanji": "推定", "reading": "すいてい", "romaji": "suitei"},
-    {"kanji": "包む", "reading": "つつむ", "romaji": "tsutsumu"},
-    {"kanji": "進出", "reading": "しんしゅつ", "romaji": "shinshutsu"},
-    {"kanji": "素人", "reading": "しろうと", "romaji": "shirouto"},
-    {"kanji": "直感", "reading": "ちょっかん", "romaji": "chokkan"},
-    {"kanji": "相当", "reading": "そうとう", "romaji": "soutou"},
-    {"kanji": "進展", "reading": "しんてん", "romaji": "shinten"},
-    {"kanji": "真相", "reading": "しんそう", "romaji": "shinsou"},
-    {"kanji": "参考", "reading": "さんこう", "romaji": "sankou"},
-    {"kanji": "道中", "reading": "どうちゅう", "romaji": "douchuu"},
-    {"kanji": "要件", "reading": "ようけん", "romaji": "youken"},
-    {"kanji": "立派", "reading": "りっぱ", "romaji": "rippa"},
-    {"kanji": "魅力的", "reading": "みりょくてき", "romaji": "miryokuteki"},
-    {"kanji": "苛々", "reading": "いらいら", "romaji": "iraira"},
-    {"kanji": "頭が切れる", "reading": "あたまがきれる", "romaji": "atama ga kireru"},
-    {"kanji": "確執", "reading": "かくしつ", "romaji": "kakushitsu"},
-    {"kanji": "望む", "reading": "のぞむ", "romaji": "nozomu"},
-    {"kanji": "対立", "reading": "たいりつ", "romaji": "tairitsu"},
-    {"kanji": "幸せ", "reading": "しあわせ", "romaji": "shiawase"},
-    {"kanji": "決心を固める", "reading": "けっしんをかためる", "romaji": "kesshin wo katameru"},
-    {"kanji": "猛反対", "reading": "もうはんたい", "romaji": "mouhantai"},
-    {"kanji": "青年", "reading": "せいねん", "romaji": "seinen"},
-    {"kanji": "転落", "reading": "てんらく", "romaji": "tenraku"},
-    {"kanji": "小遣い", "reading": "こづかい", "romaji": "kozukai"},
-    {"kanji": "頬", "reading": "ほお", "romaji": "hoo"},
-    {"kanji": "財産", "reading": "ざいさん", "romaji": "zaisan"},
-    {"kanji": "柄の悪い", "reading": "がらのわるい", "romaji": "gara no warui"},
-    {"kanji": "怨み辛み", "reading": "うらみつらみ", "romaji": "uramitsurami"},
-    {"kanji": "信頼", "reading": "しんらい", "romaji": "shinrai"},
-    {"kanji": "渚", "reading": "なぎさ", "romaji": "nagisa"},
-    {"kanji": "顧問", "reading": "こもん", "romaji": "komon"},
-    {"kanji": "勤務", "reading": "きんむ", "romaji": "kinmu"},
-    {"kanji": "分配", "reading": "ぶんぱい", "romaji": "bunpai"},
-    {"kanji": "自分勝手", "reading": "じぶんかって", "romaji": "jibunkatte"},
-    {"kanji": "名家", "reading": "めいか", "romaji": "meika"},
-    {"kanji": "麓", "reading": "ふもと", "romaji": "fumoto"},
-    {"kanji": "主婦", "reading": "しゅふ", "romaji": "shufu"},
-    {"kanji": "当時", "reading": "とうじ", "romaji": "touji"},
-    {"kanji": "供述", "reading": "きょうじゅつ", "romaji": "kyoujutsu"},
-    {"kanji": "故人", "reading": "こじん", "romaji": "kojin"},
-    {"kanji": "自室", "reading": "じしつ", "romaji": "jishitsu"},
-    {"kanji": "自宅", "reading": "じたく", "romaji": "jitaku"},
-    {"kanji": "廊下", "reading": "ろうか", "romaji": "rouka"},
-    {"kanji": "断定", "reading": "だんてい", "romaji": "dantei"},
-    {"kanji": "借金", "reading": "しゃっきん", "romaji": "shakkin"},
-    {"kanji": "個人", "reading": "こじん", "romaji": "kojin"},
-    {"kanji": "適当", "reading": "てきとう", "romaji": "tekitou"},
-    {"kanji": "正統", "reading": "せいとう", "romaji": "seitou"},
-    {"kanji": "印", "reading": "しるし", "romaji": "shirushi"},
-    {"kanji": "重厚", "reading": "じゅうこう", "romaji": "juukou"},
-    {"kanji": "拒む", "reading": "こばむ", "romaji": "kobamu"},
-    {"kanji": "出口", "reading": "でぐち", "romaji": "deguchi"},
-    {"kanji": "誇り", "reading": "ほこり", "romaji": "hokori"},
-    {"kanji": "素振り", "reading": "そぶり", "romaji": "soburi"},
-    {"kanji": "土葬", "reading": "どそう", "romaji": "dosou"},
-    {"kanji": "改札", "reading": "かいさつ", "romaji": "kaisatsu"},
-    {"kanji": "耳に入る", "reading": "みみにはいる", "romaji": "mimi ni hairu"},
-    {"kanji": "車窓", "reading": "しゃそう", "romaji": "shasou"},
-    {"kanji": "相続", "reading": "そうぞく", "romaji": "souzoku"},
-    {"kanji": "権利", "reading": "けんり", "romaji": "kenri"},
-    {"kanji": "畳", "reading": "たたみ", "romaji": "tatami"},
-    {"kanji": "時々", "reading": "ときどき", "romaji": "tokidoki"},
-    {"kanji": "責任", "reading": "せきにん", "romaji": "sekinin"},
-    {"kanji": "発作", "reading": "ほっさ", "romaji": "hossa"},
-    {"kanji": "自販機", "reading": "じはんき", "romaji": "jihanki"},
-    {"kanji": "沈み込む", "reading": "しずみこむ", "romaji": "shizumikomu"},
-    {"kanji": "貴重", "reading": "きちょう", "romaji": "kichou"},
-    {"kanji": "呪い", "reading": "のろい", "romaji": "noroi"},
-    {"kanji": "決戦", "reading": "けっせん", "romaji": "kessen"},
-    {"kanji": "敵方", "reading": "てきがた", "romaji": "tekigata"},
-    {"kanji": "看護師", "reading": "かんごし", "romaji": "kangoshi"},
-    {"kanji": "生き延びる", "reading": "いきのびる", "romaji": "ikinobiru"},
-    {"kanji": "整備", "reading": "せいび", "romaji": "seibi"},
-    {"kanji": "敗れる", "reading": "やぶれる", "romaji": "yabureru"},
-    {"kanji": "埋まる", "reading": "うまる", "romaji": "umaru"},
-    {"kanji": "村人", "reading": "むらびと", "romaji": "murabito"},
-    {"kanji": "太鼓判を押す", "reading": "たいこばんをおす", "romaji": "taikoban wo osu"},
-    {"kanji": "医者", "reading": "いしゃ", "romaji": "isha"},
-    {"kanji": "怒鳴る", "reading": "どなる", "romaji": "donaru"},
-    {"kanji": "仰る", "reading": "おっしゃる", "romaji": "ossharu"},
-    {"kanji": "埋葬", "reading": "まいそう", "romaji": "maisou"},
-    {"kanji": "周辺", "reading": "しゅうへん", "romaji": "shuuhen"},
-    {"kanji": "訊く", "reading": "きく", "romaji": "kiku"},
-    {"kanji": "豆知識", "reading": "まめちしき", "romaji": "mamechishiki"},
-    {"kanji": "清潔", "reading": "せいけつ", "romaji": "seiketsu"},
-    {"kanji": "荷物", "reading": "にもつ", "romaji": "nimotsu"},
-    {"kanji": "粗筋", "reading": "あらすじ", "romaji": "arasuji"},
-    {"kanji": "医療機関", "reading": "いりょうきかん", "romaji": "iryoukikan"},
-    {"kanji": "改行", "reading": "かいぎょう", "romaji": "kaigyou"},
-    {"kanji": "年季が入る", "reading": "ねんきがはいる", "romaji": "nenki ga hairu"},
-    {"kanji": "滞在", "reading": "たいざい", "romaji": "taizai"},
-    {"kanji": "跳ねる", "reading": "はねる", "romaji": "haneru"},
-    {"kanji": "苔むす", "reading": "こけむす", "romaji": "kokemusu"},
-    {"kanji": "経営", "reading": "けいえい", "romaji": "keiei"},
-    {"kanji": "遺体", "reading": "いたい", "romaji": "itai"},
-    {"kanji": "ご案内", "reading": "ごあんない", "romaji": "goannai"},
-    {"kanji": "唯今", "reading": "ただいま", "romaji": "tadaima"},
-    {"kanji": "伺う", "reading": "うかがう", "romaji": "ukagau"},
-    {"kanji": "後程", "reading": "のちほど", "romaji": "nochihodo"},
-    {"kanji": "嫁ぐ", "reading": "とつぐ", "romaji": "totsugu"},
-    {"kanji": "専務", "reading": "せんむ", "romaji": "senmu"},
-    {"kanji": "兄弟", "reading": "きょうだい", "romaji": "kyoudai"},
-    {"kanji": "完治", "reading": "かんち", "romaji": "kanchi"},
-    {"kanji": "手帳", "reading": "てちょう", "romaji": "techou"},
-    {"kanji": "作成", "reading": "さくせい", "romaji": "sakusei"},
-    {"kanji": "診断", "reading": "しんだん", "romaji": "shindan"},
-    {"kanji": "執事", "reading": "しつじ", "romaji": "shitsuji"},
-    {"kanji": "承る", "reading": "うけたまわる", "romaji": "uketamawaru"},
-    {"kanji": "行う", "reading": "おこなう", "romaji": "okonau"}
+    {
+      "kanji": "念願",
+      "reading": "ねんがん",
+      "romaji": "nengan",
+      "meaning": ["one's dearest wish", "one's heart's desire"]
+    },
+    {
+      "kanji": "気が滅入る",
+      "reading": "きがめいる",
+      "romaji": "ki ga meiru",
+      "meaning": ["to feel depressed", "to be down"]
+    },
+    {
+      "kanji": "中心",
+      "reading": "ちゅうしん",
+      "romaji": "chuushin",
+      "meaning": ["center", "core"]
+    },
+    {
+      "kanji": "気が滅入る",
+      "reading": "きがめいる",
+      "romaji": "ki ga meiru",
+      "meaning": ["to feel depressed", "to feel disheartened"]
+    },
+    {
+      "kanji": "中心",
+      "reading": "ちゅうしん",
+      "romaji": "chuushin",
+      "meaning": ["center", "core"]
+    },
+    {
+      "kanji": "物忘れ",
+      "reading": "ものわすれ",
+      "romaji": "monowasure",
+      "meaning": ["forgetfulness", "memory lapse"]
+    },
+    {
+      "kanji": "妨げる",
+      "reading": "さまたげる",
+      "romaji": "samatageru",
+      "meaning": ["to hinder", "to obstruct"]
+    },
+    {
+      "kanji": "背負う",
+      "reading": "せおう",
+      "romaji": "seou",
+      "meaning": ["to carry on one's back", "to bear"]
+    },
+    {
+      "kanji": "叱り付ける",
+      "reading": "しかりつける",
+      "romaji": "shikaritsukeru",
+      "meaning": ["to scold", "to rebuke"]
+    },
+    {
+      "kanji": "墓石",
+      "reading": "ぼせき",
+      "romaji": "boseki",
+      "meaning": ["gravestone", "tombstone"]
+    },
+    {
+      "kanji": "親子",
+      "reading": "おやこ",
+      "romaji": "oyako",
+      "meaning": ["parent and child", "parents and children"]
+    },
+    {
+      "kanji": "検死",
+      "reading": "けんし",
+      "romaji": "kenshi",
+      "meaning": ["autopsy", "postmortem examination"]
+    },
+    {
+      "kanji": "尋ねる",
+      "reading": "たずねる",
+      "romaji": "tazuneru",
+      "meaning": ["to ask", "to inquire"]
+    },
+    {
+      "kanji": "過去",
+      "reading": "かこ",
+      "romaji": "kako",
+      "meaning": ["past", "history"]
+    },
+    {
+      "kanji": "話し込む",
+      "reading": "はなしこむ",
+      "romaji": "hanashikomu",
+      "meaning": ["to be absorbed in conversation", "to chat away"]
+    },
+    {
+      "kanji": "脚立",
+      "reading": "きゃたつ",
+      "romaji": "kyatatsu",
+      "meaning": ["stepladder", "step stool"]
+    },
+    {
+      "kanji": "告げる",
+      "reading": "つげる",
+      "romaji": "tsugeru",
+      "meaning": ["to inform", "to tell"]
+    },
+    {
+      "kanji": "巡る",
+      "reading": "めぐる",
+      "romaji": "meguru",
+      "meaning": ["to go around", "to circulate"]
+    },
+    {
+      "kanji": "犠牲者",
+      "reading": "ぎせいしゃ",
+      "romaji": "giseisha",
+      "meaning": ["victim", "casualty"]
+    },
+    {
+      "kanji": "お守り",
+      "reading": "おまもり",
+      "romaji": "omamori",
+      "meaning": ["amulet", "talisman"]
+    },
+    {
+      "kanji": "手元",
+      "reading": "てもと",
+      "romaji": "temoto",
+      "meaning": ["at hand", "within reach"]
+    },
+    {
+      "kanji": "悔やむ",
+      "reading": "くやむ",
+      "romaji": "kuyamu",
+      "meaning": ["to regret", "to repent"]
+    },
+    {
+      "kanji": "主人",
+      "reading": "しゅじん",
+      "romaji": "shujin",
+      "meaning": ["master", "husband"]
+    },
+    {
+      "kanji": "評判",
+      "reading": "ひょうばん",
+      "romaji": "hyouban",
+      "meaning": ["reputation", "popularity"]
+    },
+    {
+      "kanji": "小声",
+      "reading": "こごえ",
+      "romaji": "kogoe",
+      "meaning": ["low voice", "whisper"]
+    },
+    {
+      "kanji": "姿勢",
+      "reading": "しせい",
+      "romaji": "shisei",
+      "meaning": ["posture", "stance"]
+    },
+    {
+      "kanji": "合間",
+      "reading": "あいま",
+      "romaji": "aima",
+      "meaning": ["interval", "gap"]
+    },
+    {
+      "kanji": "勘弁",
+      "reading": "かんべん",
+      "romaji": "kanben",
+      "meaning": ["forgiveness", "pardon"]
+    },
+    {
+      "kanji": "目処が付く",
+      "reading": "めどがつく",
+      "romaji": "medo ga tsuku",
+      "meaning": ["to see the end", "to reach a conclusion"]
+    },
+    {
+      "kanji": "狼狽える",
+      "reading": "うろたえる",
+      "romaji": "urotaeru",
+      "meaning": ["to be flustered", "to be bewildered"]
+    },
+    {
+      "kanji": "範囲",
+      "reading": "はんい",
+      "romaji": "hani",
+      "meaning": ["range", "scope"]
+    },
+    {
+      "kanji": "頂戴",
+      "reading": "ちょうだい",
+      "romaji": "choudai",
+      "meaning": ["receiving", "receipt"]
+    },
+    {
+      "kanji": "絶壁",
+      "reading": "ぜっぺき",
+      "romaji": "zeppeki",
+      "meaning": ["cliff", "precipice"]
+    },
+    {
+      "kanji": "有力",
+      "reading": "ゆうりょく",
+      "romaji": "yuuryoku",
+      "meaning": ["powerful", "influential"]
+    },
+    {
+      "kanji": "芝居",
+      "reading": "しばい",
+      "romaji": "shibai",
+      "meaning": ["drama", "acting"]
+    },
+    {
+      "kanji": "拝む",
+      "reading": "おがむ",
+      "romaji": "ogamu",
+      "meaning": ["to pray", "to worship"]
+    },
+    {
+      "kanji": "失敬",
+      "reading": "しっけい",
+      "romaji": "shikkei",
+      "meaning": ["rudeness", "disrespect"]
+    },
+    {
+      "kanji": "梯子",
+      "reading": "はしご",
+      "romaji": "hashigo",
+      "meaning": ["ladder", "stairs"]
+    },
+    {
+      "kanji": "木箱",
+      "reading": "きばこ",
+      "romaji": "kibako",
+      "meaning": ["wooden box", "crate"]
+    },
+    {
+      "kanji": "見回る",
+      "reading": "みまわる",
+      "romaji": "mimawaru",
+      "meaning": ["to look around", "to glance around"]
+    },
+    {
+      "kanji": "深々",
+      "reading": "ふかぶか",
+      "romaji": "fukabuka",
+      "meaning": ["deeply", "profoundly"]
+    },
+    {
+      "kanji": "昨晩",
+      "reading": "さくばん",
+      "romaji": "sakuban",
+      "meaning": ["last night", "yesterday evening"]
+    },
+    {
+      "kanji": "推定",
+      "reading": "すいてい",
+      "romaji": "suitei",
+      "meaning": ["estimate", "presumption"]
+    },
+    {
+      "kanji": "包む",
+      "reading": "つつむ",
+      "romaji": "tsutsumu",
+      "meaning": ["to wrap", "to cover"]
+    },
+    {
+      "kanji": "進出",
+      "reading": "しんしゅつ",
+      "romaji": "shinshutsu",
+      "meaning": ["advance", "expansion"]
+    },
+    {
+      "kanji": "素人",
+      "reading": "しろうと",
+      "romaji": "shirouto",
+      "meaning": ["amateur", "novice"]
+    },
+    {
+      "kanji": "直感",
+      "reading": "ちょっかん",
+      "romaji": "chokkan",
+      "meaning": ["intuition", "instinct"]
+    },
+    {
+      "kanji": "相当",
+      "reading": "そうとう",
+      "romaji": "soutou",
+      "meaning": ["considerable", "appropriate"]
+    },
+    {
+      "kanji": "進展",
+      "reading": "しんてん",
+      "romaji": "shinten",
+      "meaning": ["development", "progress"]
+    },
+    {
+      "kanji": "真相",
+      "reading": "しんそう",
+      "romaji": "shinsou",
+      "meaning": ["truth", "real facts"]
+    },
+    {
+      "kanji": "参考",
+      "reading": "さんこう",
+      "romaji": "sankou",
+      "meaning": ["reference", "consultation"]
+    },
+    {
+      "kanji": "道中",
+      "reading": "どうちゅう",
+      "romaji": "douchuu",
+      "meaning": ["on the way", "journey"]
+    },
+    {
+      "kanji": "要件",
+      "reading": "ようけん",
+      "romaji": "youken",
+      "meaning": ["requirement", "necessary condition"]
+    },
+    {
+      "kanji": "立派",
+      "reading": "りっぱ",
+      "romaji": "rippa",
+      "meaning": ["splendid", "admirable"]
+    },
+    {
+      "kanji": "魅力的",
+      "reading": "みりょくてき",
+      "romaji": "miryokuteki",
+      "meaning": ["charming", "attractive"]
+    },
+    {
+      "kanji": "苛々",
+      "reading": "いらいら",
+      "romaji": "iraira",
+      "meaning": ["irritation", "impatience"]
+    },
+    {
+      "kanji": "頭が切れる",
+      "reading": "あたまがきれる",
+      "romaji": "atama ga kireru",
+      "meaning": ["to be sharp-witted", "to be clever"]
+    },
+    {
+      "kanji": "確執",
+      "reading": "かくしつ",
+      "romaji": "kakushitsu",
+      "meaning": ["animosity", "hostility"]
+    },
+    {
+      "kanji": "望む",
+      "reading": "のぞむ",
+      "romaji": "nozomu",
+      "meaning": ["to hope for", "to wish for"]
+    },
+    {
+      "kanji": "対立",
+      "reading": "たいりつ",
+      "romaji": "tairitsu",
+      "meaning": ["confrontation", "opposition"]
+    },
+    {
+      "kanji": "幸せ",
+      "reading": "しあわせ",
+      "romaji": "shiawase",
+      "meaning": ["happiness", "bliss"]
+    },
+    {
+      "kanji": "決心を固める",
+      "reading": "けっしんをかためる",
+      "romaji": "kesshin wo katameru",
+      "meaning": ["to make up one's mind", "to resolve"]
+    },
+    {
+      "kanji": "猛反対",
+      "reading": "もうはんたい",
+      "romaji": "mouhantai",
+      "meaning": ["strong opposition", "vehement objection"]
+    },
+    {
+      "kanji": "青年",
+      "reading": "せいねん",
+      "romaji": "seinen",
+      "meaning": ["youth", "young man"]
+    },
+    {
+      "kanji": "転落",
+      "reading": "てんらく",
+      "romaji": "tenraku",
+      "meaning": ["fall", "downfall"]
+    },
+    {
+      "kanji": "小遣い",
+      "reading": "こづかい",
+      "romaji": "kozukai",
+      "meaning": ["allowance", "pocket money"]
+    },
+    {
+      "kanji": "頬",
+      "reading": "ほお",
+      "romaji": "hoo",
+      "meaning": ["cheek", "face"]
+    },
+    {
+      "kanji": "財産",
+      "reading": "ざいさん",
+      "romaji": "zaisan",
+      "meaning": ["property", "assets"]
+    },
+    {
+      "kanji": "柄の悪い",
+      "reading": "がらのわるい",
+      "romaji": "gara no warui",
+      "meaning": ["bad behavior", "ill-natured"]
+    },
+    {
+      "kanji": "怨み辛み",
+      "reading": "うらみつらみ",
+      "romaji": "uramitsurami",
+      "meaning": ["resentment", "bitterness"]
+    },
+    {
+      "kanji": "信頼",
+      "reading": "しんらい",
+      "romaji": "shinrai",
+      "meaning": ["trust", "reliance"]
+    },
+    {
+      "kanji": "渚",
+      "reading": "なぎさ",
+      "romaji": "nagisa",
+      "meaning": ["shore", "beach"]
+    },
+    {
+      "kanji": "顧問",
+      "reading": "こもん",
+      "romaji": "komon",
+      "meaning": ["adviser", "consultant"]
+    },
+    {
+      "kanji": "勤務",
+      "reading": "きんむ",
+      "romaji": "kinmu",
+      "meaning": ["service", "employment"]
+    },
+    {
+      "kanji": "分配",
+      "reading": "ぶんぱい",
+      "romaji": "bunpai",
+      "meaning": ["distribution", "allocation"]
+    },
+    {
+      "kanji": "自分勝手",
+      "reading": "じぶんかって",
+      "romaji": "jibunkatte",
+      "meaning": ["selfishness", "egoism"]
+    },
+    {
+      "kanji": "名家",
+      "reading": "めいか",
+      "romaji": "meika",
+      "meaning": ["distinguished family", "noble family"]
+    },
+    {
+      "kanji": "麓",
+      "reading": "ふもと",
+      "romaji": "fumoto",
+      "meaning": ["foot of a mountain", "base"]
+    },
+    {
+      "kanji": "主婦",
+      "reading": "しゅふ",
+      "romaji": "shufu",
+      "meaning": ["housewife", "homemaker"]
+    },
+    {
+      "kanji": "当時",
+      "reading": "とうじ",
+      "romaji": "touji",
+      "meaning": ["at that time", "in those days"]
+    },
+    {
+      "kanji": "供述",
+      "reading": "きょうじゅつ",
+      "romaji": "kyoujutsu",
+      "meaning": ["statement", "testimony"]
+    },
+    {
+      "kanji": "故人",
+      "reading": "こじん",
+      "romaji": "kojin",
+      "meaning": ["deceased person", "the late"]
+    },
+    {
+      "kanji": "自室",
+      "reading": "じしつ",
+      "romaji": "jishitsu",
+      "meaning": ["one's own room", "private room"]
+    },
+    {
+      "kanji": "自宅",
+      "reading": "じたく",
+      "romaji": "jitaku",
+      "meaning": ["one's own home", "house"]
+    },
+    {
+      "kanji": "廊下",
+      "reading": "ろうか",
+      "romaji": "rouka",
+      "meaning": ["corridor", "hallway"]
+    },
+    {
+      "kanji": "断定",
+      "reading": "だんてい",
+      "romaji": "dantei",
+      "meaning": ["conclusion", "decision"]
+    },
+    {
+      "kanji": "借金",
+      "reading": "しゃっきん",
+      "romaji": "shakkin",
+      "meaning": ["debt", "loan"]
+    },
+    {
+      "kanji": "個人",
+      "reading": "こじん",
+      "romaji": "kojin",
+      "meaning": ["individual", "personal"]
+    },
+    {
+      "kanji": "適当",
+      "reading": "てきとう",
+      "romaji": "tekitou",
+      "meaning": ["appropriate", "suitable"]
+    },
+    {
+      "kanji": "正統",
+      "reading": "せいとう",
+      "romaji": "seitou",
+      "meaning": ["legitimate", "orthodox"]
+    },
+    {
+      "kanji": "印",
+      "reading": "しるし",
+      "romaji": "shirushi",
+      "meaning": ["mark", "symbol"]
+    },
+    {
+      "kanji": "重厚",
+      "reading": "じゅうこう",
+      "romaji": "juukou",
+      "meaning": ["sturdy", "solid"]
+    },
+    {
+      "kanji": "拒む",
+      "reading": "こばむ",
+      "romaji": "kobamu",
+      "meaning": ["to refuse", "to reject"]
+    },
+    {
+      "kanji": "出口",
+      "reading": "でぐち",
+      "romaji": "deguchi",
+      "meaning": ["exit", "way out"]
+    },
+    {
+      "kanji": "誇り",
+      "reading": "ほこり",
+      "romaji": "hokori",
+      "meaning": ["pride", "boast"]
+    },
+    {
+      "kanji": "素振り",
+      "reading": "そぶり",
+      "romaji": "soburi",
+      "meaning": ["gesture", "behavior"]
+    },
+    {
+      "kanji": "土葬",
+      "reading": "どそう",
+      "romaji": "dosou",
+      "meaning": ["burial in the ground", "earth burial"]
+    },
+    {
+      "kanji": "改札",
+      "reading": "かいさつ",
+      "romaji": "kaisatsu",
+      "meaning": ["ticket gate", "ticket barrier"]
+    },
+    {
+      "kanji": "耳に入る",
+      "reading": "みみにはいる",
+      "romaji": "mimi ni hairu",
+      "meaning": ["to catch one's ear", "to be heard"]
+    },
+    {
+      "kanji": "車窓",
+      "reading": "しゃそう",
+      "romaji": "shasou",
+      "meaning": ["car window", "train window"]
+    },
+    {
+      "kanji": "相続",
+      "reading": "そうぞく",
+      "romaji": "souzoku",
+      "meaning": ["inheritance", "succession"]
+    },
+    {
+      "kanji": "権利",
+      "reading": "けんり",
+      "romaji": "kenri",
+      "meaning": ["right", "privilege"]
+    },
+    {
+      "kanji": "畳",
+      "reading": "たたみ",
+      "romaji": "tatami",
+      "meaning": ["tatami mat", "Japanese straw mat"]
+    },
+    {
+      "kanji": "時々",
+      "reading": "ときどき",
+      "romaji": "tokidoki",
+      "meaning": ["sometimes", "occasionally"]
+    },
+    {
+      "kanji": "責任",
+      "reading": "せきにん",
+      "romaji": "sekinin",
+      "meaning": ["responsibility", "obligation"]
+    },
+    {
+      "kanji": "発作",
+      "reading": "ほっさ",
+      "romaji": "hossa",
+      "meaning": ["fit", "attack"]
+    },
+    {
+      "kanji": "自販機",
+      "reading": "じはんき",
+      "romaji": "jihanki",
+      "meaning": ["vending machine", "automated vendor"]
+    },
+    {
+      "kanji": "沈み込む",
+      "reading": "しずみこむ",
+      "romaji": "shizumikomu",
+      "meaning": ["to sink", "to submerge"]
+    },
+    {
+      "kanji": "貴重",
+      "reading": "きちょう",
+      "romaji": "kichou",
+      "meaning": ["precious", "valuable"]
+    },
+    {
+      "kanji": "呪い",
+      "reading": "のろい",
+      "romaji": "noroi",
+      "meaning": ["curse", "hex"]
+    },
+    {
+      "kanji": "決戦",
+      "reading": "けっせん",
+      "romaji": "kessen",
+      "meaning": ["decisive battle", "showdown"]
+    },
+    {
+      "kanji": "敵方",
+      "reading": "てきがた",
+      "romaji": "tekigata",
+      "meaning": ["enemy side", "opponent"]
+    },
+    {
+      "kanji": "看護師",
+      "reading": "かんごし",
+      "romaji": "kangoshi",
+      "meaning": ["nurse"]
+    },
+    {
+      "kanji": "生き延びる",
+      "reading": "いきのびる",
+      "romaji": "ikinobiru",
+      "meaning": ["to survive", "to live through"]
+    },
+    {
+      "kanji": "整備",
+      "reading": "せいび",
+      "romaji": "seibi",
+      "meaning": ["maintenance", "adjustment"]
+    },
+    {
+      "kanji": "敗れる",
+      "reading": "やぶれる",
+      "romaji": "yabureru",
+      "meaning": ["to be defeated", "to fail"]
+    },
+    {
+      "kanji": "埋まる",
+      "reading": "うまる",
+      "romaji": "umaru",
+      "meaning": ["to be buried", "to be filled"]
+    },
+    {
+      "kanji": "村人",
+      "reading": "むらびと",
+      "romaji": "murabito",
+      "meaning": ["villager"]
+    },
+    {
+      "kanji": "太鼓判を押す",
+      "reading": "たいこばんをおす",
+      "romaji": "taikoban wo osu",
+      "meaning": ["to put one's seal on", "to approve"]
+    },
+    {
+      "kanji": "医者",
+      "reading": "いしゃ",
+      "romaji": "isha",
+      "meaning": ["doctor", "physician"]
+    },
+    {
+      "kanji": "怒鳴る",
+      "reading": "どなる",
+      "romaji": "donaru",
+      "meaning": ["to shout", "to yell"]
+    },
+    {
+      "kanji": "仰る",
+      "reading": "おっしゃる",
+      "romaji": "ossharu",
+      "meaning": ["to say (humble)", "to speak (polite)"]
+    },
+    {
+      "kanji": "埋葬",
+      "reading": "まいそう",
+      "romaji": "maisou",
+      "meaning": ["burial", "interment"]
+    },
+    {
+      "kanji": "周辺",
+      "reading": "しゅうへん",
+      "romaji": "shuuhen",
+      "meaning": ["periphery", "surroundings"]
+    },
+    {
+      "kanji": "訊く",
+      "reading": "きく",
+      "romaji": "kiku",
+      "meaning": ["to ask", "to inquire"]
+    },
+    {
+      "kanji": "豆知識",
+      "reading": "まめちしき",
+      "romaji": "mamechishiki",
+      "meaning": ["trivia", "interesting facts"]
+    },
+    {
+      "kanji": "清潔",
+      "reading": "せいけつ",
+      "romaji": "seiketsu",
+      "meaning": ["cleanliness", "hygiene"]
+    },
+    {
+      "kanji": "荷物",
+      "reading": "にもつ",
+      "romaji": "nimotsu",
+      "meaning": ["luggage", "baggage"]
+    },
+    {
+      "kanji": "粗筋",
+      "reading": "あらすじ",
+      "romaji": "arasuji",
+      "meaning": ["outline", "summary"]
+    },
+    {
+      "kanji": "医療機関",
+      "reading": "いりょうきかん",
+      "romaji": "iryoukikan",
+      "meaning": ["medical institution", "healthcare facility"]
+    },
+    {
+      "kanji": "改行",
+      "reading": "かいぎょう",
+      "romaji": "kaigyou",
+      "meaning": ["line break", "paragraph break"]
+    },
+    {
+      "kanji": "年季が入る",
+      "reading": "ねんきがはいる",
+      "romaji": "nenki ga hairu",
+      "meaning": ["to gain experience", "to serve an apprenticeship"]
+    },
+    {
+      "kanji": "滞在",
+      "reading": "たいざい",
+      "romaji": "taizai",
+      "meaning": ["stay", "sojourn"]
+    },
+    {
+      "kanji": "跳ねる",
+      "reading": "はねる",
+      "romaji": "haneru",
+      "meaning": ["to bounce", "to jump"]
+    },
+    {
+      "kanji": "苔むす",
+      "reading": "こけむす",
+      "romaji": "kokemusu",
+      "meaning": ["to grow moss", "to become moldy"]
+    },
+    {
+      "kanji": "経営",
+      "reading": "けいえい",
+      "romaji": "keiei",
+      "meaning": ["management", "operation"]
+    },
+    {
+      "kanji": "遺体",
+      "reading": "いたい",
+      "romaji": "itai",
+      "meaning": ["corpse", "dead body"]
+    },
+    {
+      "kanji": "ご案内",
+      "reading": "ごあんない",
+      "romaji": "goannai",
+      "meaning": ["guidance", "information"]
+    },
+    {
+      "kanji": "唯今",
+      "reading": "ただいま",
+      "romaji": "tadaima",
+      "meaning": ["I'm home", "just now"]
+    },
+    {
+      "kanji": "伺う",
+      "reading": "うかがう",
+      "romaji": "ukagau",
+      "meaning": ["to ask", "to inquire (polite)"]
+    },
+    {
+      "kanji": "嫉妬",
+      "reading": "しっと",
+      "romaji": "shitto",
+      "meaning": ["jealousy", "envy"]
+    },
+    {
+      "kanji": "後程",
+      "reading": "のちほど",
+      "romaji": "nochihodo",
+      "meaning": ["later on", "after a while"]
+    },
+    {
+      "kanji": "嫁ぐ",
+      "reading": "とつぐ",
+      "romaji": "totsugu",
+      "meaning": [
+        "to marry (a woman off)",
+        "to give one's daughter in marriage"
+      ]
+    },
+    {
+      "kanji": "専務",
+      "reading": "せんむ",
+      "romaji": "senmu",
+      "meaning": ["executive officer", "managing director"]
+    },
+    {
+      "kanji": "兄弟",
+      "reading": "きょうだい",
+      "romaji": "kyoudai",
+      "meaning": ["siblings", "brothers and sisters"]
+    },
+    {
+      "kanji": "完治",
+      "reading": "かんち",
+      "romaji": "kanchi",
+      "meaning": ["complete recovery", "cure"]
+    },
+    {
+      "kanji": "手帳",
+      "reading": "てちょう",
+      "romaji": "techou",
+      "meaning": ["notebook", "personal organizer"]
+    },
+    {
+      "kanji": "作成",
+      "reading": "さくせい",
+      "romaji": "sakusei",
+      "meaning": ["creation", "production"]
+    },
+    {
+      "kanji": "診断",
+      "reading": "しんだん",
+      "romaji": "shindan",
+      "meaning": ["diagnosis", "examination"]
+    },
+    {
+      "kanji": "執事",
+      "reading": "しつじ",
+      "romaji": "shitsuji",
+      "meaning": ["butler", "steward"]
+    },
+    {
+      "kanji": "承る",
+      "reading": "うけたまわる",
+      "romaji": "uketamawaru",
+      "meaning": ["to receive", "to accept (humble)"]
+    },
+    {
+      "kanji": "行う",
+      "reading": "おこなう",
+      "romaji": "okonau",
+      "meaning": ["to perform", "to conduct"]
+    },
+    {
+      "kanji": "子供扱い",
+      "reading": "こどもあつかい",
+      "romaji": "kodomoatsukai",
+      "meaning": ["treating someone like a child"]
+    },
+    {
+      "kanji": "機械",
+      "reading": "きかい",
+      "romaji": "kikai",
+      "meaning": ["machine", "mechanism"]
+    },
+    {
+      "kanji": "抜く",
+      "reading": "ぬく",
+      "romaji": "nuku",
+      "meaning": ["to pull out", "to draw out"]
+    },
+    {
+      "kanji": "代わりに",
+      "reading": "かわりに",
+      "romaji": "kawarini",
+      "meaning": ["instead of", "in place of"]
+    },
+    {
+      "kanji": "今晩",
+      "reading": "こんばん",
+      "romaji": "konban",
+      "meaning": ["tonight", "this evening"]
+    },
+    {
+      "kanji": "打ち合わせ",
+      "reading": "うちあわせ",
+      "romaji": "uchiaawase",
+      "meaning": ["advance arrangements", "overlap"]
+    },
+    {
+      "kanji": "後で",
+      "reading": "あとで",
+      "romaji": "atode",
+      "meaning": ["afterwards"]
+    },
+    {
+      "kanji": "通話",
+      "reading": "つうわ",
+      "romaji": "tsuwa",
+      "meaning": ["telephone call", "voice call"]
+    },
+    {
+      "kanji": "録音",
+      "reading": "ろくおん",
+      "romaji": "rokuon",
+      "meaning": ["audio recording"]
+    },
+    {
+      "kanji": "貰う",
+      "reading": "もらう",
+      "romaji": "morau",
+      "meaning": ["to receive", "to take"]
+    },
+    {
+      "kanji": "下手",
+      "reading": "へた",
+      "romaji": "heta",
+      "meaning": ["unskillful", "poor"]
+    },
+    {
+      "kanji": "飲み込み",
+      "reading": "のみこみ",
+      "romaji": "nomikomi",
+      "meaning": ["swallowing", "understanding"]
+    },
+    {
+      "kanji": "集める",
+      "reading": "あつめる",
+      "romaji": "atsumeru",
+      "meaning": ["to collect", "to assemble"]
+    },
+    {
+      "kanji": "油断",
+      "reading": "ゆだん",
+      "romaji": "yudan",
+      "meaning": ["negligence", "carelessness"]
+    },
+    {
+      "kanji": "気の毒",
+      "reading": "きのどく",
+      "romaji": "kinodoku",
+      "meaning": ["pitiful", "unfortunate"]
+    },
+    {
+      "kanji": "沈黙",
+      "reading": "ちんもく",
+      "romaji": "chinmoku",
+      "meaning": ["silence", "reticence"]
+    },
+    {
+      "kanji": "食べる",
+      "reading": "たべる",
+      "romaji": "taberu",
+      "meaning": ["to eat", "to live on"]
+    },
+    {
+      "kanji": "匂い",
+      "reading": "におい",
+      "romaji": "nioi",
+      "meaning": ["odor", "scent"]
+    },
+    {
+      "kanji": "気絶",
+      "reading": "きぜつ",
+      "romaji": "kizetsu",
+      "meaning": ["faint", "swoon"]
+    },
+    {
+      "kanji": "少女",
+      "reading": "しょうじょ",
+      "romaji": "shoujo",
+      "meaning": ["little girl", "maiden"]
+    },
+    {
+      "kanji": "寝かせる",
+      "reading": "ねかせる",
+      "romaji": "nekaseru",
+      "meaning": ["to put to bed", "to lay down"]
+    },
+    {
+      "kanji": "身体",
+      "reading": "からだ",
+      "romaji": "karada",
+      "meaning": ["body", "physical system"]
+    },
+    {
+      "kanji": "温もり",
+      "reading": "ぬくもり",
+      "romaji": "nukumori",
+      "meaning": ["warmth"]
+    },
+    {
+      "kanji": "手を通す",
+      "reading": "てをとおす",
+      "romaji": "tewotoosu",
+      "meaning": ["to put on clothing, especially new"]
+    },
+    {
+      "kanji": "急速",
+      "reading": "きゅうそく",
+      "romaji": "kyuusoku",
+      "meaning": ["rapid", "e.g., progress"]
+    },
+    {
+      "kanji": "確実",
+      "reading": "かくじつ",
+      "romaji": "kakujitsu",
+      "meaning": ["certain", "sure"]
+    },
+    {
+      "kanji": "失う",
+      "reading": "うしなう",
+      "romaji": "ushinau",
+      "meaning": ["to lose", "to miss"]
+    },
+    {
+      "kanji": "調べる",
+      "reading": "しらべる",
+      "romaji": "shiraberu",
+      "meaning": ["to examine", "to look up"]
+    },
+    {
+      "kanji": "辛い",
+      "reading": "からい",
+      "romaji": "karai",
+      "meaning": ["painful", "tough"]
+    },
+    {
+      "kanji": "頭部",
+      "reading": "とうぶ",
+      "romaji": "toubu",
+      "meaning": ["head", "cranium"]
+    },
+    {
+      "kanji": "即死",
+      "reading": "そくし",
+      "romaji": "sokushi",
+      "meaning": ["instant death"]
+    },
+    {
+      "kanji": "周り",
+      "reading": "まわり",
+      "romaji": "mawari",
+      "meaning": ["circumference", "surroundings"]
+    },
+    {
+      "kanji": "散らばる",
+      "reading": "ちらばる",
+      "romaji": "chirabaru",
+      "meaning": ["to be scattered about"]
+    },
+    {
+      "kanji": "奥",
+      "reading": "おく",
+      "romaji": "oku",
+      "meaning": ["inner part", "inside"]
+    },
+    {
+      "kanji": "倒れる",
+      "reading": "たおれる",
+      "romaji": "taoreru",
+      "meaning": ["to fall down", "to drop"]
+    },
+    {
+      "kanji": "製",
+      "reading": "せい",
+      "romaji": "sei",
+      "meaning": ["made", "make"]
+    },
+    {
+      "kanji": "硝子",
+      "reading": "ガラス",
+      "romaji": "garasu",
+      "meaning": ["glass", "pane"]
+    },
+    {
+      "kanji": "電気",
+      "reading": "でんき",
+      "romaji": "denki",
+      "meaning": ["electricity", "electric light"]
+    },
+    {
+      "kanji": "破片",
+      "reading": "はへん",
+      "romaji": "hahen",
+      "meaning": ["fragment", "broken piece"]
+    },
+    {
+      "kanji": "壊れる",
+      "reading": "こわれる",
+      "romaji": "kowareru",
+      "meaning": ["to be broken", "to fall through"]
+    },
+    {
+      "kanji": "粉々",
+      "reading": "こなごな",
+      "romaji": "konagona",
+      "meaning": ["in very small pieces"]
+    },
+    {
+      "kanji": "他に",
+      "reading": "ほかに",
+      "romaji": "hoka ni",
+      "meaning": ["in addition", "besides"]
+    },
+    {
+      "kanji": "手掛かり",
+      "reading": "てがかり",
+      "romaji": "tegakari",
+      "meaning": ["clue", "lead"]
+    },
+    {
+      "kanji": "紙切れ",
+      "reading": "かみきれ",
+      "romaji": "kamikire",
+      "meaning": ["piece of paper", "slip of paper"]
+    },
+    {
+      "kanji": "落ちる",
+      "reading": "おちる",
+      "romaji": "ochiru",
+      "meaning": ["to fall down", "to drop"]
+    },
+    {
+      "kanji": "文字",
+      "reading": "もじ",
+      "romaji": "moji",
+      "meaning": ["character", "letter"]
+    },
+    {
+      "kanji": "領収書",
+      "reading": "りょうしゅうしょ",
+      "romaji": "ryoushuusho",
+      "meaning": ["simplified receipt"]
+    },
+    {
+      "kanji": "発行",
+      "reading": "はっこう",
+      "romaji": "hakkou",
+      "meaning": ["publication", "issue"]
+    },
+    {
+      "kanji": "取り敢えず",
+      "reading": "とりあえず",
+      "romaji": "toriaezu",
+      "meaning": ["first of all", "for now"]
+    },
+    {
+      "kanji": "皮肉",
+      "reading": "ひにく",
+      "romaji": "hiniku",
+      "meaning": ["irony", "sarcasm"]
+    },
+    {
+      "kanji": "奪う",
+      "reading": "うばう",
+      "romaji": "ubau",
+      "meaning": ["to snatch away", "to dispossess"]
+    },
+    {
+      "kanji": "椅子",
+      "reading": "いす",
+      "romaji": "isu",
+      "meaning": ["chair", "stool"]
+    },
+    {
+      "kanji": "機能",
+      "reading": "きのう",
+      "romaji": "kinou",
+      "meaning": ["function", "facility"]
+    },
+    {
+      "kanji": "重視",
+      "reading": "じゅうし",
+      "romaji": "juushi",
+      "meaning": ["regarding as important"]
+    },
+    {
+      "kanji": "易い",
+      "reading": "やすい",
+      "romaji": "yasui",
+      "meaning": ["easy", "likely to"]
+    },
+    {
+      "kanji": "板",
+      "reading": "いた",
+      "romaji": "ita",
+      "meaning": ["board", "plank"]
+    },
+    {
+      "kanji": "何処",
+      "reading": "どこ",
+      "romaji": "doko",
+      "meaning": ["where", "what place"]
+    },
+    {
+      "kanji": "脅かす",
+      "reading": "おどかす",
+      "romaji": "odokasu",
+      "meaning": ["to threaten", "to startle"]
+    },
+    {
+      "kanji": "実生活",
+      "reading": "じつせいかつ",
+      "romaji": "jitsuseikatsu",
+      "meaning": ["real life"]
+    },
+    {
+      "kanji": "役に立つ",
+      "reading": "やくにたつ",
+      "romaji": "yakunitatsu",
+      "meaning": ["to be helpful", "to be useful"]
+    },
+    {
+      "kanji": "裏",
+      "reading": "うら",
+      "romaji": "ura",
+      "meaning": ["opposite side", "rear"]
+    },
+    {
+      "kanji": "事情",
+      "reading": "じじょう",
+      "romaji": "jijou",
+      "meaning": ["circumstances", "conditions"]
+    },
+    {
+      "kanji": "弱い",
+      "reading": "よわい",
+      "romaji": "yowai",
+      "meaning": ["weak", "frail"]
+    },
+    {
+      "kanji": "暗い",
+      "reading": "くらい",
+      "romaji": "kurai",
+      "meaning": ["dark", "gloomy"]
+    },
+    {
+      "kanji": "普通",
+      "reading": "ふつう",
+      "romaji": "futsuu",
+      "meaning": ["normal", "ordinary"]
+    },
+    {
+      "kanji": "家具",
+      "reading": "かぐ",
+      "romaji": "kagu",
+      "meaning": ["furniture"]
+    },
+    {
+      "kanji": "方針",
+      "reading": "ほうしん",
+      "romaji": "houshin",
+      "meaning": ["policy", "principle"]
+    },
+    {
+      "kanji": "受話器",
+      "reading": "じゅわき",
+      "romaji": "juwaki",
+      "meaning": ["telephone receiver"]
+    },
+    {
+      "kanji": "螺子",
+      "reading": "ねじ",
+      "romaji": "neji",
+      "meaning": ["screw"]
+    },
+    {
+      "kanji": "外れる",
+      "reading": "はずれる",
+      "romaji": "hazureru",
+      "meaning": ["to be disconnected", "to miss the mark"]
+    },
+    {
+      "kanji": "途中",
+      "reading": "とちゅう",
+      "romaji": "tochuu",
+      "meaning": ["on the way", "in the middle of"]
+    },
+    {
+      "kanji": "止める",
+      "reading": "とめる",
+      "romaji": "tomeru",
+      "meaning": ["to stop", "to prevent"]
+    },
+    {
+      "kanji": "お巡りさん",
+      "reading": "おまわりさん",
+      "romaji": "omawarisan",
+      "meaning": ["police officer"]
+    },
+    {
+      "kanji": "窓",
+      "reading": "まど",
+      "romaji": "mado",
+      "meaning": ["window"]
+    },
+    {
+      "kanji": "薫陶",
+      "reading": "くんとう",
+      "romaji": "kuntou",
+      "meaning": ["education", "training"]
+    },
+    {
+      "kanji": "叫び声",
+      "reading": "さけびごえ",
+      "romaji": "sakebigoe",
+      "meaning": ["shout", "yell"]
+    },
+    {
+      "kanji": "凝乎と",
+      "reading": "こごと",
+      "romaji": "kogoto",
+      "meaning": ["motionlessly", "fixedly"]
+    },
+    {
+      "kanji": "見詰める",
+      "reading": "みつめる",
+      "romaji": "mitsumeru",
+      "meaning": ["to stare at", "to gaze at"]
+    },
+    {
+      "kanji": "殆ど",
+      "reading": "ほとんど",
+      "romaji": "hotondo",
+      "meaning": ["mostly", "nearly"]
+    },
+    {
+      "kanji": "電子メール",
+      "reading": "でんしメール",
+      "romaji": "denshi meeru",
+      "meaning": ["email", "e-mail"]
+    },
+    {
+      "kanji": "専用",
+      "reading": "せんよう",
+      "romaji": "senyou",
+      "meaning": ["exclusive use", "dedicated use"]
+    },
+    {
+      "kanji": "占い",
+      "reading": "うらない",
+      "romaji": "uranai",
+      "meaning": ["fortune-telling"]
+    },
+    {
+      "kanji": "帳簿",
+      "reading": "ちょうぼ",
+      "romaji": "choubo",
+      "meaning": ["account book"]
+    },
+    {
+      "kanji": "揺れる",
+      "reading": "ゆれる",
+      "romaji": "yureru",
+      "meaning": ["to shake", "to sway"]
+    },
+    {
+      "kanji": "泳ぐ",
+      "reading": "およぐ",
+      "romaji": "oyogu",
+      "meaning": ["to swim"]
+    },
+    {
+      "kanji": "鏡",
+      "reading": "かがみ",
+      "romaji": "kagami",
+      "meaning": ["mirror"]
+    },
+    {
+      "kanji": "売れる",
+      "reading": "うれる",
+      "romaji": "ureru",
+      "meaning": ["to be sold"]
+    },
+    {
+      "kanji": "曲がる",
+      "reading": "まがる",
+      "romaji": "magaru",
+      "meaning": ["to turn", "to bend"]
+    },
+    {
+      "kanji": "地球",
+      "reading": "ちきゅう",
+      "romaji": "chikyuu",
+      "meaning": ["Earth"]
+    },
+    {
+      "kanji": "手伝う",
+      "reading": "てつだう",
+      "romaji": "tetsudau",
+      "meaning": ["to help", "to assist"]
+    },
+    {
+      "kanji": "一緒に",
+      "reading": "いっしょに",
+      "romaji": "isshoni",
+      "meaning": ["together", "at the same time"]
+    },
+    {
+      "kanji": "賢い",
+      "reading": "かしこい",
+      "romaji": "kashikoi",
+      "meaning": ["wise", "clever"]
+    },
+    {
+      "kanji": "色々",
+      "reading": "いろいろ",
+      "romaji": "iroiro",
+      "meaning": ["various"]
+    },
+    {
+      "kanji": "空",
+      "reading": "そら",
+      "romaji": "sora",
+      "meaning": ["sky"]
+    },
+    {
+      "kanji": "寂しい",
+      "reading": "さびしい",
+      "romaji": "sabishii",
+      "meaning": ["lonely"]
+    },
+    {
+      "kanji": "結構",
+      "reading": "けっこう",
+      "romaji": "kekkou",
+      "meaning": ["splendid", "nice", "wonderful", "delicious"]
+    },
+    {
+      "kanji": "安い",
+      "reading": "やすい",
+      "romaji": "yasui",
+      "meaning": ["cheap"]
+    },
+    {
+      "kanji": "静か",
+      "reading": "しずか",
+      "romaji": "shizuka",
+      "meaning": ["quiet"]
+    },
+    {
+      "kanji": "複雑",
+      "reading": "ふくざつ",
+      "romaji": "fukuzatsu",
+      "meaning": ["complex", "complicated"]
+    },
+    {
+      "kanji": "矛盾",
+      "reading": "むじゅん",
+      "romaji": "mujun",
+      "meaning": ["contradiction", "inconsistency"]
+    },
+    {
+      "kanji": "危険",
+      "reading": "きけん",
+      "romaji": "kiken",
+      "meaning": ["danger"]
+    },
+    {
+      "kanji": "絶対",
+      "reading": "ぜったい",
+      "romaji": "zettai",
+      "meaning": ["absolute"]
+    },
+    {
+      "kanji": "逆転",
+      "reading": "ぎゃくてん",
+      "romaji": "gyakuten",
+      "meaning": ["reversal", "turning the tables"]
+    },
+    {
+      "kanji": "優雅",
+      "reading": "ゆうが",
+      "romaji": "yūga",
+      "meaning": ["elegant", "graceful"]
+    },
+    {
+      "kanji": "誇り",
+      "reading": "ほこり",
+      "romaji": "hokori",
+      "meaning": ["pride"]
+    },
+    {
+      "kanji": "異常",
+      "reading": "いじょう",
+      "romaji": "ijō",
+      "meaning": ["abnormality", "irregularity"]
+    },
+    {
+      "kanji": "堅実",
+      "reading": "けんじつ",
+      "romaji": "kenjitsu",
+      "meaning": ["solid", "substantial"]
+    },
+    {
+      "kanji": "憂鬱",
+      "reading": "ゆううつ",
+      "romaji": "yūutsu",
+      "meaning": ["depression", "melancholy"]
+    },
+    {
+      "kanji": "幻想",
+      "reading": "げんそう",
+      "romaji": "gensō",
+      "meaning": ["illusion", "fantasy"]
+    },
+    {
+      "kanji": "融通",
+      "reading": "ゆうずう",
+      "romaji": "yūzū",
+      "meaning": ["flexibility", "adaptability"]
+    },
+    {
+      "kanji": "妥協",
+      "reading": "だきょう",
+      "romaji": "dakyō",
+      "meaning": ["compromise"]
+    },
+    {
+      "kanji": "慎重",
+      "reading": "しんちょう",
+      "romaji": "shinchō",
+      "meaning": ["cautious", "careful"]
+    },
+    {
+      "kanji": "拡大",
+      "reading": "かくだい",
+      "romaji": "kakudai",
+      "meaning": ["enlargement", "expansion"]
+    },
+    {
+      "kanji": "深刻",
+      "reading": "しんこく",
+      "romaji": "shinkoku",
+      "meaning": ["serious", "grave"]
+    },
+    {
+      "kanji": "抽象",
+      "reading": "ちゅうしょう",
+      "romaji": "chūshō",
+      "meaning": ["abstract"]
+    },
+    {
+      "kanji": "依存",
+      "reading": "いぞん",
+      "romaji": "izon",
+      "meaning": ["dependence", "reliance"]
+    },
+    {
+      "kanji": "感傷",
+      "reading": "かんしょう",
+      "romaji": "kanshō",
+      "meaning": ["sentiment", "emotion"]
+    },
+    {
+      "kanji": "洗練",
+      "reading": "せんれん",
+      "romaji": "senren",
+      "meaning": ["polish", "refinement"]
+    },
+    {
+      "kanji": "拝啓",
+      "reading": "はいけい",
+      "romaji": "haikei",
+      "meaning": ["Dear (salutation in a letter)"]
+    },
+    {
+      "kanji": "独特",
+      "reading": "どくとく",
+      "romaji": "dokutoku",
+      "meaning": ["unique", "distinctive"]
+    },
+    {
+      "kanji": "急務",
+      "reading": "きゅうむ",
+      "romaji": "kyūmu",
+      "meaning": ["urgent business", "pressing task"]
+    },
+    {
+      "kanji": "一貫",
+      "reading": "いっかん",
+      "romaji": "ikkan",
+      "meaning": ["consistency", "integrity"]
+    },
+    {
+      "kanji": "懸念",
+      "reading": "けねん",
+      "romaji": "kenen",
+      "meaning": ["concern", "apprehension"]
+    },
+    {
+      "kanji": "詩",
+      "reading": "し",
+      "romaji": "shi",
+      "meaning": ["poem", "poetry"]
+    },
+    {
+      "kanji": "障害",
+      "reading": "しょうがい",
+      "romaji": "shōgai",
+      "meaning": ["obstacle", "hindrance"]
+    },
+    {
+      "kanji": "脅威",
+      "reading": "きょうい",
+      "romaji": "kyōi",
+      "meaning": ["threat", "menace"]
+    },
+    {
+      "kanji": "抵抗",
+      "reading": "ていこう",
+      "romaji": "teikō",
+      "meaning": ["resistance"]
+    },
+    {
+      "kanji": "仮説",
+      "reading": "かせつ",
+      "romaji": "kasetsu",
+      "meaning": ["hypothesis"]
+    },
+    {
+      "kanji": "機密",
+      "reading": "きみつ",
+      "romaji": "kimitsu",
+      "meaning": ["confidential", "classified"]
+    },
+    {
+      "kanji": "協力",
+      "reading": "きょうりょく",
+      "romaji": "kyōryoku",
+      "meaning": ["cooperation"]
+    },
+    {
+      "kanji": "挑戦",
+      "reading": "ちょうせん",
+      "romaji": "chōsen",
+      "meaning": ["challenge"]
+    },
+    {
+      "kanji": "混乱",
+      "reading": "こんらん",
+      "romaji": "konran",
+      "meaning": ["confusion", "chaos"]
+    },
+    {
+      "kanji": "疑念",
+      "reading": "ぎねん",
+      "romaji": "ginen",
+      "meaning": ["doubt", "suspicion"]
+    },
+    {
+      "kanji": "効果",
+      "reading": "こうか",
+      "romaji": "kōka",
+      "meaning": ["effect", "result"]
+    },
+    {
+      "kanji": "現象",
+      "reading": "げんしょう",
+      "romaji": "genshō",
+      "meaning": ["phenomenon"]
+    },
+    {
+      "kanji": "短縮",
+      "reading": "たんしゅく",
+      "romaji": "tanshuku",
+      "meaning": ["shortening", "reduction"]
+    },
+    {
+      "kanji": "継続",
+      "reading": "けいぞく",
+      "romaji": "keizoku",
+      "meaning": ["continuation", "persistence"]
+    },
+    {
+      "kanji": "疲労",
+      "reading": "ひろう",
+      "romaji": "hirō",
+      "meaning": ["fatigue", "exhaustion"]
+    },
+    {
+      "kanji": "対照",
+      "reading": "たいしょう",
+      "romaji": "taishō",
+      "meaning": ["contrast", "comparison"]
+    },
+    {
+      "kanji": "熱心",
+      "reading": "ねっしん",
+      "romaji": "nesshin",
+      "meaning": ["enthusiastic", "zealous"]
+    },
+    {
+      "kanji": "概要",
+      "reading": "がいよう",
+      "romaji": "gaiyō",
+      "meaning": ["outline", "summary"]
+    },
+    {
+      "kanji": "困難",
+      "reading": "こんなん",
+      "romaji": "konnann",
+      "meaning": ["difficulty", "hardship"]
+    },
+    {
+      "kanji": "瞬間",
+      "reading": "しゅんかん",
+      "romaji": "shunkan",
+      "meaning": ["moment", "instant"]
+    },
+    {
+      "kanji": "機械的",
+      "reading": "きかいてき",
+      "romaji": "kikaiteki",
+      "meaning": ["mechanical"]
+    },
+    {
+      "kanji": "慎重",
+      "reading": "しんちょう",
+      "romaji": "shinchō",
+      "meaning": ["cautious", "careful"]
+    },
+    {
+      "kanji": "混沌",
+      "reading": "こんとん",
+      "romaji": "konton",
+      "meaning": ["chaos"]
+    },
+    {
+      "kanji": "難解",
+      "reading": "なんかい",
+      "romaji": "nankai",
+      "meaning": ["difficult to understand", "complex"]
+    },
+    {
+      "kanji": "適応",
+      "reading": "てきおう",
+      "romaji": "tekiō",
+      "meaning": ["adaptation", "adjustment"]
+    },
+    {
+      "kanji": "誤解",
+      "reading": "ごかい",
+      "romaji": "gokai",
+      "meaning": ["misunderstanding", "misinterpretation"]
+    },
+    {
+      "kanji": "複製",
+      "reading": "ふくせい",
+      "romaji": "fukusei",
+      "meaning": ["replica", "duplicate"]
+    },
+    {
+      "kanji": "恐怖",
+      "reading": "きょうふ",
+      "romaji": "kyōfu",
+      "meaning": ["fear", "terror"]
+    },
+    {
+      "kanji": "懐疑",
+      "reading": "かいぎ",
+      "romaji": "kaigi",
+      "meaning": ["doubt", "skepticism"]
+    },
+    {
+      "kanji": "挑発",
+      "reading": "ちょうはつ",
+      "romaji": "chōhatsu",
+      "meaning": ["provocation", "challenge"]
+    },
+    {
+      "kanji": "境界",
+      "reading": "きょうかい",
+      "romaji": "kyōkai",
+      "meaning": ["boundary", "border"]
+    },
+    {
+      "kanji": "短編",
+      "reading": "たんぺん",
+      "romaji": "tanpen",
+      "meaning": ["short story"]
+    },
+    {
+      "kanji": "絶滅",
+      "reading": "ぜつめつ",
+      "romaji": "zetsumetsu",
+      "meaning": ["extinction"]
+    },
+    {
+      "kanji": "抑制",
+      "reading": "よくせい",
+      "romaji": "yokusei",
+      "meaning": ["restraint", "suppression"]
+    },
+    {
+      "kanji": "離脱",
+      "reading": "りだつ",
+      "romaji": "ridatsu",
+      "meaning": ["withdrawal", "secession"]
+    },
+    {
+      "kanji": "妨害",
+      "reading": "ぼうがい",
+      "romaji": "bōgai",
+      "meaning": ["obstruction", "interference"]
+    },
+    {
+      "kanji": "障壁",
+      "reading": "しょうへき",
+      "romaji": "shōheki",
+      "meaning": ["barrier", "obstacle"]
+    },
+    {
+      "kanji": "緊急",
+      "reading": "きんきゅう",
+      "romaji": "kinkyū",
+      "meaning": ["urgent", "emergency"]
+    },
+    {
+      "kanji": "同情",
+      "reading": "どうじょう",
+      "romaji": "dōjō",
+      "meaning": ["sympathy", "compassion"]
+    },
+    {
+      "kanji": "憤怒",
+      "reading": "ふんど",
+      "romaji": "fundo",
+      "meaning": ["anger", "indignation"]
+    },
+    {
+      "kanji": "懲罰",
+      "reading": "ちょうばつ",
+      "romaji": "chōbatsu",
+      "meaning": ["punishment"]
+    },
+    {
+      "kanji": "異議",
+      "reading": "いぎ",
+      "romaji": "igi",
+      "meaning": ["objection", "protest"]
+    },
+    {
+      "kanji": "幻滅",
+      "reading": "げんめつ",
+      "romaji": "genmetsu",
+      "meaning": ["disillusionment", "disenchantment"]
+    },
+    {
+      "kanji": "追放",
+      "reading": "ついほう",
+      "romaji": "tsuihō",
+      "meaning": ["exile", "banishment"]
+    },
+    {
+      "kanji": "感慨",
+      "reading": "かんがい",
+      "romaji": "kangai",
+      "meaning": ["deep emotion", "impression"]
+    },
+    {
+      "kanji": "連鎖",
+      "reading": "れんさ",
+      "romaji": "rensa",
+      "meaning": ["chain", "link"]
+    },
+    {
+      "kanji": "不満",
+      "reading": "ふまん",
+      "romaji": "fuman",
+      "meaning": ["dissatisfaction", "complaint"]
+    },
+    {
+      "kanji": "困惑",
+      "reading": "こんわく",
+      "romaji": "konwaku",
+      "meaning": ["bewilderment", "confusion"]
+    },
+    {
+      "kanji": "悔恨",
+      "reading": "かいこん",
+      "romaji": "kaikon",
+      "meaning": ["remorse", "regret"]
+    },
+    {
+      "kanji": "背後",
+      "reading": "はいご",
+      "romaji": "haigo",
+      "meaning": ["behind", "rear"]
+    },
+    {
+      "kanji": "冷静",
+      "reading": "れいせい",
+      "romaji": "reisei",
+      "meaning": ["calm", "composed"]
+    },
+    {
+      "kanji": "拒絶",
+      "reading": "きょぜつ",
+      "romaji": "kyozetsu",
+      "meaning": ["rejection", "refusal"]
+    },
+    {
+      "kanji": "無力",
+      "reading": "むりょく",
+      "romaji": "muryoku",
+      "meaning": ["powerlessness"]
+    },
+    {
+      "kanji": "疎外",
+      "reading": "そがい",
+      "romaji": "sogai",
+      "meaning": ["alienation", "estrangement"]
+    },
+    {
+      "kanji": "倒錯",
+      "reading": "とうさく",
+      "romaji": "tōsaku",
+      "meaning": ["perversion", "aberration"]
+    },
+    {
+      "kanji": "脆弱",
+      "reading": "ぜいじゃく",
+      "romaji": "zeijaku",
+      "meaning": ["fragility", "vulnerability"]
+    },
+    {
+      "kanji": "独裁",
+      "reading": "どくさい",
+      "romaji": "dokusai",
+      "meaning": ["dictatorship", "autocracy"]
+    },
+    {
+      "kanji": "劣等",
+      "reading": "れっとう",
+      "romaji": "rettō",
+      "meaning": ["inferiority"]
+    },
+    {
+      "kanji": "幻想",
+      "reading": "げんそう",
+      "romaji": "genso",
+      "meaning": ["illusion", "fantasy"]
+    },
+    {
+      "kanji": "狂気",
+      "reading": "きょうき",
+      "romaji": "kyōki",
+      "meaning": ["madness", "insanity"]
+    },
+    {
+      "kanji": "煩悩",
+      "reading": "ぼんのう",
+      "romaji": "bonnō",
+      "meaning": ["worldly desires", "attachments"]
+    },
+    {
+      "kanji": "葛藤",
+      "reading": "かっとう",
+      "romaji": "kattō",
+      "meaning": ["conflict", "struggle"]
+    },
+    {
+      "kanji": "虚偽",
+      "reading": "きょぎ",
+      "romaji": "kyogi",
+      "meaning": ["falsehood", "deception"]
+    },
+    {
+      "kanji": "畏怖",
+      "reading": "いふ",
+      "romaji": "ifu",
+      "meaning": ["awe", "dread"]
+    },
+    {
+      "kanji": "猜疑",
+      "reading": "さいぎ",
+      "romaji": "saigi",
+      "meaning": ["doubt", "suspicion"]
+    },
+    {
+      "kanji": "懸念",
+      "reading": "けねん",
+      "romaji": "kenen",
+      "meaning": ["concern", "apprehension"]
+    },
+    {
+      "kanji": "陰謀",
+      "reading": "いんぼう",
+      "romaji": "inbō",
+      "meaning": ["conspiracy", "plot"]
+    },
+    {
+      "kanji": "憂鬱",
+      "reading": "ゆううつ",
+      "romaji": "yūutsu",
+      "meaning": ["melancholy", "depression"]
+    },
+    {
+      "kanji": "苛立ち",
+      "reading": "いらだち",
+      "romaji": "iradachi",
+      "meaning": ["irritation", "impatience"]
+    },
+    {
+      "kanji": "愁い",
+      "reading": "うれい",
+      "romaji": "urei",
+      "meaning": ["sorrow", "grief"]
+    },
+    {
+      "kanji": "遺憾",
+      "reading": "いかん",
+      "romaji": "ikan",
+      "meaning": ["regrettable", "unsatisfactory"]
+    },
+    {
+      "kanji": "脳内",
+      "reading": "のうない",
+      "romaji": "nōnai",
+      "meaning": ["inside the brain", "mental"]
+    },
+    {
+      "kanji": "優越",
+      "reading": "ゆうえつ",
+      "romaji": "yūetsu",
+      "meaning": ["superiority", "supremacy"]
+    },
+    {
+      "kanji": "懐疑的",
+      "reading": "かいぎてき",
+      "romaji": "kaigiteki",
+      "meaning": ["skeptical"]
+    },
+    {
+      "kanji": "随所",
+      "reading": "ずいしょ",
+      "romaji": "zuisho",
+      "meaning": ["everywhere", "in various places"]
+    },
+    {
+      "kanji": "残忍",
+      "reading": "ざんにん",
+      "romaji": "zannin",
+      "meaning": ["cruelty", "ruthlessness"]
+    },
+    {
+      "kanji": "拝借",
+      "reading": "はいしゃく",
+      "romaji": "haishaku",
+      "meaning": ["borrowing", "asking a favor"]
+    },
+    {
+      "kanji": "不審",
+      "reading": "ふしん",
+      "romaji": "fushin",
+      "meaning": ["doubt", "suspicion"]
+    },
+    {
+      "kanji": "弁護",
+      "reading": "べんご",
+      "romaji": "bengo",
+      "meaning": ["defense", "advocacy"]
+    },
+    {
+      "kanji": "突如",
+      "reading": "とつじょ",
+      "romaji": "totsujo",
+      "meaning": ["suddenly", "unexpectedly"]
+    },
+    {
+      "kanji": "潜在",
+      "reading": "せんざい",
+      "romaji": "senzai",
+      "meaning": ["latent", "potential"]
+    },
+    {
+      "kanji": "陥落",
+      "reading": "かんらく",
+      "romaji": "kanraku",
+      "meaning": ["fall", "capture"]
+    },
+    {
+      "kanji": "処分",
+      "reading": "しょぶん",
+      "romaji": "shobun",
+      "meaning": ["disposal", "handling"]
+    },
+    {
+      "kanji": "拷問",
+      "reading": "ごうもん",
+      "romaji": "gōmon",
+      "meaning": ["torture", "interrogation"]
+    },
+    {
+      "kanji": "窮地",
+      "reading": "きゅうち",
+      "romaji": "kyūchi",
+      "meaning": ["predicament", "dire straits"]
+    },
+    {
+      "kanji": "抹消",
+      "reading": "まっしょう",
+      "romaji": "masshō",
+      "meaning": ["erasure", "elimination"]
+    },
+    {
+      "kanji": "嫌悪",
+      "reading": "けんお",
+      "romaji": "ken'o",
+      "meaning": ["disgust", "aversion"]
+    },
+    {
+      "kanji": "恐慌",
+      "reading": "きょうこう",
+      "romaji": "kyōkō",
+      "meaning": ["financial panic"]
+    },
+    {
+      "kanji": "克服",
+      "reading": "こくふく",
+      "romaji": "kokufuku",
+      "meaning": ["overcoming", "conquering"]
+    },
+    {
+      "kanji": "背徳",
+      "reading": "はいとく",
+      "romaji": "haitoku",
+      "meaning": ["immorality", "corruption"]
+    },
+    {
+      "kanji": "怨嗟",
+      "reading": "えんさ",
+      "romaji": "ensa",
+      "meaning": ["murmur of complaint", "grumbling"]
+    },
+    {
+      "kanji": "鎮静",
+      "reading": "ちんせい",
+      "romaji": "chinsei",
+      "meaning": ["calm", "tranquility"]
+    },
+    {
+      "kanji": "絶望",
+      "reading": "ぜつぼう",
+      "romaji": "zetsubō",
+      "meaning": ["despair", "hopelessness"]
+    },
+    {
+      "kanji": "疾走",
+      "reading": "しっそう",
+      "romaji": "shissō",
+      "meaning": ["sprinting", "dash"]
+    },
+    {
+      "kanji": "遺伝",
+      "reading": "いでん",
+      "romaji": "iden",
+      "meaning": ["inheritance", "heredity"]
+    },
+    {
+      "kanji": "隣人",
+      "reading": "りんじん",
+      "romaji": "rinjin",
+      "meaning": ["neighbor"]
+    },
+    {
+      "kanji": "悲哀",
+      "reading": "ひあい",
+      "romaji": "hiai",
+      "meaning": ["sorrow", "pathos"]
+    },
+    {
+      "kanji": "軽蔑",
+      "reading": "けいべつ",
+      "romaji": "keibetsu",
+      "meaning": ["contempt", "disdain"]
+    },
+    {
+      "kanji": "純真",
+      "reading": "じゅんしん",
+      "romaji": "junshin",
+      "meaning": ["pure", "innocent"]
+    },
+    {
+      "kanji": "未練",
+      "reading": "みれん",
+      "romaji": "miren",
+      "meaning": ["lingering affection", "regret"]
+    },
+    {
+      "kanji": "誇示",
+      "reading": "こじ",
+      "romaji": "koji",
+      "meaning": ["demonstration", "display"]
+    },
+    {
+      "kanji": "慈悲",
+      "reading": "じひ",
+      "romaji": "jihi",
+      "meaning": ["compassion", "mercy"]
+    },
+    {
+      "kanji": "狡猾",
+      "reading": "こうかつ",
+      "romaji": "kōkatsu",
+      "meaning": ["cunning", "slyness"]
+    },
+    {
+      "kanji": "癒着",
+      "reading": "ゆちゃく",
+      "romaji": "yuchaku",
+      "meaning": ["collusion", "connection"]
+    },
+    {
+      "kanji": "従順",
+      "reading": "じゅうじゅん",
+      "romaji": "jūjun",
+      "meaning": ["obedient", "submissive"]
+    },
+    {
+      "kanji": "蔓延",
+      "reading": "まんえん",
+      "romaji": "man'en",
+      "meaning": ["spread", "prevalence"]
+    },
+    {
+      "kanji": "遺失",
+      "reading": "いしつ",
+      "romaji": "isshitsu",
+      "meaning": ["loss", "misplacement"]
+    },
+    {
+      "kanji": "離脱",
+      "reading": "りだつ",
+      "romaji": "ridatsu",
+      "meaning": ["secession", "withdrawal"]
+    },
+    {
+      "kanji": "兆し",
+      "reading": "きざし",
+      "romaji": "kizashi",
+      "meaning": ["sign", "omen"]
+    },
+    {
+      "kanji": "懇願",
+      "reading": "こんがん",
+      "romaji": "kongan",
+      "meaning": ["earnest request", "entreaty"]
+    },
+    {
+      "kanji": "淘汰",
+      "reading": "とうた",
+      "romaji": "tōta",
+      "meaning": ["natural selection", "elimination"]
+    },
+    {
+      "kanji": "慢性",
+      "reading": "まんせい",
+      "romaji": "mansei",
+      "meaning": ["chronic"]
+    },
+    {
+      "kanji": "潤滑",
+      "reading": "じゅんかつ",
+      "romaji": "junkatsu",
+      "meaning": ["lubrication", "smoothness"]
+    },
+    {
+      "kanji": "惨劇",
+      "reading": "さんげき",
+      "romaji": "sangeki",
+      "meaning": ["tragedy", "disaster"]
+    },
+    {
+      "kanji": "鬱憤",
+      "reading": "うっぷん",
+      "romaji": "uppun",
+      "meaning": ["resentment", "indignation"]
+    },
+    {
+      "kanji": "邪魔",
+      "reading": "じゃま",
+      "romaji": "jama",
+      "meaning": ["hindrance", "obstruction"]
+    },
+    {
+      "kanji": "怨念",
+      "reading": "おんねん",
+      "romaji": "onnen",
+      "meaning": ["grudge", "resentment"]
+    },
+    {
+      "kanji": "奇跡",
+      "reading": "きせき",
+      "romaji": "kiseki",
+      "meaning": ["miracle", "wonder"]
+    },
+    {
+      "kanji": "悔悟",
+      "reading": "かいご",
+      "romaji": "kaigo",
+      "meaning": ["remorse", "repentance"]
+    },
+    {
+      "kanji": "絶滅",
+      "reading": "ぜつめつ",
+      "romaji": "zetsumetsu",
+      "meaning": ["extinction", "annihilation"]
+    },
+    {
+      "kanji": "暗黒",
+      "reading": "あんこく",
+      "romaji": "ankoku",
+      "meaning": ["darkness", "gloom"]
+    },
+    {
+      "kanji": "誤謬",
+      "reading": "ごびゅう",
+      "romaji": "gobyu",
+      "meaning": ["fallacy", "error"]
+    },
+    {
+      "kanji": "謀略",
+      "reading": "ぼうりゃく",
+      "romaji": "bōryaku",
+      "meaning": ["stratagem", "scheming"]
+    },
+    {
+      "kanji": "奢侈",
+      "reading": "しゃし",
+      "romaji": "shashi",
+      "meaning": ["luxury", "extravagance"]
+    },
+    {
+      "kanji": "濫用",
+      "reading": "らんよう",
+      "romaji": "ranyō",
+      "meaning": ["abuse", "misuse"]
+    },
+    {
+      "kanji": "喪失",
+      "reading": "そうしつ",
+      "romaji": "sōshitsu",
+      "meaning": ["loss", "forfeiture"]
+    },
+    {
+      "kanji": "畏怖",
+      "reading": "いふ",
+      "romaji": "ifu",
+      "meaning": ["awe", "dread"]
+    },
+    {
+      "kanji": "儚い",
+      "reading": "はかない",
+      "romaji": "hakana-i",
+      "meaning": ["fleeting", "transient"]
+    },
+    {
+      "kanji": "漠然",
+      "reading": "ばくぜん",
+      "romaji": "bakuzen",
+      "meaning": ["vague", "indistinct"]
+    },
+    {
+      "kanji": "妄想",
+      "reading": "もうそう",
+      "romaji": "mōsō",
+      "meaning": ["delusion", "fantasy"]
+    },
+    {
+      "kanji": "妄言",
+      "reading": "もうげん",
+      "romaji": "mōgen",
+      "meaning": ["false statement", "ravings"]
+    },
+    {
+      "kanji": "傲慢",
+      "reading": "ごうまん",
+      "romaji": "gōman",
+      "meaning": ["arrogance", "haughtiness"]
+    },
+    {
+      "kanji": "韜晦",
+      "reading": "とうかい",
+      "romaji": "tōkai",
+      "meaning": ["keeping one's abilities hidden"]
+    },
+    {
+      "kanji": "慎重",
+      "reading": "しんちょう",
+      "romaji": "shinchō",
+      "meaning": ["cautious", "careful"]
+    },
+    {
+      "kanji": "巧妙",
+      "reading": "こうみょう",
+      "romaji": "kōmyō",
+      "meaning": ["ingenious", "clever"]
+    },
+    {
+      "kanji": "厄介",
+      "reading": "やっかい",
+      "romaji": "yakkai",
+      "meaning": ["troublesome", "bothersome"]
+    },
+    {
+      "kanji": "誇大",
+      "reading": "こだい",
+      "romaji": "kodai",
+      "meaning": ["exaggeration", "boasting"]
+    },
+    {
+      "kanji": "矛盾",
+      "reading": "むじゅん",
+      "romaji": "mujun",
+      "meaning": ["contradiction"]
+    },
+    {
+      "kanji": "独断",
+      "reading": "どくだん",
+      "romaji": "dokudan",
+      "meaning": ["arbitrary decision", "dictatorship"]
+    },
+    {
+      "kanji": "愚痴",
+      "reading": "ぐち",
+      "romaji": "guchi",
+      "meaning": ["complaint", "whining"]
+    },
+    {
+      "kanji": "憂鬱",
+      "reading": "ゆううつ",
+      "romaji": "yūutsu",
+      "meaning": ["melancholy", "depression"]
+    },
+    {
+      "kanji": "遺憾",
+      "reading": "いかん",
+      "romaji": "ikan",
+      "meaning": ["regrettable", "unsatisfactory"]
+    },
+    {
+      "kanji": "咎める",
+      "reading": "とがめる",
+      "romaji": "togameru",
+      "meaning": ["to blame", "to rebuke"]
+    },
+    {
+      "kanji": "煩悩",
+      "reading": "ぼんのう",
+      "romaji": "bonnō",
+      "meaning": ["worldly desires"]
+    },
+    {
+      "kanji": "凌駕",
+      "reading": "りょうが",
+      "romaji": "ryōga",
+      "meaning": ["surpassing", "exceeding"]
+    },
+    {
+      "kanji": "縁故",
+      "reading": "えんこ",
+      "romaji": "enko",
+      "meaning": ["circumstances", "relation"]
+    },
+    {
+      "kanji": "捩れる",
+      "reading": "ねじれる",
+      "romaji": "neji-reru",
+      "meaning": ["to twist", "to distort"]
+    },
+    {
+      "kanji": "微細",
+      "reading": "びさい",
+      "romaji": "bisai",
+      "meaning": ["fine", "minuscule"]
+    },
+    {
+      "kanji": "寡黙",
+      "reading": "かもく",
+      "romaji": "kamoku",
+      "meaning": ["reticent", "taciturn"]
+    },
+    {
+      "kanji": "奔走",
+      "reading": "ほんそう",
+      "romaji": "honsō",
+      "meaning": ["busily running about", "devoted effort"]
+    },
+    {
+      "kanji": "妥協",
+      "reading": "だきょう",
+      "romaji": "dakyō",
+      "meaning": ["compromise", "give and take"]
+    },
+    {
+      "kanji": "躊躇",
+      "reading": "ちゅうちょ",
+      "romaji": "chūcho",
+      "meaning": ["hesitation", "wavering"]
+    },
+    {
+      "kanji": "凹凸",
+      "reading": "おうとつ",
+      "romaji": "ōtotsu",
+      "meaning": ["unevenness", "roughness"]
+    },
+    {
+      "kanji": "抽象",
+      "reading": "ちゅうしょう",
+      "romaji": "chūshō",
+      "meaning": ["abstract"]
+    },
+    {
+      "kanji": "遡る",
+      "reading": "さかのぼる",
+      "romaji": "sakanoboru",
+      "meaning": ["to go back", "to trace back"]
+    },
+    {
+      "kanji": "擁護",
+      "reading": "ようご",
+      "romaji": "yōgo",
+      "meaning": ["defense", "support"]
+    },
+    {
+      "kanji": "埋没",
+      "reading": "まいぼつ",
+      "romaji": "maibotsu",
+      "meaning": ["burial", "concealment"]
+    },
+    {
+      "kanji": "離間",
+      "reading": "りかん",
+      "romaji": "rikan",
+      "meaning": ["estrangement", "alienation"]
+    },
+    {
+      "kanji": "煽動",
+      "reading": "せんどう",
+      "romaji": "sendō",
+      "meaning": ["incitement", "instigation"]
+    },
+    {
+      "kanji": "拘泥",
+      "reading": "こうでい",
+      "romaji": "kōdei",
+      "meaning": ["attachment", "adherence"]
+    },
+    {
+      "kanji": "徹底",
+      "reading": "てってい",
+      "romaji": "tettei",
+      "meaning": ["thoroughness", "completeness"]
+    },
+    {
+      "kanji": "駆使",
+      "reading": "くし",
+      "romaji": "kushi",
+      "meaning": ["making full use of", "utilization"]
+    },
+    {
+      "kanji": "適応",
+      "reading": "てきおう",
+      "romaji": "tekio",
+      "meaning": ["adaptation", "adjustment"]
+    },
+    {
+      "kanji": "卑劣",
+      "reading": "ひれつ",
+      "romaji": "hiretsu",
+      "meaning": ["vile", "base"]
+    },
+    {
+      "kanji": "風靡",
+      "reading": "ふうび",
+      "romaji": "fūbi",
+      "meaning": ["prevailing", "in vogue"]
+    },
+    {
+      "kanji": "紆余曲折",
+      "reading": "うよきょくせつ",
+      "romaji": "uyokyokusetsu",
+      "meaning": ["twists and turns", "complications"]
+    },
+    {
+      "kanji": "揶揄",
+      "reading": "やゆ",
+      "romaji": "yayu",
+      "meaning": ["ridicule", "mockery"]
+    },
+    {
+      "kanji": "妄執",
+      "reading": "もうしゅう",
+      "romaji": "mōshū",
+      "meaning": ["obsession", "fixation"]
+    },
+    {
+      "kanji": "疎遠",
+      "reading": "そえん",
+      "romaji": "soen",
+      "meaning": ["estrangement", "distant"]
+    },
+    {
+      "kanji": "虚言",
+      "reading": "きょげん",
+      "romaji": "kyogen",
+      "meaning": ["falsehood", "lying"]
+    },
+    {
+      "kanji": "微塵",
+      "reading": "みじん",
+      "romaji": "mijin",
+      "meaning": ["particle", "speck"]
+    },
+    {
+      "kanji": "凄絶",
+      "reading": "せいぜつ",
+      "romaji": "seizetsu",
+      "meaning": ["ferocious", "intense"]
+    },
+    {
+      "kanji": "詭弁",
+      "reading": "きべん",
+      "romaji": "kiben",
+      "meaning": ["sophistry", "fallacious argument"]
+    },
+    {
+      "kanji": "駆逐",
+      "reading": "くちく",
+      "romaji": "kuchiku",
+      "meaning": ["extermination", "displacement"]
+    },
+    {
+      "kanji": "蹂躙",
+      "reading": "じゅうりん",
+      "romaji": "jūrin",
+      "meaning": ["trampling", "oppression"]
+    },
+    {
+      "kanji": "愚昧",
+      "reading": "ぐまい",
+      "romaji": "gumai",
+      "meaning": ["ignorance", "stupidity"]
+    },
+    {
+      "kanji": "躁鬱",
+      "reading": "そううつ",
+      "romaji": "sōutsu",
+      "meaning": ["bipolar disorder"]
+    },
+    {
+      "kanji": "紆末",
+      "reading": "うまつ",
+      "romaji": "umatsu",
+      "meaning": ["details", "nuances"]
+    },
+    {
+      "kanji": "拷問",
+      "reading": "ごうもん",
+      "romaji": "gōmon",
+      "meaning": ["torture", "interrogation"]
+    },
+    {
+      "kanji": "漸次",
+      "reading": "ぜんじ",
+      "romaji": "zenji",
+      "meaning": ["gradually", "step by step"]
+    },
+    {
+      "kanji": "精巧",
+      "reading": "せいこう",
+      "romaji": "seikō",
+      "meaning": ["elaborate", "intricate"]
+    },
+    {
+      "kanji": "悠久",
+      "reading": "ゆうきゅう",
+      "romaji": "yūkyū",
+      "meaning": ["eternity", "perpetuity"]
+    },
+    {
+      "kanji": "哀悼",
+      "reading": "あいとう",
+      "romaji": "aitō",
+      "meaning": ["mourning", "lamentation"]
+    },
+    {
+      "kanji": "義務教育",
+      "reading": "ぎむきょういく",
+      "romaji": "gimu kyōiku",
+      "meaning": ["compulsory education"]
+    },
+    {
+      "kanji": "矛先",
+      "reading": "むかき",
+      "romaji": "mukaki",
+      "meaning": ["spearhead", "direction of attack"]
+    },
+    {
+      "kanji": "芸術",
+      "reading": "げいじゅつ",
+      "romaji": "geijutsu",
+      "meaning": ["art"]
+    },
+    {
+      "kanji": "寛容",
+      "reading": "かんよう",
+      "romaji": "kan'yō",
+      "meaning": ["tolerance", "generosity"]
+    },
+    {
+      "kanji": "弁解",
+      "reading": "べんかい",
+      "romaji": "benkai",
+      "meaning": ["justification", "excuse"]
+    },
+    {
+      "kanji": "軍縮",
+      "reading": "ぐんしゅく",
+      "romaji": "gunshuku",
+      "meaning": ["disarmament", "arms reduction"]
+    },
+    {
+      "kanji": "観念",
+      "reading": "かんねん",
+      "romaji": "kannen",
+      "meaning": ["acceptance", "resignation"]
+    },
+    {
+      "kanji": "迅速",
+      "reading": "じんそく",
+      "romaji": "jinsoku",
+      "meaning": ["quick", "prompt"]
+    },
+    {
+      "kanji": "猜疑",
+      "reading": "さいぎ",
+      "romaji": "saigi",
+      "meaning": ["distrust", "suspicion"]
+    },
+    {
+      "kanji": "免疫",
+      "reading": "めんえき",
+      "romaji": "men'eki",
+      "meaning": ["immunity"]
+    },
+    {
+      "kanji": "凡庸",
+      "reading": "ぼんよう",
+      "romaji": "bonyō",
+      "meaning": ["mediocrity", "commonplace"]
+    },
+    {
+      "kanji": "懇切",
+      "reading": "こんせつ",
+      "romaji": "konsetsu",
+      "meaning": ["earnest", "sincere"]
+    },
+    {
+      "kanji": "漠視",
+      "reading": "ばくし",
+      "romaji": "bakushi",
+      "meaning": ["neglect", "disregard"]
+    },
+    {
+      "kanji": "嫌悪",
+      "reading": "けんお",
+      "romaji": "ken'o",
+      "meaning": ["disgust", "aversion"]
+    },
+    {
+      "kanji": "辛辣",
+      "reading": "しんらつ",
+      "romaji": "shinratsu",
+      "meaning": ["acrimonious", "scathing"]
+    },
+    {
+      "kanji": "横柄",
+      "reading": "おうへい",
+      "romaji": "ōhei",
+      "meaning": ["arrogant", "haughty"]
+    },
+    {
+      "kanji": "煩雑",
+      "reading": "はんざつ",
+      "romaji": "hanzatsu",
+      "meaning": ["complicated", "complex"]
+    },
+    {
+      "kanji": "慈悲",
+      "reading": "じひ",
+      "romaji": "jihi",
+      "meaning": ["compassion", "mercy"]
+    },
+    {
+      "kanji": "孤独",
+      "reading": "こどく",
+      "romaji": "kodoku",
+      "meaning": ["solitude", "loneliness"]
+    },
+    {
+      "kanji": "継続",
+      "reading": "けいぞく",
+      "romaji": "keizoku",
+      "meaning": ["continuation", "persistence"]
+    },
+    {
+      "kanji": "拒否",
+      "reading": "きょひ",
+      "romaji": "kyohi",
+      "meaning": ["rejection", "denial"]
+    },
+    {
+      "kanji": "抽選",
+      "reading": "ちゅうせん",
+      "romaji": "chūsen",
+      "meaning": ["lottery", "raffle"]
+    },
+    {
+      "kanji": "抹殺",
+      "reading": "まっさつ",
+      "romaji": "massatsu",
+      "meaning": ["obliteration", "eradication"]
+    },
+    {
+      "kanji": "疾走",
+      "reading": "しっそう",
+      "romaji": "shissō",
+      "meaning": ["sprinting", "dashing"]
+    },
+    {
+      "kanji": "誇張",
+      "reading": "こちょう",
+      "romaji": "kochō",
+      "meaning": ["exaggeration", "overstatement"]
+    },
+    {
+      "kanji": "欠如",
+      "reading": "けつじょ",
+      "romaji": "ketsujo",
+      "meaning": ["lack", "absence"]
+    },
+    {
+      "kanji": "呆然",
+      "reading": "ぼうぜん",
+      "romaji": "bōzen",
+      "meaning": ["dumbfounded", "astounded"]
+    },
+    {
+      "kanji": "独裁",
+      "reading": "どくさい",
+      "romaji": "dokusai",
+      "meaning": ["dictatorship", "tyranny"]
+    },
+    {
+      "kanji": "醜悪",
+      "reading": "しゅうあく",
+      "romaji": "shūaku",
+      "meaning": ["ugly", "repulsive"]
+    },
+    {
+      "kanji": "複雑",
+      "reading": "ふくざつ",
+      "romaji": "fukuzatsu",
+      "meaning": ["complicated", "complex"]
+    },
+    {
+      "kanji": "懐疑",
+      "reading": "かいぎ",
+      "romaji": "kaigi",
+      "meaning": ["doubt", "skepticism"]
+    },
+    {
+      "kanji": "遺憾",
+      "reading": "いかん",
+      "romaji": "ikan",
+      "meaning": ["regrettable", "disappointing"]
+    },
+    {
+      "kanji": "侮辱",
+      "reading": "ぶじょく",
+      "romaji": "bujoku",
+      "meaning": ["insult", "contempt"]
+    },
+    {
+      "kanji": "潔白",
+      "reading": "けっぱく",
+      "romaji": "keppaku",
+      "meaning": ["innocence", "cleanliness"]
+    },
+    {
+      "kanji": "狡猾",
+      "reading": "こうかつ",
+      "romaji": "kōkatsu",
+      "meaning": ["cunning", "crafty"]
+    },
+    {
+      "kanji": "黙秘",
+      "reading": "もくひ",
+      "romaji": "mokuhi",
+      "meaning": ["maintaining silence", "keeping a secret"]
+    },
+    {
+      "kanji": "厚顔",
+      "reading": "こうがん",
+      "romaji": "kōgan",
+      "meaning": ["shameless", "brazen"]
+    },
+    {
+      "kanji": "懲罰",
+      "reading": "ちょうばつ",
+      "romaji": "chōbatsu",
+      "meaning": ["punishment", "penalty"]
+    },
+    {
+      "kanji": "雄大",
+      "reading": "ゆうだい",
+      "romaji": "yūdai",
+      "meaning": ["magnificent", "grand"]
+    },
+    {
+      "kanji": "遜色",
+      "reading": "さんしょく",
+      "romaji": "sanshoku",
+      "meaning": ["inferiority", "pale in comparison"]
+    },
+    {
+      "kanji": "蹌踉",
+      "reading": "しょうろう",
+      "romaji": "shōrō",
+      "meaning": ["staggering", "reeling"]
+    },
+    {
+      "kanji": "仄暗い",
+      "reading": "ほのぐらい",
+      "romaji": "honogurai",
+      "meaning": ["dim", "gloomy"]
+    },
+    {
+      "kanji": "怨念",
+      "reading": "おんねん",
+      "romaji": "onnen",
+      "meaning": ["resentment", "grudge"]
+    },
+    {
+      "kanji": "麻痺",
+      "reading": "まひ",
+      "romaji": "mahi",
+      "meaning": ["paralysis"]
+    },
+    {
+      "kanji": "隙間",
+      "reading": "すきま",
+      "romaji": "sukima",
+      "meaning": ["gap", "crevice"]
+    },
+    {
+      "kanji": "疎外",
+      "reading": "そがい",
+      "romaji": "sogai",
+      "meaning": ["alienation", "estrangement"]
+    },
+    {
+      "kanji": "哄笑",
+      "reading": "こうしょう",
+      "romaji": "kōshō",
+      "meaning": ["roar of laughter", "guffaw"]
+    },
+    {
+      "kanji": "呪縛",
+      "reading": "じゅばく",
+      "romaji": "jubaku",
+      "meaning": ["curse", "spell"]
+    },
+    {
+      "kanji": "弛緩",
+      "reading": "しかん",
+      "romaji": "shikan",
+      "meaning": ["relaxation", "slackening"]
+    },
+    {
+      "kanji": "紛糾",
+      "reading": "ふんきゅう",
+      "romaji": "funkyū",
+      "meaning": ["entanglement", "complication"]
+    },
+    {
+      "kanji": "煩悩",
+      "reading": "ぼんのう",
+      "romaji": "bonnō",
+      "meaning": ["worldly desires", "temptation"]
+    },
+    {
+      "kanji": "沈鬱",
+      "reading": "ちんうつ",
+      "romaji": "chin'utsu",
+      "meaning": ["depression", "melancholy"]
+    },
+    {
+      "kanji": "混濁",
+      "reading": "こんだく",
+      "romaji": "kondaku",
+      "meaning": ["turbidity", "cloudiness"]
+    },
+    {
+      "kanji": "戚戚",
+      "reading": "せきせき",
+      "romaji": "sekiseki",
+      "meaning": ["sad", "mournful"]
+    },
+    {
+      "kanji": "綻び",
+      "reading": "ほころび",
+      "romaji": "hokorobi",
+      "meaning": ["rift", "crack"]
+    },
+    {
+      "kanji": "剥奪",
+      "reading": "はくだつ",
+      "romaji": "hakudatsu",
+      "meaning": ["deprivation", "stripping"]
+    },
+    {
+      "kanji": "義理堅い",
+      "reading": "ぎりがたい",
+      "romaji": "girigatai",
+      "meaning": ["dutiful", "obliging"]
+    },
+    {
+      "kanji": "闘志",
+      "reading": "とうし",
+      "romaji": "tōshi",
+      "meaning": ["fighting spirit", "will to fight"]
+    },
+    {
+      "kanji": "遜る",
+      "reading": "さがる",
+      "romaji": "sagaru",
+      "meaning": ["to be humble", "to condescend"]
+    },
+    {
+      "kanji": "惜敗",
+      "reading": "せきはい",
+      "romaji": "sekihai",
+      "meaning": ["bitter defeat", "narrow loss"]
+    },
+    {
+      "kanji": "躊躇",
+      "reading": "ちゅうちょ",
+      "romaji": "chūcho",
+      "meaning": ["hesitation", "wavering"]
+    },
+    {
+      "kanji": "愚昧",
+      "reading": "ぐまい",
+      "romaji": "gumai",
+      "meaning": ["ignorance", "foolishness"]
+    },
+    {
+      "kanji": "邂逅",
+      "reading": "かいこう",
+      "romaji": "kaikō",
+      "meaning": ["chance meeting", "encounter"]
+    },
+    {
+      "kanji": "瑣末",
+      "reading": "さまつ",
+      "romaji": "samatsu",
+      "meaning": ["trifles", "minutiae"]
+    },
+    {
+      "kanji": "慄然",
+      "reading": "りゃくぜん",
+      "romaji": "ryakuzen",
+      "meaning": ["trembling", "shuddering"]
+    },
+    {
+      "kanji": "静謐",
+      "reading": "せいひつ",
+      "romaji": "seihitsu",
+      "meaning": ["tranquil", "calm"]
+    },
+    {
+      "kanji": "深遠",
+      "reading": "しんえん",
+      "romaji": "shinen",
+      "meaning": ["profound", "deep"]
+    },
+    {
+      "kanji": "賛辞",
+      "reading": "さんじ",
+      "romaji": "sanji",
+      "meaning": ["praise", "commendation"]
+    },
+    {
+      "kanji": "軋轢",
+      "reading": "あつれき",
+      "romaji": "atsureki",
+      "meaning": ["friction", "discord"]
+    },
+    {
+      "kanji": "懐疑的",
+      "reading": "かいぎてき",
+      "romaji": "kaigiteki",
+      "meaning": ["skeptical", "doubtful"]
+    },
+    {
+      "kanji": "潔癖",
+      "reading": "けっぺき",
+      "romaji": "keppeki",
+      "meaning": ["cleanliness obsession", "fastidiousness"]
+    },
+    {
+      "kanji": "疑念",
+      "reading": "ぎねん",
+      "romaji": "ginen",
+      "meaning": ["doubt", "suspicion"]
+    },
+    {
+      "kanji": "喧嘩",
+      "reading": "けんか",
+      "romaji": "kenka",
+      "meaning": ["quarrel", "fight"]
+    },
+    {
+      "kanji": "魅了",
+      "reading": "みりょう",
+      "romaji": "miryō",
+      "meaning": ["fascination", "captivation"]
+    },
+    {
+      "kanji": "深淵",
+      "reading": "しんえん",
+      "romaji": "shinen",
+      "meaning": ["abyss", "depth"]
+    },
+    {
+      "kanji": "艶美",
+      "reading": "えんび",
+      "romaji": "enbi",
+      "meaning": ["charming", "bewitching"]
+    },
+    {
+      "kanji": "鬱屈",
+      "reading": "うっくつ",
+      "romaji": "ukkutsu",
+      "meaning": ["depression", "oppression"]
+    },
+    {
+      "kanji": "繁華",
+      "reading": "はんか",
+      "romaji": "hanka",
+      "meaning": ["prosperity", "splendor"]
+    },
+    {
+      "kanji": "凝視",
+      "reading": "ぎょうし",
+      "romaji": "gyōshi",
+      "meaning": ["stare", "gaze"]
+    },
+    {
+      "kanji": "詭弁",
+      "reading": "きべん",
+      "romaji": "kiben",
+      "meaning": ["sophistry", "fallacious argument"]
+    },
+    {
+      "kanji": "軍配",
+      "reading": "ぐんばい",
+      "romaji": "gunbai",
+      "meaning": ["judgment", "decision"]
+    },
+    {
+      "kanji": "革新",
+      "reading": "かくしん",
+      "romaji": "kakushin",
+      "meaning": ["innovation", "reform"]
+    },
+    {
+      "kanji": "煩悶",
+      "reading": "はんもん",
+      "romaji": "hanmon",
+      "meaning": ["anguish", "distress"]
+    },
+    {
+      "kanji": "忌避",
+      "reading": "きひ",
+      "romaji": "kihi",
+      "meaning": ["avoidance", "evasion"]
+    },
+    {
+      "kanji": "悔恨",
+      "reading": "かいこん",
+      "romaji": "kaikon",
+      "meaning": ["regret", "remorse"]
+    },
+    {
+      "kanji": "躊躇う",
+      "reading": "ためらう",
+      "romaji": "tamerau",
+      "meaning": ["to hesitate", "to waver"]
+    },
+    {
+      "kanji": "霊長",
+      "reading": "れいちょう",
+      "romaji": "reichō",
+      "meaning": ["primate", "great ape"]
+    }
   ]
 }

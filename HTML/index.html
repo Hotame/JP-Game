@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JP Quiz</title>
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="shortcut icon" href="../images/japanese-gate.png" type="image/x-icon">
-</head>
-<body>
-    <div>
-        <div id="header">
-            <nav>
-                <h2>ホーム</h2>
-                <ul>
-                    <li><a href="index.html">ホーム</a></li>
-                    <li><a href="vocabulary.html">語彙</a></li>
-                    <li><a href="contact.html">連絡</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div>
-        <br><br>
-        <h1>レベル <span id="level" class="level-container"></span></h1>
-    </div>
-    <br>
-
-    <div id="word-container">
-        <h2 id="japanese-word"><a href="https://jisho.org/search/word" target="_blank"></a></h2>
-    </div>
-
-    <br>
-    <div id="search-container">
-        <input type="text" id="userInput">
-        <button onclick="checkReading()">提出</button>
-        <button id="resetButton" onclick="resetGame()">Reset</button>
-    </div>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <script src="../JS/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap">
+    <title></title>
+    <style>
+        #first-input {
+            width: 75%;
+        }
+        #second-input {
+            margin-left: 30px;
+            width: 25%;
+            box-shadow: 0 0 10px #3498dbc9;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav-element">
+        <ul>
+            <h2 id="h2">クイズ</h2>
+        </ul>
+        <ul>
+            <li><a href="index.html" class="li">クイズ</a></li>
+            <li><a href="vocabulary.html" class="li">語彙</a></li>
+            <li><a href="scoreboard.html" class="li">スコアボード</a></li>
+            <li><a href="contact.html" class="li">連絡</a></li>
+        </ul>
+    </nav>
+        <article id="article" style="margin-top: 20px;">
+                <section class="header-grid">
+                    <h3 id="level-header">レベル 1</h3>
+                    <progress id="progressBar" value="0" max="100"></progress>
+                </section>
+            <h1 id="japanese-word"></h1>
+            <section class="textboxrow">
+                <input type="text" class="userInput" id="first-input" name="text" placeholder="以上の読み方を書いて下さい">
+                <input type="text" class="userInput" id="second-input" name="text" placeholder="ヒント">
+            </section>
+            <div class="grid">
+                <div role="button" class="outline" onClick="hint()" id="button">ヒント</div>
+                <div role="button" class="outline" onClick="skip()" id="button">スキップ</div>
+                <div role="button" class="outline" onClick="submit()" id="button">提出</div>
+                <div role="button" class="outline" onClick="reset()" id="button">リセット</div>
+            </div>
+        </article>
 </body>
+
 </html>
