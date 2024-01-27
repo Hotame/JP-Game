@@ -230,3 +230,16 @@ article a:visited {
   #section-after-article {
     background-color: #1e232c;
   }
+
+  #loading-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+}

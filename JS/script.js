@@ -7,18 +7,31 @@ let currentIndex = 0;
 let shuffledWords = [];
 let userLevel = 1;
 
-window.onload = async function () {
-  response = await fetch("../word.json");
+document.addEventListener("DOMContentLoaded", async function () {
+  try {
+    const loadingScreen = document.getElementById("loading-screen");
 
-  if (!response.ok) {
-    throw new Error(`HTTP error! Status: ${response.status}`);
+    loadingScreen.style.display = "flex"; // Show loading screen first
+
+    response = await fetch("../word.json");
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    data = await response.json();
+    shuffledWords = await shuffleArray(data.words);
+
+    loadingScreen.style.display = "none"; // Hide loading screen
+
+    // Display the body content after initialization
+    document.body.style.display = "block";
+
+    displayWord();
+    addKeyListener();
+  } catch (error) {
+    console.error("Error during initialization:", error);
   }
-
-  data = await response.json();
-  shuffledWords = await shuffleArray(data.words);
-  displayWord();
-  addKeyListener();
-};
+});
 
 function addKeyListener() {
   document.addEventListener("keyup", function (event) {
@@ -39,7 +52,7 @@ async function shuffleArray(array) {
 
 async function displayWord(updateProgress = true) {
   hintIndex = 0;
-  
+
   if (!data || !data.words || data.words.length === 0) {
     console.error("Error: Data is not loaded or is empty.");
     return;
@@ -158,8 +171,7 @@ async function reset() {
   currentIndex = 0;
   userLevel = 1;
   document.getElementById("first-input").style.boxShadow = "0 0 10px #3498dbc9";
-  document.getElementById("second-input").style.boxShadow =
-    "0 0 10px #3498dbc9";
+  document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";
   document.getElementById("first-input").value = "";
   document.getElementById("second-input").value = "";
   updateLevelHeader();

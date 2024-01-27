@@ -3226,12 +3226,6 @@
       "meaning": ["stare", "gaze"]
     },
     {
-      "kanji": "詭弁",
-      "reading": "きべん",
-      "romaji": "kiben",
-      "meaning": ["sophistry", "fallacious argument"]
-    },
-    {
       "kanji": "軍配",
       "reading": "ぐんばい",
       "romaji": "gunbai",
@@ -3272,6 +3266,475 @@
       "reading": "れいちょう",
       "romaji": "reichō",
       "meaning": ["primate", "great ape"]
+    },
+    {
+      "kanji": "蓬莱",
+      "reading": "ほうらい",
+      "romaji": "hōrai",
+      "meaning": ["mythical island", "fabled land of immortality"]
+    },
+    {
+      "kanji": "煌々",
+      "reading": "こうこう",
+      "romaji": "kōkō",
+      "meaning": ["glittering", "shining brilliantly"]
+    },
+    {
+      "kanji": "杳杳",
+      "reading": "ようよう",
+      "romaji": "yōyō",
+      "meaning": ["profound darkness", "utterly obscure"]
+    },
+    {
+      "kanji": "遥か彼方",
+      "reading": "はるかかなた",
+      "romaji": "haruka kanata",
+      "meaning": ["far beyond", "distant horizon"]
+    },
+
+    {
+      "kanji": "芳醇",
+      "reading": "ほうじゅん",
+      "romaji": "hōjun",
+      "meaning": ["rich aroma", "fragrant and mellow"]
+    },
+    {
+      "kanji": "澄明",
+      "reading": "ちょうめい",
+      "romaji": "chōmei",
+      "meaning": ["clear and bright", "serene"]
+    },
+    {
+      "kanji": "躍動",
+      "reading": "やくどう",
+      "romaji": "yakudō",
+      "meaning": ["dynamic", "energetic"]
+    },
+    {
+      "kanji": "潤い",
+      "reading": "うるおい",
+      "romaji": "uruoi",
+      "meaning": ["moisture", "nourishment"]
+    },
+    {
+      "kanji": "奇跡",
+      "reading": "きせき",
+      "romaji": "kiseki",
+      "meaning": ["miracle", "wonder"]
+    },
+    {
+      "kanji": "雫",
+      "reading": "しずく",
+      "romaji": "shizuku",
+      "meaning": ["droplet", "teardrop"]
+    },
+    {
+      "kanji": "輝く星",
+      "reading": "かがやくほし",
+      "romaji": "kagayaku hoshi",
+      "meaning": ["shining star", "gleaming celestial body"]
+    },
+    {
+      "kanji": "悠久",
+      "reading": "ゆうきゅう",
+      "romaji": "yūkyū",
+      "meaning": ["eternity", "perpetuity"]
+    },
+    {
+      "kanji": "陶酔",
+      "reading": "とうすい",
+      "romaji": "tōsui",
+      "meaning": ["ecstasy", "rapture"]
+    },
+    {
+      "kanji": "微笑む",
+      "reading": "ほほえむ",
+      "romaji": "hohoemu",
+      "meaning": ["to smile gently", "to smile warmly"]
+    },
+    {
+      "kanji": "浸食",
+      "reading": "しんしょく",
+      "romaji": "shinshoku",
+      "meaning": ["erosion", "gradual wearing away"]
+    },
+    {
+      "kanji": "宝石",
+      "reading": "ほうせき",
+      "romaji": "hōseki",
+      "meaning": ["gem", "jewel"]
+    },
+    {
+      "kanji": "澄む空",
+      "reading": "すむそら",
+      "romaji": "sumu sora",
+      "meaning": ["clear sky", "crystal-clear atmosphere"]
+    },
+    {
+      "kanji": "躍進",
+      "reading": "やくしん",
+      "romaji": "yakushin",
+      "meaning": ["leap forward", "great progress"]
+    },
+    {
+      "kanji": "陽光溢れる",
+      "reading": "ようこうあふれる",
+      "romaji": "yōkō afureru",
+      "meaning": ["sunlight overflowing", "radiant sunshine"]
+    },
+    {
+      "kanji": "柔軟",
+      "reading": "じゅうなん",
+      "romaji": "jūnan",
+      "meaning": ["flexible", "pliable"]
+    },
+    {
+      "kanji": "輝き続ける",
+      "reading": "かがやきつづける",
+      "romaji": "kagayaki tsuzukeru",
+      "meaning": ["to continue shining", "to keep sparkling"]
+    },
+    {
+      "kanji": "癒し",
+      "reading": "いやし",
+      "romaji": "iyashi",
+      "meaning": ["healing", "soothing"]
+    },
+    {
+      "kanji": "異彩",
+      "reading": "いさい",
+      "romaji": "isai",
+      "meaning": ["conspicuous", "strikingly different"]
+    },
+    {
+      "kanji": "蒼穹",
+      "reading": "そうきゅう",
+      "romaji": "sōkyū",
+      "meaning": ["vast blue sky", "azure heavens"]
+    },
+    {
+      "kanji": "誘惑",
+      "reading": "ゆうわく",
+      "romaji": "yūwaku",
+      "meaning": ["temptation", "seduction"]
+    },
+    {
+      "kanji": "微風",
+      "reading": "びふう",
+      "romaji": "bifū",
+      "meaning": ["gentle breeze", "soft wind"]
+    },
+    {
+      "kanji": "奇妙",
+      "reading": "きみょう",
+      "romaji": "kimyō",
+      "meaning": ["strange", "peculiar"]
+    },
+    {
+      "kanji": "閃光",
+      "reading": "せんこう",
+      "romaji": "senkō",
+      "meaning": ["flash", "sparkle"]
+    },
+    {
+      "kanji": "宴会",
+      "reading": "えんかい",
+      "romaji": "enkai",
+      "meaning": ["banquet", "feast"]
+    },
+    {
+      "kanji": "幽玄",
+      "reading": "ゆうげん",
+      "romaji": "yūgen",
+      "meaning": ["profound", "subtle mystery"]
+    },
+    {
+      "kanji": "朝露",
+      "reading": "あさつゆ",
+      "romaji": "asatsuyu",
+      "meaning": ["morning dew"]
+    },
+    {
+      "kanji": "潤沢",
+      "reading": "じゅんたく",
+      "romaji": "juntaku",
+      "meaning": ["abundant", "lush"]
+    },
+    {
+      "kanji": "神秘",
+      "reading": "しんぴ",
+      "romaji": "shinpi",
+      "meaning": ["mystery", "divine mystery"]
+    },
+    {
+      "kanji": "雲海",
+      "reading": "うんかい",
+      "romaji": "unkai",
+      "meaning": ["sea of clouds", "cloudscape"]
+    },
+    {
+      "kanji": "調和",
+      "reading": "ちょうわ",
+      "romaji": "chōwa",
+      "meaning": ["harmony", "balance"]
+    },
+    {
+      "kanji": "清浄",
+      "reading": "せいじょう",
+      "romaji": "seijō",
+      "meaning": ["pure", "clean"]
+    },
+    {
+      "kanji": "澄み渡る",
+      "reading": "すみわたる",
+      "romaji": "sumiwataru",
+      "meaning": ["to be clear", "to be transparent"]
+    },
+    {
+      "kanji": "彩り豊か",
+      "reading": "いろどりゆたか",
+      "romaji": "irodori yutaka",
+      "meaning": ["colorful", "rich in variety"]
+    },
+    {
+      "kanji": "深い感慨",
+      "reading": "ふかいかんがい",
+      "romaji": "fukai kankai",
+      "meaning": ["deep emotion", "profound sentiment"]
+    },
+    {
+      "kanji": "幻醒",
+      "reading": "げんせい",
+      "romaji": "gensei",
+      "meaning": ["illusory awakening", "dreamlike consciousness"]
+    },
+    {
+      "kanji": "輝夜",
+      "reading": "かぐや",
+      "romaji": "Kaguya",
+      "meaning": ["radiant night", "shining moonlit night"]
+    },
+    {
+      "kanji": "憧憬",
+      "reading": "しょうけい",
+      "romaji": "shōkei",
+      "meaning": ["aspiration", "longing"]
+    },
+    {
+      "kanji": "颯爽",
+      "reading": "さっそう",
+      "romaji": "sassō",
+      "meaning": ["brisk", "refreshing"]
+    },
+    {
+      "kanji": "浮遊",
+      "reading": "ふゆう",
+      "romaji": "fuyū",
+      "meaning": ["levitation", "hovering"]
+    },
+    {
+      "kanji": "蓄積",
+      "reading": "ちくせき",
+      "romaji": "chikuseki",
+      "meaning": ["accumulation", "stockpiling"]
+    },
+    {
+      "kanji": "幽邃",
+      "reading": "ゆうすい",
+      "romaji": "yūsui",
+      "meaning": ["profound", "deep and mysterious"]
+    },
+    {
+      "kanji": "微笑天使",
+      "reading": "びしょうてんし",
+      "romaji": "bishō tenshi",
+      "meaning": ["smiling angel", "serene celestial being"]
+    },
+    {
+      "kanji": "純潔",
+      "reading": "じゅんけつ",
+      "romaji": "junketsu",
+      "meaning": ["pure", "chaste"]
+    },
+    {
+      "kanji": "麗しい",
+      "reading": "うるわしい",
+      "romaji": "uruwashii",
+      "meaning": ["beautiful", "lovely"]
+    },
+    {
+      "kanji": "透明感",
+      "reading": "とうめいかん",
+      "romaji": "tōmeikan",
+      "meaning": ["transparency", "clarity"]
+    },
+    {
+      "kanji": "陶冶",
+      "reading": "とうや",
+      "romaji": "tōya",
+      "meaning": ["cultivation", "refinement"]
+    },
+    {
+      "kanji": "薔薇色",
+      "reading": "ばらいろ",
+      "romaji": "bara-iro",
+      "meaning": ["rose-colored", "pink"]
+    },
+    {
+      "kanji": "雲上の楽園",
+      "reading": "うんじょうのらくえん",
+      "romaji": "unjō no rakuen",
+      "meaning": ["paradise above the clouds"]
+    },
+    {
+      "kanji": "瑞々しい",
+      "reading": "みずみずしい",
+      "romaji": "mizumizushii",
+      "meaning": ["fresh", "lively"]
+    },
+    {
+      "kanji": "宵闇",
+      "reading": "yoiyami",
+      "romaji": "yoiyami",
+      "meaning": ["dusk", "twilight"]
+    },
+    {
+      "kanji": "語り部",
+      "reading": "かたりび",
+      "romaji": "kataribi",
+      "meaning": ["storyteller", "narrator"]
+    },
+    {
+      "kanji": "奇想天外",
+      "reading": "きそうてんがい",
+      "romaji": "kisōtengai",
+      "meaning": ["fantastical", "beyond imagination"]
+    },
+    {
+      "kanji": "煌びやか",
+      "reading": "きらびやか",
+      "romaji": "kirabiyaka",
+      "meaning": ["gorgeous", "dazzling"]
+    },
+    {
+      "kanji": "幻想国",
+      "reading": "げんそうこく",
+      "romaji": "gensōkoku",
+      "meaning": ["fantasy realm", "enchanted land"]
+    },
+    {
+      "kanji": "蒼穹の彼方",
+      "reading": "そうきゅうのかなた",
+      "romaji": "sōkyū no kanata",
+      "meaning": ["beyond the azure sky"]
+    },
+    {
+      "kanji": "瑠璃色",
+      "reading": "るりいろ",
+      "romaji": "ruriiro",
+      "meaning": ["azure", "lapis lazuli color"]
+    },
+    {
+      "kanji": "蘊蓄",
+      "reading": "うんちく",
+      "romaji": "unchiku",
+      "meaning": ["knowledge", "accumulated wisdom"]
+    },
+    {
+      "kanji": "透き通る",
+      "reading": "すきとおる",
+      "romaji": "sukitooru",
+      "meaning": ["to be transparent", "to be clear"]
+    },
+    {
+      "kanji": "悠久",
+      "reading": "ゆうきゅう",
+      "romaji": "yūkyū",
+      "meaning": ["perpetual", "eternal"]
+    },
+    {
+      "kanji": "花鳥風月",
+      "reading": "かちょうふうげつ",
+      "romaji": "kachōfūgetsu",
+      "meaning": ["beauty of nature", "the changing seasons"]
+    },
+    {
+      "kanji": "瑠璃の涙",
+      "reading": "るりのなみだ",
+      "romaji": "ruri no namida",
+      "meaning": ["tears of lapis lazuli"]
+    },
+    {
+      "kanji": "輝かしい瞬間",
+      "reading": "かがやかしいしゅんかん",
+      "romaji": "kagayakashii shunkan",
+      "meaning": ["radiant moment", "glorious instant"]
+    },
+    {
+      "kanji": "調香師",
+      "reading": "ちょうこうし",
+      "romaji": "chōkōshi",
+      "meaning": ["perfumer", "scent designer"]
+    },
+    {
+      "kanji": "澄み渡る空",
+      "reading": "すみわたるそら",
+      "romaji": "sumiwataru sora",
+      "meaning": ["clear sky", "crystal-clear heavens"]
+    },
+    {
+      "kanji": "雲隠れ",
+      "reading": "くもがくれ",
+      "romaji": "kumogakure",
+      "meaning": ["hiding in the clouds"]
+    },
+    {
+      "kanji": "星屑",
+      "reading": "ほしくず",
+      "romaji": "hoshikuzu",
+      "meaning": ["stardust", "celestial particles"]
+    },
+    {
+      "kanji": "奇蹟",
+      "reading": "きせき",
+      "romaji": "kiseki",
+      "meaning": ["miracle", "wonder"]
+    },
+    {
+      "kanji": "楽園",
+      "reading": "らくえん",
+      "romaji": "rakuen",
+      "meaning": ["paradise", "utopia"]
+    },
+    {
+      "kanji": "優美",
+      "reading": "ゆうび",
+      "romaji": "yūbi",
+      "meaning": ["graceful", "elegant"]
+    },
+    {
+      "kanji": "語り継ぐ",
+      "reading": "かたりつぐ",
+      "romaji": "kataritsugu",
+      "meaning": ["to hand down", "to pass on (a story)"]
+    },
+    {
+      "kanji": "神聖",
+      "reading": "しんせい",
+      "romaji": "shinsei",
+      "meaning": ["sacred", "divine"]
+    },
+    {
+      "kanji": "蒼穹の彼方",
+      "reading": "そうきゅうのかなた",
+      "romaji": "sōkyū no kanata",
+      "meaning": ["beyond the azure sky"]
+    },
+    {
+      "kanji": "秘境",
+      "reading": "ひきょう",
+      "romaji": "hikyō",
+      "meaning": ["unexplored region", "hidden paradise"]
     }
   ]
 }

@@ -7,12 +7,14 @@
     <link rel="icon" type="image/x-icon" href="../images/japanese-gate.png">
     <script src="../JS/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css" async>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap">
+    <link rel="preload" href="../word.json" as="fetch" crossorigin="anonymous">
     <title>漢字冒険 - クイズ</title>
 </head>
 
 <body>
+    <div id="loading-screen"></div>
     <nav class="nav-element">
         <ul>
             <h2 id="h2">漢字冒険</h2>
@@ -25,24 +27,24 @@
         </ul>
     </nav>
     <br><br>
-        <article id="article">
-                <section class="header-grid">
-                    <h3 id="level-header">レベル 1</h3>
-                    <progress id="progressBar" value="0" max="100"></progress>
-                </section>
-            <h1 id="japanese-word"></h1>
-            <section class="textboxrow">
-                <input type="text" class="userInput" id="first-input" name="text" placeholder="以上の読み方を書いて下さい">
-                <input type="text" class="userInput" id="second-input" name="text" placeholder="ヒント">
-            </section>
-            <div class="grid">
-                <div role="button" class="outline" onClick="hint()" id="button">ヒント</div>
-                <div role="button" class="outline" onClick="skip()" id="button">スキップ</div>
-                <div role="button" class="outline" onClick="submit()" id="button">提出</div>
-                <div role="button" class="outline" onClick="reset()" id="button">リセット</div>
-            </div>
-        </article>
-        <section id="section-after-article"></section>
+    <article id="article">
+        <section class="header-grid">
+            <h3 id="level-header">レベル 1</h3>
+            <progress id="progressBar" value="0" max="100"></progress>
+        </section>
+        <h1 id="japanese-word"></h1>
+        <section class="textboxrow">
+            <input type="text" class="userInput" id="first-input" name="text" placeholder="以上の読み方を書いて下さい">
+            <input type="text" class="userInput" id="second-input" name="text" placeholder="ヒント">
+        </section>
+        <div class="grid">
+            <div role="button" class="outline" onClick="hint()" id="button">ヒント</div>
+            <div role="button" class="outline" onClick="skip()" id="button">スキップ</div>
+            <div role="button" class="outline" onClick="submit()" id="button">提出</div>
+            <div role="button" class="outline" onClick="reset()" id="button">リセット</div>
+        </div>
+    </article>
+    <section id="section-after-article"></section>
 </body>
 
 </html>
