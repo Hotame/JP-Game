@@ -27,7 +27,7 @@ window.onload = async function () {
 };
 
 function addKeyListener() {
-  document.getElementById("first-input").addEventListener("keyup", function (event) {
+  document.addEventListener("keyup", function (event) {
     if (event.key === "Enter") {
       submit();
     }
