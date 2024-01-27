@@ -5,7 +5,7 @@ let userInput;
 let hintInput;
 let currentIndex = 0;
 let shuffledWords = [];
-let userLevel = 1; // New variable to store the user's level
+let userLevel = 1;
 
 window.onload = async function () {
   response = await fetch("../word.json");
@@ -15,10 +15,9 @@ window.onload = async function () {
   }
 
   data = await response.json();
-  shuffledWords = await shuffleArray(data.words); // Initialize shuffledWords
+  shuffledWords = await shuffleArray(data.words);
   displayWord();
 
-  // Check if the current page is "index.html" before adding the keyup event listener
   if (window.location.pathname.includes("index.html")) {
     addKeyListener();
   }
@@ -44,7 +43,6 @@ async function shuffleArray(array) {
   return shuffledArray;
 }
 
-// Add a new parameter to displayWord to control progress bar and user level update
 async function displayWord(updateProgress = true) {
   if (!data || !data.words || data.words.length === 0) {
     console.error("Error: Data is not loaded or is empty.");
@@ -59,15 +57,13 @@ async function displayWord(updateProgress = true) {
     return;
   }
 
-  // Clear existing content before adding new one
   japaneseWordElement.innerHTML = "";
 
   const jishoLink = document.createElement("a");
   jishoLink.href = `https://jisho.org/search/${currentWord.kanji}`;
   jishoLink.textContent = currentWord.kanji;
   jishoLink.target = "_blank";
-
-  // Append the 'a' element as a child to 'japaneseWordElement'
+  
   japaneseWordElement.appendChild(jishoLink);
 
   if (updateProgress) {
@@ -103,7 +99,6 @@ async function submit() {
       userInput.style.borderColor = "";
       currentIndex++;
 
-      // Increase user level and update progress bar
       userLevel++;
       displayWord();
     } else {
@@ -172,7 +167,7 @@ function skip() {
     currentIndex++;
     document.getElementById("second-input").value = "";
     document.getElementById("first-input").value = "";
-    displayWord(false); // Pass false to not update progress bar and user level
+    displayWord(false);
   } else {
     console.log("End of the word list reached.");
   }
@@ -181,7 +176,7 @@ function skip() {
 async function reset() {
   currentIndex = 0;
   userLevel = 1;
-  updateLevelHeader(); // Add this line to update the level header
-  updateProgressBar(); // Add this line to reset the progress bar
+  updateLevelHeader();
+  updateProgressBar();
   await displayWord();
 }
