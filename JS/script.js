@@ -17,13 +17,7 @@ window.onload = async function () {
   data = await response.json();
   shuffledWords = await shuffleArray(data.words);
   displayWord();
-
-  if (window.location.pathname.includes("index.html")) {
-    addKeyListener();
-  }
-  if (window.location.pathname.includes("vocabulary.html")) {
-    displayVocabulary();
-  }
+  addKeyListener();
 };
 
 function addKeyListener() {
@@ -63,7 +57,7 @@ async function displayWord(updateProgress = true) {
   jishoLink.href = `https://jisho.org/search/${currentWord.kanji}`;
   jishoLink.textContent = currentWord.kanji;
   jishoLink.target = "_blank";
-  
+
   japaneseWordElement.appendChild(jishoLink);
 
   if (updateProgress) {
@@ -128,27 +122,6 @@ function updateProgressBar() {
   }
 }
 
-async function displayVocabulary() {
-  response = await fetch("../word.json");
-  data = await response.json();
-
-  const vocabTable = document.querySelector("#tableBody");
-  vocabTable.innerHTML = "";
-
-  for (let i = 0; i < data.words.length; i++) {
-    const word = data.words[i];
-
-    const row = document.createElement("tr");
-    row.innerHTML = `
-          <td>${word.kanji}</td>
-          <td>${word.reading}</td>
-          <td>${word.meaning[0] + ",  " + word.meaning[1]}</td>
-          <td>${word.romaji}</td>`;
-
-    vocabTable.appendChild(row);
-  }
-}
-
 function hint() {
   const currentWord = shuffledWords[currentIndex];
 
@@ -182,7 +155,8 @@ async function reset() {
   currentIndex = 0;
   userLevel = 1;
   document.getElementById("first-input").style.boxShadow = "0 0 10px #3498dbc9";
-  document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";
+  document.getElementById("second-input").style.boxShadow =
+    "0 0 10px #3498dbc9";
   document.getElementById("first-input").value = "";
   document.getElementById("second-input").value = "";
   updateLevelHeader();
