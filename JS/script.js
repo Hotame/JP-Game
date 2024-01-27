@@ -105,12 +105,15 @@ async function submit() {
       hintInput.style.boxShadow = "0 0 10px #03C988";
       userInput.style.borderColor = "";
       currentIndex++;
-
       userLevel++;
       hintInput.value = "";
       displayWord();
     } else {
+      currentIndex++;
       document.getElementById("japanese-word").textContent = "完了";
+      updateProgressBar();
+      document.getElementById("first-input").style.boxShadow = "0 0 10px #3498dbc9";
+      document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";
     }
   } else {
     userInput.style.boxShadow = "0 0 10px #fb2577";
@@ -130,7 +133,7 @@ function updateLevelHeader() {
 function updateProgressBar() {
   const progressBarElement = document.getElementById("progressBar");
   if (progressBarElement) {
-    const progressValue = (currentIndex / shuffledWords.length) * 100;
+    const progressValue = currentIndex / (shuffledWords.length) * 100;
     progressBarElement.value = progressValue;
   }
 }
