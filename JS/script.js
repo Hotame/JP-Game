@@ -4,7 +4,6 @@ let hintIndex;
 let userInput;
 let hintInput;
 let currentIndex = 0;
-let shuffledWords = [];
 let userLevel = 1;
 let userProgress = 0;
 
@@ -23,7 +22,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 
     data = await response.json();
-    shuffledWords = await shuffleArray(data.words);
 
     loadingScreen.style.display = "none";
     document.body.style.display = "block";
@@ -43,16 +41,7 @@ function addKeyListener() {
   });
 }
 
-async function shuffleArray(array) {
-  const shuffledArray = array.slice();
-  for (let i = shuffledArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
-  }
-  return shuffledArray;
-}
-
-async function displayWord(updateProgress = true) {
+async function displayWord() {
   hintIndex = 0;
 
   if (!data || !data.words || data.words.length === 0) {
@@ -60,7 +49,9 @@ async function displayWord(updateProgress = true) {
     return;
   }
 
-  const currentWord = shuffledWords[currentIndex];
+  // Retrieve the word based on userProgress
+  const index = userLevel - 1;
+  const currentWord = data.words[index];
 
   const japaneseWordElement = document.getElementById("japanese-word");
   if (!japaneseWordElement) {
@@ -77,11 +68,10 @@ async function displayWord(updateProgress = true) {
 
   japaneseWordElement.appendChild(jishoLink);
 
-  if (updateProgress) {
-    updateLevelHeader();
-    updateProgressBar();
-  }
+  updateLevelHeader();
+  updateProgressBar();
 }
+
 
 async function submit() {
   if (!data || !data.words || data.words.length === 0) {
@@ -89,7 +79,7 @@ async function submit() {
     return;
   }
 
-  const currentWord = shuffledWords[currentIndex];
+  const currentWord = data.words[currentIndex];
   userInput = document.getElementById("first-input");
   hintInput = document.getElementById("second-input");
 
@@ -104,17 +94,14 @@ async function submit() {
     userInputValue === currentWord.reading ||
     userInputValue === currentWord.romaji
   ) {
-    if (currentIndex < shuffledWords.length - 1) {
+    if (currentIndex < data.words.length - 1) {
       userInput.style.boxShadow = "0 0 10px #03C988";
       hintInput.style.boxShadow = "0 0 10px #03C988";
       userInput.style.borderColor = "";
 
-      // Remove completed word from the array
-      shuffledWords.splice(currentIndex, 1);
-
       currentIndex++;
       userLevel++;
-      userProgress = currentIndex / shuffledWords.length * 100;
+      userProgress = (currentIndex / data.words.length) * 100;
       hintInput.value = "";
       displayWord();
 
@@ -124,11 +111,10 @@ async function submit() {
       currentIndex++;
       document.getElementById("japanese-word").textContent = "完了";
       updateProgressBar();
-      document.getElementById("first-input").style.boxShadow = "0 0 10px #3498dbc9";
-      document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";
-
-      // Remove completed word from the array
-      shuffledWords.splice(currentIndex - 1, 1);
+      document.getElementById("first-input").style.boxShadow =
+        "0 0 10px #3498dbc9";
+      document.getElementById("second-input").style.boxShadow =
+        "0 0 10px #3498dbc9";
 
       // Save user data to localStorage
       saveUserData();
@@ -156,7 +142,7 @@ function updateProgressBar() {
 }
 
 function hint() {
-  const currentWord = shuffledWords[currentIndex];
+  const currentWord = data.words[currentIndex];
 
   hintInput = document.getElementById("second-input");
 
@@ -175,16 +161,36 @@ function hint() {
 }
 
 function skip() {
-  if (currentIndex < shuffledWords.length - 1) {
-    currentIndex++;
+  if (currentIndex < data.words.length - 1) {
+    const skippedWord = data.words[currentIndex];
+    data.words.splice(currentIndex, 1);
+    data.words.push(skippedWord);
     document.getElementById("second-input").value = "";
     document.getElementById("first-input").value = "";
     displayWord(false);
 
     // Save user data to localStorage
     saveUserData();
+
+    // Log the modified data array for debugging
+    console.log("Modified Data Array:", data.words);
   } else {
     console.log("End of the word list reached.");
+  }
+}
+
+function saveUserData() {
+  localStorage.setItem("userLevel", userLevel);
+  localStorage.setItem("userProgress", userProgress);
+}
+
+function loadUserData() {
+  const savedUserLevel = localStorage.getItem("userLevel");
+  const savedUserProgress = localStorage.getItem("userProgress");
+
+  if (savedUserLevel && savedUserProgress) {
+    userLevel = parseInt(savedUserLevel, 10);
+    userProgress = parseFloat(savedUserProgress);
   }
 }
 
@@ -193,7 +199,8 @@ async function reset() {
   userLevel = 1;
   userProgress = 0;
   document.getElementById("first-input").style.boxShadow = "0 0 10px #3498dbc9";
-  document.getElementById("second-input").style.boxShadow = "0 0 10px #3498dbc9";
+  document.getElementById("second-input").style.boxShadow =
+    "0 0 10px #3498dbc9";
   document.getElementById("first-input").value = "";
   document.getElementById("second-input").value = "";
   updateLevelHeader();
@@ -202,18 +209,4 @@ async function reset() {
 
   // Save user data to localStorage
   saveUserData();
-}
-
-function saveUserData() {
-  localStorage.setItem('userLevel', userLevel);
-  localStorage.setItem('userProgress', userProgress);
-}
-
-function loadUserData() {
-  const savedUserLevel = localStorage.getItem('userLevel');
-  const savedUserProgress = localStorage.getItem('userProgress');
-  if (savedUserLevel && savedUserProgress) {
-    userLevel = parseInt(savedUserLevel, 10);
-    userProgress = parseFloat(savedUserProgress);
-  }
 }

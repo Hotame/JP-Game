@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/japanese-gate.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <link rel="stylesheet" href="../CSS/style.css" async>
+    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap">
     <link rel="preload" href="../word.json" as="fetch" crossorigin="anonymous">
-    <script src="../JS/script.js"></script>
     <title>漢字冒険 - クイズ</title>
 </head>
 
@@ -32,17 +31,17 @@
         </section>
         <h1 id="japanese-word"></h1>
         <section class="textboxrow">
-            <input type="text" class="userInput" id="first-input" name="text" placeholder="以上の読み方を書いて下さい">
-            <input type="text" class="userInput" id="second-input" name="text" placeholder="ヒント">
+            <input type="text" class="userInput flame-animation" id="first-input" name="text" placeholder="以上の読み方を書いて下さい">
+            <input type="text" class="userInput flame-animation" id="second-input" name="text" placeholder="ヒント">
         </section>
         <div class="grid">
             <div role="button" class="outline" onClick="hint()" id="button">ヒント</div>
-            <div role="button" class="outline" onClick="skip()" id="button">スキップ</div>
             <div role="button" class="outline" onClick="submit()" id="button">提出</div>
             <div role="button" class="outline" onClick="reset()" id="button">リセット</div>
         </div>
     </article>
     <section id="section-after-article"></section>
+    <script src="../JS/script.js"></script>
 </body>
 
 </html>
