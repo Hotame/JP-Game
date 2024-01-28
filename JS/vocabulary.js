@@ -13,6 +13,12 @@ window.onload = async function () {
     }
 };
 
+function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function (txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+  }
+
 function displayVocabulary(data) {
     const vocabTable = document.querySelector("#tableBody");
     let tableHTML = "";
@@ -24,8 +30,8 @@ function displayVocabulary(data) {
             <tr>
                 <td>${word.kanji}</td>
                 <td>${word.reading}</td>
-                <td>${word.meaning[0]}, ${word.meaning[1]}</td>
-                <td>${word.romaji}</td>
+                <td>${toTitleCase(word.meaning[0])}${word.meaning[1] ? `, ${toTitleCase(word.meaning[1])}` : ''}</td>
+                <td>${toTitleCase(word.romaji)}</td>
             </tr>`;
     }
 

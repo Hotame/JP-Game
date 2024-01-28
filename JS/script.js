@@ -42,8 +42,6 @@ function addKeyListener() {
 }
 
 async function displayWord() {
-  hintIndex = 0;
-
   if (!data || !data.words || data.words.length === 0) {
     console.error("Error: Data is not loaded or is empty.");
     return;
@@ -59,18 +57,17 @@ async function displayWord() {
     return;
   }
 
-  japaneseWordElement.innerHTML = "";
+  japaneseWordElement.innerHTML = currentWord.kanji;
 
-  const jishoLink = document.createElement("a");
-  jishoLink.href = `https://jisho.org/search/${currentWord.kanji}`;
-  jishoLink.textContent = currentWord.kanji;
-  jishoLink.target = "_blank";
-
-  japaneseWordElement.appendChild(jishoLink);
+  // Set hintIndex and currentIndex based on saved userLevel
+  hintIndex = 0;
+  currentIndex = index;
 
   updateLevelHeader();
   updateProgressBar();
 }
+
+
 
 
 async function submit() {
@@ -160,24 +157,12 @@ function hint() {
   }
 }
 
-function skip() {
-  if (currentIndex < data.words.length - 1) {
-    const skippedWord = data.words[currentIndex];
-    data.words.splice(currentIndex, 1);
-    data.words.push(skippedWord);
-    document.getElementById("second-input").value = "";
-    document.getElementById("first-input").value = "";
-    displayWord(false);
-
-    // Save user data to localStorage
-    saveUserData();
-
-    // Log the modified data array for debugging
-    console.log("Modified Data Array:", data.words);
-  } else {
-    console.log("End of the word list reached.");
-  }
+function getJisho() {
+  const currentWord = data.words[userLevel - 1];
+  const jishoLink = `https://jisho.org/search/${currentWord.kanji}`;
+  window.open(jishoLink, "_blank");
 }
+
 
 function saveUserData() {
   localStorage.setItem("userLevel", userLevel);
@@ -191,6 +176,7 @@ function loadUserData() {
   if (savedUserLevel && savedUserProgress) {
     userLevel = parseInt(savedUserLevel, 10);
     userProgress = parseFloat(savedUserProgress);
+    hintIndex = 0;
   }
 }
 

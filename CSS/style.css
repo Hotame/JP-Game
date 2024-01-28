@@ -42,6 +42,7 @@ body::after {
 #japanese-word {
   font-size: 70px;
   margin-top: -90px;
+  cursor:auto;
 }
 
 #japanese-word a:visited {
