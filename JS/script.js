@@ -12,11 +12,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     const loadingScreen = document.getElementById("loading-screen");
 
     loadingScreen.style.display = "flex";
-
-    // Load user data from localStorage
+    
     loadUserData();
-
     response = await fetch("../word.json");
+
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
@@ -28,6 +27,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     displayWord();
     addKeyListener();
+    
   } catch (error) {
     console.error("Error during initialization:", error);
   }
@@ -47,7 +47,6 @@ async function displayWord() {
     return;
   }
 
-  // Retrieve the word based on userProgress
   const index = userLevel - 1;
   const currentWord = data.words[index];
 
@@ -59,16 +58,12 @@ async function displayWord() {
 
   japaneseWordElement.innerHTML = currentWord.kanji;
 
-  // Set hintIndex and currentIndex based on saved userLevel
   hintIndex = 0;
   currentIndex = index;
 
   updateLevelHeader();
   updateProgressBar();
 }
-
-
-
 
 async function submit() {
   if (!data || !data.words || data.words.length === 0) {
@@ -101,8 +96,6 @@ async function submit() {
       userProgress = (currentIndex / data.words.length) * 100;
       hintInput.value = "";
       displayWord();
-
-      // Save user data to localStorage
       saveUserData();
     } else {
       currentIndex++;
@@ -113,7 +106,6 @@ async function submit() {
       document.getElementById("second-input").style.boxShadow =
         "0 0 10px #3498dbc9";
 
-      // Save user data to localStorage
       saveUserData();
     }
   } else {
@@ -192,7 +184,5 @@ async function reset() {
   updateLevelHeader();
   updateProgressBar();
   await displayWord();
-
-  // Save user data to localStorage
   saveUserData();
 }
