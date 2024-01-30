@@ -94,6 +94,10 @@ async function submit() {
       hintInput.style.boxShadow = "0 0 10px #03C988";
       userInput.style.borderColor = "";
 
+      if (userProgress >= 99.72) {
+        userProgress = 100;
+      }
+
       currentIndex++;
       userLevel++;
       userProgress = (currentIndex / data.words.length) * 100;
