@@ -16,6 +16,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     loadUserData();
     response = await fetch("../word.json");
 
+    console.log("Progress: " + userProgress);
+    console.log("Current Index: " + currentIndex);
+    console.log("User Level: " + userLevel);
+
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
@@ -27,7 +31,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     displayWord();
     addKeyListener();
-    
+
   } catch (error) {
     console.error("Error during initialization:", error);
   }
@@ -147,6 +151,7 @@ function hint() {
     hintInput.value = "";
     hintIndex = 0;
   }
+  hintInput.readOnly = true;
 }
 
 function getJisho() {
@@ -154,7 +159,6 @@ function getJisho() {
   const jishoLink = `https://jisho.org/search/${currentWord.kanji}`;
   window.open(jishoLink, "_blank");
 }
-
 
 function saveUserData() {
   localStorage.setItem("userLevel", userLevel);

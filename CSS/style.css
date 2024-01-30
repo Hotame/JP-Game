@@ -277,4 +277,8 @@ article a:visited {
   line-height: 1.5;
 }
 
+#second-input:read-only {
+  cursor: default;
+}
+
 

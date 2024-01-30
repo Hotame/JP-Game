@@ -1904,7 +1904,7 @@
     },
     {
       "kanji": "呆気",
-      "reading": "ぼうき",
+      "reading": "あっけ",
       "romaji": "bōki",
       "meaning": ["dumbfounded", "astounded"]
     },
@@ -1926,53 +1926,293 @@
       "romaji": "chūcho",
       "meaning": ["hesitation", "indecision"]
     },
-    {"kanji": "諧謔", "reading": "かいぎゃく", "romaji": "kaigyaku", "meaning": ["humor", "wit"]},
-  {"kanji": "駆使", "reading": "くし", "romaji": "kushi", "meaning": ["making full use of", "utilization"]},
-  {"kanji": "凋落", "reading": "ちょうらく", "romaji": "chōraku", "meaning": ["decline", "deterioration"]},
-  {"kanji": "穏和", "reading": "おんわ", "romaji": "onwa", "meaning": ["gentle", "calm"]},
-  {"kanji": "軋轢", "reading": "あつれき", "romaji": "atsureki", "meaning": ["friction", "discord"]},
-  {"kanji": "逆上", "reading": "ぎゃくじょう", "romaji": "gyakujō", "meaning": ["rage", "anger"]},
-  {"kanji": "憐憫", "reading": "れんびん", "romaji": "renbin", "meaning": ["pity", "compassion"]},
-  {"kanji": "脱俗", "reading": "だっぞく", "romaji": "dazzoku", "meaning": ["unworldly", "nonconformity"]},
-  {"kanji": "遡及", "reading": "そきゅう", "romaji": "sokyū", "meaning": ["retrospective", "backward extension"]},
-  {"kanji": "芸術的", "reading": "げいじゅつてき", "romaji": "geijutsuteki", "meaning": ["artistic"]},
-  {"kanji": "不易", "reading": "ふえき", "romaji": "fueki", "meaning": ["immutable", "unchanging"]},
-  {"kanji": "緩急", "reading": "かんきゅう", "romaji": "kankyū", "meaning": ["tempo", "cadence"]},
-  {"kanji": "畏怖", "reading": "いふ", "romaji": "ifu", "meaning": ["awe", "dread"]},
-  {"kanji": "深奥", "reading": "しんおう", "romaji": "shin'ō", "meaning": ["profound", "deep"]},
-  {"kanji": "逞しい", "reading": "たくましい", "romaji": "takumashii", "meaning": ["robust", "sturdy"]},
-  {"kanji": "揶揄", "reading": "やゆ", "romaji": "yayu", "meaning": ["ridicule", "mockery"]},
-  {"kanji": "陶酔", "reading": "とうすい", "romaji": "tōsui", "meaning": ["ecstasy", "intoxication"]},
-  {"kanji": "蠢く", "reading": "うごめく", "romaji": "ugomeku", "meaning": ["to crawl", "to wriggle"]},
-  {"kanji": "嗜好", "reading": "しこう", "romaji": "shikō", "meaning": ["taste", "preference"]},
-  {"kanji": "綻びる", "reading": "ほころびる", "romaji": "hokorobiru", "meaning": ["to come apart", "to unravel"]},
-  {"kanji": "熾烈", "reading": "しれつ", "romaji": "shiretsu", "meaning": ["fierce", "intense"]},
-  {"kanji": "顧みる", "reading": "かえりみる", "romaji": "kaerimiru", "meaning": ["to look back on", "to reflect on"]},
-  {"kanji": "呑気", "reading": "のんき", "romaji": "nonki", "meaning": ["carefree", "easygoing"]},
-  {"kanji": "怠惰", "reading": "たいだ", "romaji": "taida", "meaning": ["idleness", "laziness"]},
-  {"kanji": "漱石", "reading": "そうせき", "romaji": "sōseki", "meaning": ["clearing away the moss", "refreshing oneself"]},
-  {"kanji": "難癖", "reading": "なんくせ", "romaji": "nankuse", "meaning": ["fault-finding", "complaint"]},
-  {"kanji": "孤独", "reading": "こどく", "romaji": "kodoku", "meaning": ["solitude", "loneliness"]},
-  {"kanji": "儚い", "reading": "はかない", "romaji": "hakanai", "meaning": ["fleeting", "transient"]},
-  {"kanji": "憂鬱", "reading": "ゆううつ", "romaji": "yūutsu", "meaning": ["depression", "melancholy"]},
-  {"kanji": "淡泊", "reading": "たんぱく", "romaji": "tanpaku", "meaning": ["simple", "unpretentious"]},
-  {"kanji": "優雅", "reading": "ゆうが", "romaji": "yūga", "meaning": ["elegant", "graceful"]},
-  {"kanji": "欣快", "reading": "きんかい", "romaji": "kinkai", "meaning": ["pleasant", "refreshing"]},
-  {"kanji": "深淵", "reading": "しんえん", "romaji": "shinen", "meaning": ["abyss", "profound depth"]},
-  {"kanji": "猶予", "reading": "ゆうよ", "romaji": "yūyo", "meaning": ["postponement", "reprieve"]},
-  {"kanji": "俗悪", "reading": "ぞくあく", "romaji": "zokuaku", "meaning": ["vulgar", "tasteless"]},
-  {"kanji": "切迫", "reading": "せっぱく", "romaji": "seppaku", "meaning": ["urgency", "pressing"]},
-  {"kanji": "無闇", "reading": "むやみ", "romaji": "muyami", "meaning": ["reckless", "unreasonable"]},
-  {"kanji": "遠回し", "reading": "とおまわし", "romaji": "toomawashi", "meaning": ["indirect", "circumlocution"]},
-  {"kanji": "異端", "reading": "いたん", "romaji": "itan", "meaning": ["heresy", "unorthodoxy"]},
-  {"kanji": "抜擢", "reading": "ばくたく", "romaji": "bakutaku", "meaning": ["selection", "promotion"]},
-  {"kanji": "独善", "reading": "どくぜん", "romaji": "dokuzen", "meaning": ["self-righteousness", "conceit"]},
-  {"kanji": "辟易", "reading": "へきえき", "romaji": "hekieki", "meaning": ["discouragement", "disgust"]},
-  {"kanji": "戯曲", "reading": "ぎきょく", "romaji": "gikyoku", "meaning": ["play", "drama"]},
-  {"kanji": "崇高", "reading": "すうこう", "romaji": "sūkō", "meaning": ["sublime", "noble"]},
-  {"kanji": "喪失", "reading": "そうしつ", "romaji": "sōshitsu", "meaning": ["loss", "forfeiture"]},
-  {"kanji": "瞑想", "reading": "めいそう", "romaji": "meisō", "meaning": ["meditation", "contemplation"]},
-  {"kanji": "曖昧", "reading": "あいまい", "romaji": "aimai", "meaning": ["ambiguous", "vague"]},
-  {"kanji": "鬱屈", "reading": "うっくつ", "romaji": "ukkutsu", "meaning": ["depression", "repression"]}
+    {
+      "kanji": "諧謔",
+      "reading": "かいぎゃく",
+      "romaji": "kaigyaku",
+      "meaning": ["humor", "wit"]
+    },
+    {
+      "kanji": "駆使",
+      "reading": "くし",
+      "romaji": "kushi",
+      "meaning": ["making full use of", "utilization"]
+    },
+    {
+      "kanji": "凋落",
+      "reading": "ちょうらく",
+      "romaji": "chōraku",
+      "meaning": ["decline", "deterioration"]
+    },
+    {
+      "kanji": "穏和",
+      "reading": "おんわ",
+      "romaji": "onwa",
+      "meaning": ["gentle", "calm"]
+    },
+    {
+      "kanji": "軋轢",
+      "reading": "あつれき",
+      "romaji": "atsureki",
+      "meaning": ["friction", "discord"]
+    },
+    {
+      "kanji": "逆上",
+      "reading": "ぎゃくじょう",
+      "romaji": "gyakujō",
+      "meaning": ["rage", "anger"]
+    },
+    {
+      "kanji": "憐憫",
+      "reading": "れんびん",
+      "romaji": "renbin",
+      "meaning": ["pity", "compassion"]
+    },
+    {
+      "kanji": "脱俗",
+      "reading": "だつぞく",
+      "romaji": "dazzoku",
+      "meaning": ["unworldly", "nonconformity"]
+    },
+    {
+      "kanji": "遡及",
+      "reading": "そきゅう",
+      "romaji": "sokyū",
+      "meaning": ["retrospective", "backward extension"]
+    },
+    {
+      "kanji": "芸術的",
+      "reading": "げいじゅつてき",
+      "romaji": "geijutsuteki",
+      "meaning": ["artistic"]
+    },
+    {
+      "kanji": "不易",
+      "reading": "ふえき",
+      "romaji": "fueki",
+      "meaning": ["immutable", "unchanging"]
+    },
+    {
+      "kanji": "緩急",
+      "reading": "かんきゅう",
+      "romaji": "kankyū",
+      "meaning": ["tempo", "cadence"]
+    },
+    {
+      "kanji": "畏怖",
+      "reading": "いふ",
+      "romaji": "ifu",
+      "meaning": ["awe", "dread"]
+    },
+    {
+      "kanji": "深奥",
+      "reading": "しんおう",
+      "romaji": "shin'ō",
+      "meaning": ["profound", "deep"]
+    },
+    {
+      "kanji": "逞しい",
+      "reading": "たくましい",
+      "romaji": "takumashii",
+      "meaning": ["robust", "sturdy"]
+    },
+    {
+      "kanji": "揶揄",
+      "reading": "やゆ",
+      "romaji": "yayu",
+      "meaning": ["ridicule", "mockery"]
+    },
+    {
+      "kanji": "陶酔",
+      "reading": "とうすい",
+      "romaji": "tōsui",
+      "meaning": ["ecstasy", "intoxication"]
+    },
+    {
+      "kanji": "蠢く",
+      "reading": "うごめく",
+      "romaji": "ugomeku",
+      "meaning": ["to crawl", "to wriggle"]
+    },
+    {
+      "kanji": "嗜好",
+      "reading": "しこう",
+      "romaji": "shikō",
+      "meaning": ["taste", "preference"]
+    },
+    {
+      "kanji": "綻びる",
+      "reading": "ほころびる",
+      "romaji": "hokorobiru",
+      "meaning": ["to come apart", "to unravel"]
+    },
+    {
+      "kanji": "熾烈",
+      "reading": "しれつ",
+      "romaji": "shiretsu",
+      "meaning": ["fierce", "intense"]
+    },
+    {
+      "kanji": "顧みる",
+      "reading": "かえりみる",
+      "romaji": "kaerimiru",
+      "meaning": ["to look back on", "to reflect on"]
+    },
+    {
+      "kanji": "呑気",
+      "reading": "のんき",
+      "romaji": "nonki",
+      "meaning": ["carefree", "easygoing"]
+    },
+    {
+      "kanji": "怠惰",
+      "reading": "たいだ",
+      "romaji": "taida",
+      "meaning": ["idleness", "laziness"]
+    },
+    {
+      "kanji": "漱石",
+      "reading": "そうせき",
+      "romaji": "sōseki",
+      "meaning": ["clearing away the moss", "refreshing oneself"]
+    },
+    {
+      "kanji": "難癖",
+      "reading": "なんくせ",
+      "romaji": "nankuse",
+      "meaning": ["fault-finding", "complaint"]
+    },
+    {
+      "kanji": "孤独",
+      "reading": "こどく",
+      "romaji": "kodoku",
+      "meaning": ["solitude", "loneliness"]
+    },
+    {
+      "kanji": "儚い",
+      "reading": "はかない",
+      "romaji": "hakanai",
+      "meaning": ["fleeting", "transient"]
+    },
+    {
+      "kanji": "憂鬱",
+      "reading": "ゆううつ",
+      "romaji": "yūutsu",
+      "meaning": ["depression", "melancholy"]
+    },
+    {
+      "kanji": "淡泊",
+      "reading": "たんぱく",
+      "romaji": "tanpaku",
+      "meaning": ["simple", "unpretentious"]
+    },
+    {
+      "kanji": "優雅",
+      "reading": "ゆうが",
+      "romaji": "yūga",
+      "meaning": ["elegant", "graceful"]
+    },
+    {
+      "kanji": "欣快",
+      "reading": "きんかい",
+      "romaji": "kinkai",
+      "meaning": ["pleasant", "refreshing"]
+    },
+    {
+      "kanji": "深淵",
+      "reading": "しんえん",
+      "romaji": "shinen",
+      "meaning": ["abyss", "profound depth"]
+    },
+    {
+      "kanji": "猶予",
+      "reading": "ゆうよ",
+      "romaji": "yūyo",
+      "meaning": ["postponement", "reprieve"]
+    },
+    {
+      "kanji": "俗悪",
+      "reading": "ぞくあく",
+      "romaji": "zokuaku",
+      "meaning": ["vulgar", "tasteless"]
+    },
+    {
+      "kanji": "切迫",
+      "reading": "せっぱく",
+      "romaji": "seppaku",
+      "meaning": ["urgency", "pressing"]
+    },
+    {
+      "kanji": "無闇",
+      "reading": "むやみ",
+      "romaji": "muyami",
+      "meaning": ["reckless", "unreasonable"]
+    },
+    {
+      "kanji": "遠回し",
+      "reading": "とおまわし",
+      "romaji": "toomawashi",
+      "meaning": ["indirect", "circumlocution"]
+    },
+    {
+      "kanji": "異端",
+      "reading": "いたん",
+      "romaji": "itan",
+      "meaning": ["heresy", "unorthodoxy"]
+    },
+    {
+      "kanji": "抜擢",
+      "reading": "ばくたく",
+      "romaji": "bakutaku",
+      "meaning": ["selection", "promotion"]
+    },
+    {
+      "kanji": "独善",
+      "reading": "どくぜん",
+      "romaji": "dokuzen",
+      "meaning": ["self-righteousness", "conceit"]
+    },
+    {
+      "kanji": "辟易",
+      "reading": "へきえき",
+      "romaji": "hekieki",
+      "meaning": ["discouragement", "disgust"]
+    },
+    {
+      "kanji": "戯曲",
+      "reading": "ぎきょく",
+      "romaji": "gikyoku",
+      "meaning": ["play", "drama"]
+    },
+    {
+      "kanji": "崇高",
+      "reading": "すうこう",
+      "romaji": "sūkō",
+      "meaning": ["sublime", "noble"]
+    },
+    {
+      "kanji": "喪失",
+      "reading": "そうしつ",
+      "romaji": "sōshitsu",
+      "meaning": ["loss", "forfeiture"]
+    },
+    {
+      "kanji": "瞑想",
+      "reading": "めいそう",
+      "romaji": "meisō",
+      "meaning": ["meditation", "contemplation"]
+    },
+    {
+      "kanji": "曖昧",
+      "reading": "あいまい",
+      "romaji": "aimai",
+      "meaning": ["ambiguous", "vague"]
+    },
+    {
+      "kanji": "鬱屈",
+      "reading": "うっくつ",
+      "romaji": "ukkutsu",
+      "meaning": ["depression", "repression"]
+    }
   ]
 }
