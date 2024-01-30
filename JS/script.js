@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const loadingScreen = document.getElementById("loading-screen");
 
     loadingScreen.style.display = "flex";
-    
+
     loadUserData();
     response = await fetch("../word.json");
 
@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     displayWord();
     addKeyListener();
-
   } catch (error) {
     console.error("Error during initialization:", error);
   }
@@ -109,7 +108,8 @@ async function submit() {
         "0 0 10px #3498dbc9";
       document.getElementById("second-input").style.boxShadow =
         "0 0 10px #3498dbc9";
-
+        
+      userProgress = 100;
       saveUserData();
     }
   } else {
