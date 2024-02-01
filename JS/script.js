@@ -10,15 +10,10 @@ let userProgress = 0;
 document.addEventListener("DOMContentLoaded", async function () {
   try {
     const loadingScreen = document.getElementById("loading-screen");
-
     loadingScreen.style.display = "flex";
 
     loadUserData();
     response = await fetch("../word.json");
-
-    console.log("Progress: " + userProgress);
-    console.log("Current Index: " + currentIndex);
-    console.log("User Level: " + userLevel);
 
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
@@ -51,6 +46,18 @@ async function displayWord() {
   }
 
   const index = userLevel - 1;
+
+  if (userProgress === 100) {
+    const japaneseWordElement = document.getElementById("japanese-word");
+    if (japaneseWordElement) {
+      japaneseWordElement.textContent = "完了";
+      updateProgressBar();
+      disable();
+    }
+    return;
+  }
+  updateProgressBar();
+
   const currentWord = data.words[index];
 
   const japaneseWordElement = document.getElementById("japanese-word");
@@ -69,6 +76,11 @@ async function displayWord() {
 }
 
 async function submit() {
+
+  if (isGameCompleted()) {
+    return;
+  }
+
   if (!data || !data.words || data.words.length === 0) {
     console.error("Error: Data is not loaded or is empty.");
     return;
@@ -93,14 +105,8 @@ async function submit() {
       userInput.style.boxShadow = "0 0 10px #03C988";
       hintInput.style.boxShadow = "0 0 10px #03C988";
       userInput.style.borderColor = "";
-
-      if (userProgress >= 99.72) {
-        userProgress = 100;
-      }
-
       currentIndex++;
       userLevel++;
-      userProgress = (currentIndex / data.words.length) * 100;
       hintInput.value = "";
       displayWord();
       saveUserData();
@@ -108,12 +114,12 @@ async function submit() {
       currentIndex++;
       document.getElementById("japanese-word").textContent = "完了";
       updateProgressBar();
+      disable();
       document.getElementById("first-input").style.boxShadow =
         "0 0 10px #3498dbc9";
       document.getElementById("second-input").style.boxShadow =
         "0 0 10px #3498dbc9";
-        
-      userProgress = 100;
+      console.log("Up Current Index: " + currentIndex);
       saveUserData();
     }
   } else {
@@ -122,6 +128,7 @@ async function submit() {
     userInput.style.borderColor = "#fb2577";
   }
   userInput.value = "";
+  updateProgressBar();
 }
 
 function updateLevelHeader() {
@@ -134,11 +141,23 @@ function updateLevelHeader() {
 function updateProgressBar() {
   const progressBarElement = document.getElementById("progressBar");
   if (progressBarElement) {
-    progressBarElement.value = userProgress;
+    const totalWords = data.words.length;
+    const progressValue = currentIndex / totalWords * 100;
+    progressBarElement.value = progressValue;
+
+    userProgress = progressValue;
+
+    console.log("Current Index:", currentIndex);
+    console.log("Total Words:", totalWords);
+    console.log("Updated userProgress:", userProgress);
   }
 }
 
 function hint() {
+  if (isGameCompleted()) {
+    return;
+  }
+
   const currentWord = data.words[currentIndex];
 
   hintInput = document.getElementById("second-input");
@@ -159,6 +178,11 @@ function hint() {
 }
 
 function getJisho() {
+
+  if (isGameCompleted()) {
+    return;
+  }
+
   const currentWord = data.words[userLevel - 1];
   const jishoLink = `https://jisho.org/search/${currentWord.kanji}`;
   window.open(jishoLink, "_blank");
@@ -193,4 +217,44 @@ async function reset() {
   updateProgressBar();
   await displayWord();
   saveUserData();
+  enable();
+}
+
+function isGameCompleted() {
+  const japaneseWordElement = document.getElementById("japanese-word");
+
+  if (japaneseWordElement.textContent === "完了") {
+    return true;
+  }
+
+  const wordInput = document.getElementById("first-input");
+  const hintInput = document.getElementById("second-input");
+
+  if (currentIndex === data.words.length) {
+    japaneseWordElement.textContent = "完了";
+    updateProgressBar();
+    localStorage.setItem("gameCompleted", true);
+    localStorage.setItem("userProgress", 100);
+    wordInput.style.boxShadow = "0 0 10px #3498dbc9";
+    hintInput.style.boxShadow = "0 0 10px #3498dbc9";
+    wordInput.value = "";
+    disable();
+    return true;
+  }
+  return false;
+}
+
+
+function disable() {
+  document.getElementById("first-input").disabled = true;
+  document.getElementById("second-input").disabled = true;
+  document.getElementById("submit-button").disabled = true;
+  document.getElementById("hint-button").disabled = true;
+}
+
+function enable() {
+  document.getElementById("first-input").disabled = false;
+  document.getElementById("second-input").disabled = false;
+  document.getElementById("submit-button").disabled = false;
+  document.getElementById("hint-button").disabled = false;
 }

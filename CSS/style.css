@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Shippori Mincho", serif;
   box-sizing: border-box;
 }
 
@@ -31,23 +31,34 @@ body::after {
   padding: 10px 20px;
 }
 
+#h1 {
+  color: white;
+  font-family: "Shippori Mincho", serif;
+}
+
 #h2 {
   font-size: 30px;
   letter-spacing: 8px;
   margin-bottom: 10px;
   margin-left: 100px;
   color: #3498db;
+  font-family: "Shippori Mincho", serif;
 }
 
 #japanese-word {
   font-size: 70px;
   margin-top: -90px;
-  cursor:auto;
+  cursor: auto;
+  font-family: "Shippori Mincho", serif;
+}
+
+#level-header {
+  font-family: 'Shippori Mincho', serif;
 }
 
 #japanese-word a:visited {
-    background-color: #1e232c;
-  }
+  background-color: #1e232c;
+}
 
 .nav-element ul {
   list-style: none;
@@ -112,11 +123,10 @@ body::after {
   outline: none;
   box-shadow: 0 0 10px #3498dbc9;
   box-sizing: border-box;
-  font-family: "Noto Sans JP", sans-serif;
   margin-top: -10px;
 }
 
-#button {
+.outline {
   margin-top: -50px;
   padding: 20px 50px;
   font-size: 20px;
@@ -163,12 +173,7 @@ th {
 }
 
 td {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
-}
-
-tbody tr:hover {
-  background-color: #3498db0d;
 }
 
 tbody tr {
@@ -224,25 +229,25 @@ article a:visited {
 }
 
 #progressBar {
-    position: relative;
-    top: -20px;
-  }
+  position: relative;
+  top: -20px;
+}
 
-  #section-after-article {
-    background-color: #1e232c;
-  }
+#section-after-article {
+  background-color: #1e232c;
+}
 
-  #loading-screen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    z-index: 1000;
+#loading-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 1000;
 }
 
 .resource-container {
@@ -281,4 +286,6 @@ article a:visited {
   cursor: default;
 }
 
-
+#contact-p {
+  margin-top: -30px;
+}
