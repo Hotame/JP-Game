@@ -244,7 +244,6 @@ function isGameCompleted() {
   return false;
 }
 
-
 function disable() {
   document.getElementById("first-input").disabled = true;
   document.getElementById("second-input").disabled = true;
