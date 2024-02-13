@@ -40,12 +40,15 @@
 <body>
     <nav class="nav-element">
         <h2 id="h2">漢字冒険</h2>
-        <ul>
-            <li><a href="index.html" class="li">クイズ</a></li>
-            <li><a href="vocabulary.html" class="li">語彙</a></li>
-            <li><a href="resources.html" class="li">資料</a></li>
-            <li><a href="contact.html" class="li"><span>連絡</span></a></li>
-        </ul>
+        <img src="../assets/hamburger (1).png" alt="" onclick="showMenu()">
+        <div class="nav-links" id="links">
+            <ul>
+                <li><a href="index.html" class="li">クイズ</a></li>
+                <li><a href="vocabulary.html" class="li"><span>語彙</span></a></li>
+                <li><a href="resources.html" class="li">資料</a></li>
+                <li><a href="contact.html" class="li">連絡</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="container">
@@ -75,8 +78,8 @@
     <br><br>
     <footer>
         <div class="footer-container">
-            <p>&copy; 2024 漢字冒険 All rights reserved.</p><br>
-            <p>Created by Hotame</p>
+            <p id="copyright">&copy; 2024 漢字冒険 All rights reserved.</p><br>
+            <p id="creator">Created by Hotame</p>
         </div>
     </footer>
 </body>

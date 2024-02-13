@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="../assets/japanese-gate.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js"></script>
     <script src="../JS/vocabulary.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600&display=swap" rel="stylesheet">
     <title>漢字冒険 - 連絡</title>
@@ -15,12 +16,15 @@
 <body>
     <nav class="nav-element">
         <h2 id="h2">漢字冒険</h2>
-        <ul>
-            <li><a href="index.html" class="li">クイズ</a></li>
-            <li><a href="vocabulary.html" class="li"><span>語彙</span></a></li>
-            <li><a href="resources.html" class="li">資料</a></li>
-            <li><a href="contact.html" class="li">連絡</a></li>
-        </ul>
+        <img src="../assets/hamburger (1).png" alt="" onclick="showMenu()">
+        <div class="nav-links" id="links">
+            <ul>
+                <li><a href="index.html" class="li">クイズ</a></li>
+                <li><a href="vocabulary.html" class="li"><span>語彙</span></a></li>
+                <li><a href="resources.html" class="li">資料</a></li>
+                <li><a href="contact.html" class="li">連絡</a></li>
+            </ul>
+        </div>
     </nav>
     <table>
         <thead>
@@ -37,8 +41,8 @@
     <br>
     <footer>
         <div class="footer-container">
-            <p>&copy; 2024 漢字冒険 All rights reserved.</p><br>
-            <p>Created by Hotame</p>
+            <p id="copyright">&copy; 2024 漢字冒険 All rights reserved.</p><br>
+            <p id="creator">Created by Hotame</p>
         </div>
     </footer>
 </body>

@@ -180,19 +180,6 @@ tbody tr {
   transition: background-color 0.3s;
 }
 
-article a {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-article a:hover {
-  color: #3498db;
-}
-
-article a:visited {
-  background-color: #20252f;
-}
-
 .header-grid {
   padding-top: 0px;
 }
@@ -272,7 +259,7 @@ footer {
   background-color: #20252f;
   color: #ffffff;
   font-size: 14px;
-  position:absolute;
+  position: absolute;
   height: 100px;
 }
 
@@ -286,4 +273,184 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+nav img {
+  display: none;
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+  #h2 {
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #3498db;
+    font-family: "Shippori Mincho", serif;
+  }
+
+  nav img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    position: absolute;
+    background: #3498db;
+    height: auto;
+    max-height: 80vh;
+    width: 200px;
+    padding-top: 5px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    border-radius: 5px;
+    transition: 1s;
+    overflow-y: auto;
+  }
+
+  .nav-element ul {
+    display: block;
+  }
+
+  .nav-element ul li {
+    display: block;
+  }
+
+  #article {
+    max-width: 90%;
+    border-radius: 10px;
+    background-color: #20252f;
+    transition: background-color 0.3s box-shadow 0.3s;
+  }
+
+  .nav-element a:not(:has(span))::after {
+    content: "";
+    width: 0;
+    height: 0;
+    background: none;
+    position: static;
+    left: auto;
+    bottom: auto;
+    transition: none;
+  }
+
+  .nav-element a span {
+    display: inline;
+    padding: 0;
+    background-color: transparent;
+    color: inherit;
+    border-radius: 0;
+    transition: none;
+  }
+
+  .textboxrow {
+    text-align: left;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  #first-input,
+  #second-input {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .outline {
+    margin-top: -20px;
+    padding: 20px 20px;
+    font-size: 20px;
+    background-color: #3498dbc9;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #second-input {
+    margin-left: 0px;
+  }
+
+  #hint-button {
+    padding: 15px;
+  }
+
+  #jisho-button,
+  #reset-button {
+    margin-top: 25px;
+    padding: 15px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th,
+  td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  th {
+    display: none;
+    text-align: center;
+  }
+
+  tbody tr {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  #h1 {
+    margin-top: 30px;
+  }
+
+  .resource-container {
+    margin-top: -20px;
+    width: 95%;
+    height: 910px;
+  }
+
+  .form-container {
+    margin-top: 20px;
+    height: 80%;
+  }
+
+  #submit-button {
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  #message {
+    width: 100%;
+    resize: none;
+  }
+
+  #copyright {
+    margin-top: 20px;
+  }
+
+
+  #japanese-word {
+    margin-top: -60px;
+  }
+
+  nav h1 {
+    margin-top: 30px;
+  }
+
+  .nav-links ul {
+    padding: 20px;
+  }
 }

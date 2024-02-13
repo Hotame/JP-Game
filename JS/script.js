@@ -7,6 +7,14 @@ let currentIndex = 0;
 let userLevel = 1;
 let userProgress = 0;
 
+function showMenu() {
+  document.getElementById("links").style.right = "0px";
+}
+
+function closeMenu() {
+  document.getElementById("links").style.right = "-200px";
+}
+
 document.addEventListener("DOMContentLoaded", async function () {
   try {
     const loadingScreen = document.getElementById("loading-screen");
