@@ -155,7 +155,7 @@ table {
   width: 90%;
   border-collapse: separate;
   border-spacing: 15px;
-  margin: 0 auto;
+  margin-left: 100px;
 }
 
 th,
@@ -310,7 +310,6 @@ nav img {
     z-index: 2;
     border-radius: 5px;
     transition: 1s;
-    overflow-y: auto;
   }
 
   .nav-element ul {
@@ -376,6 +375,7 @@ nav img {
 
   #second-input {
     margin-left: 0px;
+    margin-top: 10px;
   }
 
   #hint-button {
@@ -390,6 +390,7 @@ nav img {
 
   table {
     width: 100%;
+    margin: 0 auto;
   }
 
   th,
@@ -423,24 +424,28 @@ nav img {
   }
 
   .form-container {
-    margin-top: 20px;
-    height: 80%;
+    max-width: 100%;
+    margin: 20px auto 0; /* Adjust the margin-top value */
+    background-color: #20252f;
+    padding: 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 700px;
   }
 
   #submit-button {
     margin-left: 20px;
-    width: 90%;
+    max-width: 100%;
   }
 
   #message {
-    width: 100%;
+    max-width: 100%;
     resize: none;
   }
 
   #copyright {
     margin-top: 20px;
   }
-
 
   #japanese-word {
     margin-top: -60px;
