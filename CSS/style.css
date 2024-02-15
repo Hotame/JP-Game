@@ -46,6 +46,7 @@ body::after {
 }
 
 #japanese-word {
+  color: #fff;
   font-size: 70px;
   margin-top: -90px;
   cursor: auto;
