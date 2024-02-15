@@ -54,6 +54,7 @@ body::after {
 }
 
 #level-header {
+  color: #fff;
   font-family: 'Shippori Mincho', serif;
 }
 
@@ -196,6 +197,7 @@ tbody tr {
 }
 
 #progressBar {
+  background-color: #24333E;
   position: relative;
   top: -20px;
 }
@@ -273,6 +275,7 @@ footer {
 }
 
 footer p {
+  color: #fff;
   margin: 0;
 }
 
