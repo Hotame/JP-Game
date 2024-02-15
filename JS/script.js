@@ -78,6 +78,7 @@ async function displayWord() {
 
   hintIndex = 0;
   currentIndex = index;
+  document.getElementById("second-input").disabled = true;
 
   updateLevelHeader();
   updateProgressBar();
